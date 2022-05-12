@@ -6,7 +6,7 @@
 #Task 6: Relative Team Strength for Team A
 #Task 7: Relative Run Rate (Team's A's Average Run Rate minus Team B's Avg Run Rate)
 #Task 8: Relative Wicket Rate (Avg Wickets per game team A minus Avg Wickets per game team B)
-#To do: Understand Git and UI building in R and Player ID to Player name relationship
+#To do: Understand UI building in R and Player ID to Player name relationship
 #use R shiny package to build my app
 #NCCA Club ID = 1191
 #MiLC Club ID = 18036
@@ -23,14 +23,19 @@ library(mltools)
 library(data.table)
 library(shiny)
 library(shinythemes)
+library(caret)
+library(tictoc)
 
 AllGames <- read_excel("/Users/anishdeshpande/projects/SeniorProject/AllGames.xls")
 SortedAllGames <- arrange(AllGames, date)
 ChronoAllGames <- filter(SortedAllGames, winner != 0)
+ChronoAllGames$date <- as.Date(ChronoAllGames$date)
 PlayerStats <- read.csv("/Users/anishdeshpande/projects/SeniorProject/PlayerStats.csv")
 GameStats <- read.csv("/Users/anishdeshpande/projects/SeniorProject/GameStatistics.csv")
 TeamNames <- read.csv("/Users/anishdeshpande/projects/SeniorProject/TeamNames.csv")
 OrderedTeamNames <- arrange(TeamNames, team_name)
+PlayerNames <- read.csv("/Users/anishdeshpande/projects/SeniorProject/TeamPlayerNameTable.csv")
+PlayerFullNames <- mutate(PlayerNames, Full_Name = paste(PlayerNames$f_name, PlayerNames$l_name))
 
 
 generate_win_vector <- function(logisticsdata, ChronoAllGames) {
@@ -96,29 +101,29 @@ GetTeamStrengthA <- function (ChronoPlayerStats, MatchID) {
   #Get all records in which the above players played any games including current match
   PlayerEntries <- filter(ChronoPlayerStats, (player_id %in% MatchPlayersTable$player_id))
   if (is.finite(min(which(PlayerEntries$match_id == MatchID)))) {
-      PastPlayerEntries <- PlayerEntries[1:min(which(PlayerEntries$match_id == MatchID) - 1), ]
-      # if (PastPlayerEntries == Inf) {
-      #   print("it's infinite!!!")
-      #   return(67.4155)
-      # }
-      TeamA <- MatchPlayersTable$team_id[1]
-      TotalMVPPoints <- 0
-      TeamPlayerCount <- 0
-      PlayerList <- c()
-      for (player in 1:nrow(PastPlayerEntries)) {
-        if (PastPlayerEntries$player_id[player] %in% MatchPlayersTable$player_id[which(MatchPlayersTable$team_id == TeamA)]) {
-          TotalMVPPoints <- TotalMVPPoints + PastPlayerEntries$bowling_points[player] +
-            PastPlayerEntries$batting_points[player] +
-            PastPlayerEntries$fielding_points[player]
-          TeamPlayerCount <- TeamPlayerCount + 1
-          PlayerList <- append(PlayerList, PastPlayerEntries$player_id[player])
-        } 
-        if (length(PlayerList) == 0) {
-          return(67.4155)
-        }
+    PastPlayerEntries <- PlayerEntries[1:min(which(PlayerEntries$match_id == MatchID) - 1), ]
+    # if (PastPlayerEntries == Inf) {
+    #   print("it's infinite!!!")
+    #   return(67.4155)
+    # }
+    TeamA <- MatchPlayersTable$team_id[1]
+    TotalMVPPoints <- 0
+    TeamPlayerCount <- 0
+    PlayerList <- c()
+    for (player in 1:nrow(PastPlayerEntries)) {
+      if (PastPlayerEntries$player_id[player] %in% MatchPlayersTable$player_id[which(MatchPlayersTable$team_id == TeamA)]) {
+        TotalMVPPoints <- TotalMVPPoints + PastPlayerEntries$bowling_points[player] +
+          PastPlayerEntries$batting_points[player] +
+          PastPlayerEntries$fielding_points[player]
+        TeamPlayerCount <- TeamPlayerCount + 1
+        PlayerList <- append(PlayerList, PastPlayerEntries$player_id[player])
+      } 
+      if (length(PlayerList) == 0) {
+        return(67.4155)
       }
-      TeamStrength <- TotalMVPPoints / TeamPlayerCount
-      return(TeamStrength)
+    }
+    TeamStrength <- TotalMVPPoints / TeamPlayerCount
+    return(TeamStrength)
   } else {
     return(67.4155)
   }
@@ -128,29 +133,29 @@ GetTeamStrengthB <- function (ChronoPlayerStats, MatchID) {
   ReversedMatchPlayersTable <- arrange(MatchPlayersTable, desc(team_id))
   PlayerEntries <- filter(ChronoPlayerStats, player_id %in% MatchPlayersTable$player_id)
   if (is.finite(min(which(PlayerEntries$match_id == MatchID)))) {
-      PastPlayerEntries <- PlayerEntries[1:min(which(PlayerEntries$match_id == MatchID) - 1), ]
-      # if (PastPlayerEntries == Inf) {
-      #   print("it's infinite!!!")
-      #   return(67.4155)
-      # }
-      TeamB <- ReversedMatchPlayersTable$team_id[1]
-      TotalMVPPoints <- 0
-      TeamPlayerCount <- 0
-      PlayerList <- c()
-      for (player in 1:nrow(PastPlayerEntries)) {
-        if (PastPlayerEntries$player_id[player] %in% ReversedMatchPlayersTable$player_id[which(ReversedMatchPlayersTable$team_id == TeamB)]) {
-          TotalMVPPoints <- TotalMVPPoints + PastPlayerEntries$bowling_points[player] +
-            PastPlayerEntries$batting_points[player] +
-            PastPlayerEntries$fielding_points[player]
-          TeamPlayerCount <- TeamPlayerCount + 1
-          PlayerList <- append(PlayerList, PastPlayerEntries$player_id[player])
-        } 
-        if (length(PlayerList) == 0) {
-          return(67.4155)
-        }
+    PastPlayerEntries <- PlayerEntries[1:min(which(PlayerEntries$match_id == MatchID) - 1), ]
+    # if (PastPlayerEntries == Inf) {
+    #   print("it's infinite!!!")
+    #   return(67.4155)
+    # }
+    TeamB <- ReversedMatchPlayersTable$team_id[1]
+    TotalMVPPoints <- 0
+    TeamPlayerCount <- 0
+    PlayerList <- c()
+    for (player in 1:nrow(PastPlayerEntries)) {
+      if (PastPlayerEntries$player_id[player] %in% ReversedMatchPlayersTable$player_id[which(ReversedMatchPlayersTable$team_id == TeamB)]) {
+        TotalMVPPoints <- TotalMVPPoints + PastPlayerEntries$bowling_points[player] +
+          PastPlayerEntries$batting_points[player] +
+          PastPlayerEntries$fielding_points[player]
+        TeamPlayerCount <- TeamPlayerCount + 1
+        PlayerList <- append(PlayerList, PastPlayerEntries$player_id[player])
+      } 
+      if (length(PlayerList) == 0) {
+        return(67.4155)
       }
-      TeamStrength <- TotalMVPPoints / TeamPlayerCount
-      return(TeamStrength)
+    }
+    TeamStrength <- TotalMVPPoints / TeamPlayerCount
+    return(TeamStrength)
   } else {
     return(67.4155)
   }
@@ -175,6 +180,20 @@ PredTask4 <- function (AllGames, TeamA, GroundX) {
     WinRate <- win / (win + loss)
   }
   return(WinRate)
+}
+
+#does Task 5 for the predictor
+PredTask5 <- function (ChronoAllGames) {
+  TossWonVector <- c()
+  for (game in 1:nrow(ChronoAllGames)) {
+    if (ChronoAllGames$team_one[game] == ChronoAllGames$toss_won[game]) {
+      TossWon <- 1
+    } else {
+      TossWon <- 0
+    } 
+    TossWonVector <- append(TossWonVector, TossWon)
+  }
+  return(TossWonVector)
 }
 
 
@@ -272,11 +291,11 @@ GetWicketRateB <- function (ChronoGameStats, ChronoAllGames, MatchID) {
 
 #gives a final prediction based on the Match ID
 PredictionTask1 <- function (ChronoAllGames, MatchID) {
-#  AllGames <- read_excel("/Users/anishdeshpande/projects/SeniorProject/AllGames.xls")
-#  ChronoAllGames <- arrange(AllGames, date)
+  #  AllGames <- read_excel("/Users/anishdeshpande/projects/SeniorProject/AllGames.xls")
+  #  ChronoAllGames <- arrange(AllGames, date)
   
-#  PlayerStats <- read.csv("/Users/anishdeshpande/projects/SeniorProject/PlayerStats.csv")
-#  ChronoPlayerStats <- arrange(PlayerStats, match_date)
+  #  PlayerStats <- read.csv("/Users/anishdeshpande/projects/SeniorProject/PlayerStats.csv")
+  #  ChronoPlayerStats <- arrange(PlayerStats, match_date)
   
   PastGames <- ChronoAllGames[1:(which(ChronoAllGames$match_id == MatchID) - 1), ]
   
@@ -416,6 +435,8 @@ GetLogisticsData <- function (AllGames, PlayerStats, GameStats) {
   RelativeWicketRateVector <- AllPredictionsTask8 (ChronoGameStats, ChronoAllGames)
   RelativeWicketRateVector[is.na(RelativeWicketRateVector)] <- 0
   logisticsdata <- cbind (logisticsdata, RelativeWicketRate = RelativeWicketRateVector)
+  
+  
   logisticsdata <- subset (logisticsdata, select = -c(useless_column))
   
   print("task 8 complete")
@@ -431,13 +452,13 @@ GetLogisticModel <- function (logisticsdata) {
 }
 
 #Creating a support vector machine model:
-GetSVMModel <- function (logisticsdata) {
+GetSVMModel <- function (logisticsdata, type, kernel, cost) {
   SVM_PredictorModel <- svm(team_one_win ~., 
                             data = logisticsdata,
-                            type = 'C-classification',
-                            kernel = 'linear',
+                            type = type,
+                            kernel = kernel,
                             scale = FALSE,
-                            cost = 1)
+                            cost = cost)
   summary(SVM_PredictorModel)
   return(SVM_PredictorModel)
 }
@@ -476,6 +497,42 @@ GetMatches <- function (ChronoAllGames, TeamOne, TeamTwo) {
   return(MatchIDList)
 }
 
+#Returns a list of all the players playing on Team A in a specific match
+GetPlaying11TeamA <- function (PlayerStats, PlayerFullNames, MatchID) {
+  Playing22 <- filter(PlayerStats, match_id == MatchID) %>% select(player_id, team_id)
+  Playing22NameObservations <- filter(PlayerFullNames, player_id %in% Playing22$player_id)   
+  Playing22Names <- unique(Playing22NameObservations$Full_Name)     
+  #now splitting names based on team
+  TeamA <- Playing22$team_id[1]
+  TeamB <- Playing22$team_id[nrow(Playing22)]
+  Playing11TeamA <- c()
+  Playing11TeamB <- c()
+  for (player in 1:length(Playing22Names)) {
+    if (Playing22$team_id[player] == TeamA) {
+      Playing11TeamA <- append(Playing11TeamA, Playing22Names[player])
+    }
+  }
+  return(Playing11TeamA)
+}
+
+#Returns a list of all the players playing on Team B in a specific match
+GetPlaying11TeamB <- function (PlayerStats, PlayerFullNames, MatchID) {
+  Playing22 <- filter(PlayerStats, match_id == MatchID) %>% select(player_id, team_id)
+  Playing22NameObservations <- filter(PlayerFullNames, player_id %in% Playing22$player_id)   
+  Playing22Names <- unique(Playing22NameObservations$Full_Name)     
+  #now splitting names based on team
+  TeamA <- Playing22$team_id[1]
+  TeamB <- Playing22$team_id[nrow(Playing22)]
+  Playing11TeamA <- c()
+  Playing11TeamB <- c()
+  for (player in 1:length(Playing22Names)) {
+    if (Playing22$team_id[player] == TeamB) {
+      Playing11TeamB <- append(Playing11TeamB, Playing22Names[player])
+    }
+  }
+  return(Playing11TeamB)
+}
+
 #PROBLEM HERE!!!!!!!!!!!!!!!!!!!!!!!
 #Function that tests the accuracy of the Logistic model on the testing data
 GetLogisticTestAccuracy <- function (LogisticModel, logisticstestdata) {
@@ -502,11 +559,170 @@ GetLogisticTestAccuracy <- function (LogisticModel, logisticstestdata) {
   return (LogisticPredictorAccuracy)
 }
 
+#Gets a list of fixtures for all games:
+GetFixtureList <- function (ChronoAllGames) {
+  FixtureList <- c()
+  for (game in 1:nrow(ChronoAllGames)) {
+    GameDate <- ChronoAllGames$date[game]
+    TeamOneID <- ChronoAllGames$team_one[game]
+    TeamTwoID <- ChronoAllGames$team_two[game]
+    TeamOneName <- TeamNames$team_name[which(TeamOneID == TeamNames$team_id)]
+    TeamTwoName <- TeamNames$team_name[which(TeamTwoID == TeamNames$team_id)]
+    Fixture <- paste(TeamOneName, "vs", TeamTwoName, "on", GameDate)
+    FixtureList <- append(FixtureList, Fixture)
+  }
+  return(FixtureList)
+}
+
+#Creates a feature row for the created game
+GetFeatureRowforCreateGame <- function (TeamOnePlayers, TeamTwoPlayers, PlayerStats, ChronoAllGames, AllGames, GameStats, TeamOneID, TeamTwoID) {
+  FeatureRow <- data.frame(WinRate = 0,
+                           WinRateAgstB = 0,
+                           RelativeTeamStrength = 0,
+                           RelativeRunRate = 0,
+                           RelativeWicketRate = 0)
+  
+  #adding the win rate to the feature row
+  GameIndexes <- c()
+  for (game in 1:nrow(ChronoAllGames)) {
+    if (TeamOneID == ChronoAllGames$team_one[game] | TeamOneID == ChronoAllGames$team_two[game]) {
+      GameIndexes <- append(GameIndexes, game)
+    }
+  }
+  MostRecentGameIndex <- GameIndexes[length(GameIndexes)]
+  TeamOneWinRate <- logisticsdata$WinRate[MostRecentGameIndex]
+  
+  #adding the win rate against team B to the feature row
+  AllGamesAandB <- filter(ChronoAllGames, (team_one == TeamOneID & team_two == TeamTwoID) | (team_one == TeamTwoID & team_two == TeamOneID))
+  win <- 0
+  loss <- 0
+  if (nrow(AllGamesAandB) == 0 | is.na(nrow(AllGamesAandB)) | is.infinite(nrow(AllGamesAandB))) {
+    WinRateAgstB <- 0.5
+  } else {
+    for (game in 1:nrow(AllGamesAandB)) {
+      if (AllGamesAandB$winner[game] == TeamOneID) {
+        win <- win + 1
+      } else {
+        loss <- loss + 1
+      }
+    }
+    WinRateAgstB <- win / (win + loss)
+  }
+  
+  #adding the relative team strength to the feature row:
+  TeamOnePlayerInfo <- filter(PlayerFullNames, Full_Name %in% TeamOnePlayers)
+  TeamOnePlayerIDs <- c()
+  for (player in 1:nrow(TeamOnePlayerInfo)) {
+    PlayerID <- PlayerFullNames$player_id[which(PlayerFullNames$Full_Name %in% TeamOnePlayers )] 
+    TeamOnePlayerIDs <- append(TeamOnePlayerIDs, PlayerID)
+  }
+  TeamOnePlayerIDs <- unique(TeamOnePlayerIDs)
+  
+  TeamTwoPlayerInfo <- filter(PlayerFullNames, Full_Name %in% TeamTwoPlayers)
+  TeamTwoPlayerIDs <- c()
+  for (player in 1:nrow(TeamTwoPlayerInfo)) {
+    PlayerID <- PlayerFullNames$player_id[which(PlayerFullNames$Full_Name %in% TeamTwoPlayers )] 
+    TeamTwoPlayerIDs <- append(TeamTwoPlayerIDs, PlayerID)
+  }
+  TeamTwoPlayerIDs <- unique(TeamTwoPlayerIDs)
+  
+  InterestedPlayerStatsTeamOne <- filter(PlayerStats, player_id %in% TeamOnePlayerIDs)
+  InterestedPlayerStatsTeamTwo <- filter(PlayerStats, player_id %in% TeamTwoPlayerIDs)
+  
+  InterestedPlayerStatsTeamOne <- mutate(InterestedPlayerStatsTeamOne, MVPPoints = bowling_points + batting_points + fielding_points)
+  InterestedPlayerStatsTeamTwo <- mutate(InterestedPlayerStatsTeamTwo, MVPPoints = bowling_points + batting_points + fielding_points)
+  
+  TotalMVPPointsTeamOne <- sum(InterestedPlayerStatsTeamOne$MVPPoints)
+  TotalMVPPointsTeamTwo <- sum(InterestedPlayerStatsTeamTwo$MVPPoints)
+  
+  TeamOneRelativeTeamStrength <- TotalMVPPointsTeamOne / (TotalMVPPointsTeamOne + TotalMVPPointsTeamTwo)
+  
+  #adding the relative run rate to the feature row
+  GoodRowYesNo <- c()
+  for (game in 1:nrow(GameStats)) {
+    if (GameStats$match_id[game] %in% ChronoAllGames$match_id) {
+      GoodRowYesNo <- append(GoodRowYesNo, 1)
+    } else {
+      GoodRowYesNo <- append(GoodRowYesNo, 0)
+    }
+  }
+  GameStats <- mutate(GameStats, GoodRow = GoodRowYesNo) 
+  GameStats <- filter(GameStats, GoodRow == 1)
+  GameStats <- arrange(GameStats, date)
+  GameStats <- mutate(GameStats, team_one = ChronoAllGames$team_one)
+  GameStats <- mutate(GameStats, team_two = ChronoAllGames$team_two)
+  
+  TeamOneGameStats <- filter(GameStats, team_one == TeamOneID | team_two == TeamOneID)
+  TeamTwoGameStats <- filter(GameStats, team_one == TeamTwoID | team_two == TeamTwoID)
+  
+  TeamOneRuns <- 0
+  TeamOneBalls <- 0
+  TeamOneWickets <- 0
+  for (game in 1:nrow(TeamOneGameStats)) {
+    if (TeamOneGameStats$team_one[game] == TeamOneID) {
+      TeamOneRuns <- TeamOneRuns + TeamOneGameStats$t1_total[game]
+      TeamOneBalls <- TeamOneBalls + TeamOneGameStats$t1_balls[game]
+      TeamOneWickets <- TeamOneWickets + TeamOneGameStats$t1_wickets[game]
+    } else {
+      TeamOneRuns <- TeamOneRuns + TeamOneGameStats$t2_total[game]
+      TeamOneBalls <- TeamOneBalls + TeamOneGameStats$t2_balls[game]
+      TeamOneWickets <- TeamOneWickets + TeamOneGameStats$t2_balls[game]
+    }
+  }
+  TeamOneRunRate <- TeamOneRuns / TeamOneBalls
+  TeamOneWicketRate <- TeamOneWickets / nrow(TeamOneGameStats)
+  
+  TeamTwoRuns <- 0
+  TeamTwoBalls <- 0
+  TeamTwoWickets <- 0
+  for (game in 1:nrow(TeamTwoGameStats)) {
+    if (TeamTwoGameStats$team_two[game] == TeamTwoID) {
+      TeamTwoRuns <- TeamTwoRuns + TeamTwoGameStats$t2_total[game]
+      TeamTwoBalls <- TeamTwoBalls + TeamTwoGameStats$t2_balls[game]
+      TeamTwoWickets <- TeamTwoWickets + TeamTwoGameStats$t2_wickets[game]
+    } else {
+      TeamTwoRuns <- TeamTwoRuns + TeamTwoGameStats$t1_total[game]
+      TeamTwoBalls <- TeamTwoBalls + TeamTwoGameStats$t1_balls[game]
+      TeamTwoWickets <- TeamTwoWickets + TeamTwoGameStats$t1_balls[game]
+    }
+  }
+  TeamTwoRunRate <- TeamTwoRuns / TeamTwoBalls
+  TeamTwoWicketRate <- TeamTwoWickets / nrow(TeamTwoGameStats)
+  
+  RelativeRunRate <- TeamOneRunRate / (TeamOneRunRate + TeamTwoRunRate)
+  
+  #adding the relative wicket rate to the feature row
+  RelativeWicketRate <- TeamOneWicketRate / (TeamOneWicketRate + TeamTwoWicketRate)
+  
+  #adding all items to the feature row
+  FeatureRow <- add_row(FeatureRow, 
+                        WinRate = TeamOneWinRate, 
+                        WinRateAgstB = WinRateAgstB,
+                        RelativeTeamStrength = TeamOneRelativeTeamStrength,
+                        RelativeRunRate = RelativeRunRate,
+                        RelativeWicketRate = RelativeWicketRate)
+  FeatureRow <- FeatureRow[-1, ]
+  
+  return(FeatureRow)
+}
+
+#Predicts the create game result:
+GetCreateGamePrediction <- function (Model, TeamOneID, TeamTwoID, FeatureRow, TeamNames) {
+  TeamOneName <- TeamNames$team_name[which(TeamNames$team_id == TeamOneID)]
+  TeamTwoName <- TeamNames$team_name[which(TeamNames$team_id == TeamTwoID)]
+  Prediction <- predict(Model, FeatureRow)
+  if (Prediction == 1) {
+    print(TeamOneName)
+    #print(paste(TeamOneName, "is predicted to win this game"))
+  } else {
+    print(TeamTwoName)
+    #print(paste(TeamTwoName, "is predicted to win this game"))
+  }
+}
 
 
 
-
-##################################################################################
+##################################################################################                                                          
 #My program starts here:
 
 #feature data for all games
@@ -522,7 +738,7 @@ logisticstestdata <- logisticsdata[(nrow(TrainAllGames) + 1):nrow(logisticsdata)
 LogisticModel <- GetLogisticModel(logisticstraindata)
 
 #getting my SVM model based off of the training data
-SVMModel <- GetSVMModel(logisticstraindata)
+SVMModel <- GetSVMModel(logisticstraindata, 'C-classification', 'linear', 1)
 
 #Gives the accuracy of the Logistic Model by running it on testing data
 LogisticTestAccuracy <- GetLogisticTestAccuracy(LogisticModel, logisticstestdata)
@@ -530,9 +746,17 @@ LogisticTestAccuracy <- GetLogisticTestAccuracy(LogisticModel, logisticstestdata
 #Gives the accuracy of the SVM model by running it on testing data
 SVMTestAccuracy <- GetSVMTestAccuracy(SVMModel, logisticstestdata)
 
-#predicts which team will win the game
-GamePrediction <- PredictGame (3256, ChronoAllGames, logisticsdata, SVMModel, TeamNames)
+#predicts which team will win the game (Uses SVM model since it is more accurate)
+GamePrediction <- PredictGame (3256, ChronoAllGames, logisticsdata, SVMModel, TeamNames)   
 
+#A list of fixtures from all games:
+FixtureList <- GetFixtureList (ChronoAllGames)
+
+#Gives a feature row for the create game 
+FeatureRow <- GetFeatureRowforCreateGame(c("Rahul Jariwala", "Anish Deshpande"), c("Neeraj Goel", "Hammad Azam"), PlayerStats, ChronoAllGames, AllGames, GameStats, 902, 877)
+
+#Predicts the winner of the create game:
+CreateGamePrediction <- GetCreateGamePrediction(SVMModel, 902, 877, FeatureRow, TeamNames)
 ############################################################################################# 
 
 
@@ -542,6 +766,40 @@ GamePrediction <- PredictGame (3256, ChronoAllGames, logisticsdata, SVMModel, Te
 
 
 
-   
-   
-   
+
+
+
+# ####Doing a 2 proportion z test to see if there is a significantly higher chance of winning the game if one were to win the toss
+# WinLossVector <- c()
+# for (game in 1:nrow(ChronoAllGames)) {
+#   if (ChronoAllGames$team_one[game] == ChronoAllGames$winner[game]) {
+#     WinLossVector <- append(WinLossVector, "WIN")
+#   } else {
+#     WinLossVector <- append(WinLossVector, "LOSE")
+#   }
+# }
+# 
+# TossWonVector <- c()
+# for (game in 1:nrow(ChronoAllGames)) {
+#   if (ChronoAllGames$team_one[game] == ChronoAllGames$toss_won[game]) {
+#     TossWonVector <- append(TossWonVector, "YES")
+#   } else {
+#     TossWonVector <- append(TossWonVector, "NO")
+#   }
+# }
+# 
+# table(WinLossVector, TossWonVector)
+# 
+# prop.test(x = c(200, 713), n = c(200 + 238, 713 + 777), correct = FALSE)
+# #Conclusion: No statistically significant difference
+
+
+
+
+
+
+
+
+
+
+
