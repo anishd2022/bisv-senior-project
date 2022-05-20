@@ -4,7 +4,24 @@
 #3. Between Team A and Team B, out of all the games that team A won, what percentage of those wins were batting first?
 #4. Between Team A and Team B on Ground X, out of all the games that team A won, what percentage of those wins were batting first? 
 
-
+library(ggplot2)
+library(magrittr)
+library(tidyverse)
+library(readxl)
+library(dplyr)
+library(csvread)
+library(cowplot)
+library(e1071)
+library(modeldata)
+library(xgboost)
+library(caret)
+library(mltools)
+library(data.table)
+library(shiny)
+library(shinythemes)
+library(caret)
+library(tictoc)
+library(rsconnect)
 
 #Task 1 for Suggester
 Task1 <- function (AllGames, GROUND) {
@@ -26,7 +43,7 @@ Task1 <- function (AllGames, GROUND) {
 
 #Task 2 for suggester
 Task2 <- function (AllGames, TeamONE) {
-  AllGamesforTeam1 <- filter(AllGames, winner == TeamONE)
+  AllGamesforTeam1 <- filter(AllGames, winner %in% TeamONE)
   if (nrow(AllGamesforTeam1) == 0) {
     Two_BattingFirstWinProbTeamOne <- 0.5
   } else {
@@ -48,9 +65,9 @@ Task2 <- function (AllGames, TeamONE) {
 
 #Task 3 for suggester
 Task3 <- function (AllGames, TeamONE, TeamTWO) {
-  AllGamesBetweenTeamATeamB <- filter(AllGames, (team_one == TeamONE | team_one == TeamTWO) & (team_two == TeamONE | team_two == TeamTWO)) 
-  TeamAWinsAgainstB <- filter(AllGamesBetweenTeamATeamB, winner == TeamONE)
-  TeamBWinsAgainstA <- filter(AllGamesBetweenTeamATeamB, winner == TeamTWO)
+  AllGamesBetweenTeamATeamB <- filter(AllGames, (team_one %in% TeamONE | team_one %in% TeamTWO) & (team_two %in% TeamONE | team_two %in% TeamTWO)) 
+  TeamAWinsAgainstB <- filter(AllGamesBetweenTeamATeamB, winner %in% TeamONE)
+  TeamBWinsAgainstA <- filter(AllGamesBetweenTeamATeamB, winner %in% TeamTWO)
   if (nrow(TeamAWinsAgainstB) == 0) {
     Three_TeamAWinBattingFirstProb <- 0.5
   } else {
@@ -71,9 +88,9 @@ Task3 <- function (AllGames, TeamONE, TeamTWO) {
 
 #Task #4 for suggester
 Task4 <- function (AllGames, TeamONE, TeamTWO, GROUND) {
-  AllGamesTeamATeamBGroundX <- filter(AllGames, (team_one == TeamONE | team_one == TeamTWO) & (team_two == TeamONE | team_two == TeamTWO) & ground_id == GROUND)
-  TeamAWinsAgainstBonGroundX <- filter(AllGamesTeamATeamBGroundX, winner == TeamONE)
-  TeamBWinsAgainstAonGroundX <- filter(AllGamesTeamATeamBGroundX, winner == TeamTWO)
+  AllGamesTeamATeamBGroundX <- filter(AllGames, (team_one %in% TeamONE | team_one %in% TeamTWO) & (team_two %in% TeamONE | team_two %in% TeamTWO) & ground_id == GROUND)
+  TeamAWinsAgainstBonGroundX <- filter(AllGamesTeamATeamBGroundX, winner %in% TeamONE)
+  TeamBWinsAgainstAonGroundX <- filter(AllGamesTeamATeamBGroundX, winner %in% TeamTWO)
   if (nrow(TeamAWinsAgainstBonGroundX) == 0) {
     Four_TeamABattAingFirstProb <- 0.5
     Four_TeamBBattingFirstProb <- 0.5
@@ -88,32 +105,6 @@ Task4 <- function (AllGames, TeamONE, TeamTWO, GROUND) {
     }
   }
 }
-
-
-
-library(ggplot2)
-library(magrittr)
-library(tidyverse)
-library(readxl)
-library(dplyr)
-library(csvread)
-library(cowplot)
-library(e1071)
-library(modeldata)
-library(xgboost)
-library(caret)
-library(mltools)
-library(data.table)
-library(shiny)
-library(shinythemes)
-library(caret)
-library(tictoc)
-
-#main data frame which stores all games, date played, teams playing, team that won the toss, team that batted first, and team that won the game
-AllGames <- read_excel("/Users/anishdeshpande/projects/SeniorProject/AllGames.xls")
-SortedAllGames <- arrange(AllGames, date)
-ChronoAllGames <- filter(SortedAllGames, winner != 0)
-TeamNames <- read.csv("/Users/anishdeshpande/projects/SeniorProject/TeamNames.csv")
 
 
 #Returns the feature data for the suggester
@@ -287,8 +278,8 @@ GetFeatureRowforSuggestion <- function (ChronoAllGames, GroundID, TeamOneID, Tea
 
 #Getting a suggestion for the Create Game:
 GetCreateGameSuggstion <- function (ChronoAllGames, Model, GroundID, TeamNames, TeamOneID, TeamTwoID) {
-  TeamOneName <- TeamNames$team_name[which(TeamNames$team_id == TeamOneID)]
-  TeamTwoName <- TeamNames$team_name[which(TeamNames$team_id == TeamTwoID)]
+  TeamOneName <- TeamNames$team_name[min(which(TeamNames$team_id %in% TeamOneID))]
+  TeamTwoName <- TeamNames$team_name[min(which(TeamNames$team_id %in% TeamTwoID))]
   Features <- GetFeatureRowforSuggestion(ChronoAllGames, GroundID, TeamOneID, TeamTwoID)
   Predictions <- predict(Model, Features)
   TeamOnePrediction <- Predictions[1]
@@ -310,28 +301,41 @@ GetCreateGameSuggstion <- function (ChronoAllGames, Model, GroundID, TeamNames, 
 }
 
 
+  #main data frame which stores all games, date played, teams playing, team that won the toss, team that batted first, and team that won the game
+  AllGames <- read_excel("AllGames.xls")
+  SortedAllGames <- arrange(AllGames, date)
+  ChronoAllGames <- filter(SortedAllGames, winner != 0)
+  TeamNames <- read.csv("TeamNames.csv")
+
 ###############################################################################
 #Program starts here
-#Getting the feature data for the suggester
-SuggesterLogisticsData <- GetSuggesterFeatureData(ChronoAllGames)
 
-#Getting the SVM model for the suggester
-SuggesterSVMModel <- GetSuggesterSVMModel(SuggesterLogisticsData)
+  #Getting the feature data for the suggester
+  SuggesterLogisticsData <- GetSuggesterFeatureData(ChronoAllGames)
+  
+  #Getting the SVM model for the suggester
+  SuggesterSVMModel <- GetSuggesterSVMModel(SuggesterLogisticsData)
+  
+  #Getting the accuracy of the SVM model for the suggester
+  SuggesterSVMAccuracy <- GetSuggesterSVMAccuracy(SuggesterSVMModel, SuggesterLogisticsData)
+  
+  #Making a suggestion for a specific Match ID:
+  GameSuggestion <- SuggestGame(3256, ChronoAllGames, SuggesterLogisticsData, SuggesterSVMModel, TeamNames)
+  
+  #The feature row for the suggestion:
+  SuggestionFeatureRow <- GetFeatureRowforSuggestion(ChronoAllGames, 1, 902, 877)
+  
+  #The suggestion for both teams for the create game:
+  CreateGameSuggestion <- GetCreateGameSuggstion(ChronoAllGames, SuggesterSVMModel, 1, TeamNames, 902, 877)
 
-#Getting the accuracy of the SVM model for the suggester
-SuggesterSVMAccuracy <- GetSuggesterSVMAccuracy(SuggesterSVMModel, SuggesterLogisticsData)
-
-#Making a suggestion for a specific Match ID:
-GameSuggestion <- SuggestGame(3256, ChronoAllGames, SuggesterLogisticsData, SuggesterSVMModel, TeamNames)
-
-#The feature row for the suggestion:
-SuggestionFeatureRow <- GetFeatureRowforSuggestion(ChronoAllGames, 1, 902, 877)
-
-#The suggestion for both teams for the create game:
-CreateGameSuggestion <- GetCreateGameSuggstion(ChronoAllGames, SuggesterSVMModel, 1, TeamNames, 902, 877)
 
 
 
+### ### #### #### ####
+# PredictionList <- c()
+# for (game in 1:nrow(ChronoAllGames)) {
+#   
+# }
 
 
 ##############################################################################
