@@ -196,7 +196,7 @@ server <- function(input, output, session) {
     GROUNDID <- ChronoAllGames$ground_id[min(which(ChronoAllGames$name == input$Ground))]
     TeamOneID <- TeamNames$team_id[which(TeamNames$team_name == input$TeamOne)]
     TeamTwoID <- TeamNames$team_id[which(TeamNames$team_name == input$TeamTwo)]
-    GetCreateGameSuggstion(ChronoAllGames, SuggesterSVMModel, GROUNDID, TeamNames, TeamOneID, TeamTwoID)
+    GetCreateGameSuggestion(ChronoAllGames, SuggesterSVMModel, GROUNDID, TeamNames, TeamOneID, TeamTwoID)
   })
   
   output$CreateGameSuggestion <- renderPrint({

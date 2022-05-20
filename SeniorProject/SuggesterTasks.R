@@ -277,13 +277,16 @@ GetFeatureRowforSuggestion <- function (ChronoAllGames, GroundID, TeamOneID, Tea
 }
 
 #Getting a suggestion for the Create Game:
-GetCreateGameSuggstion <- function (ChronoAllGames, Model, GroundID, TeamNames, TeamOneID, TeamTwoID) {
+GetCreateGameSuggestion <- function (ChronoAllGames, Model, GroundID, TeamNames, TeamOneID, TeamTwoID) {
   TeamOneName <- TeamNames$team_name[min(which(TeamNames$team_id %in% TeamOneID))]
   TeamTwoName <- TeamNames$team_name[min(which(TeamNames$team_id %in% TeamTwoID))]
   Features <- GetFeatureRowforSuggestion(ChronoAllGames, GroundID, TeamOneID, TeamTwoID)
-  Predictions <- predict(Model, Features)
-  TeamOnePrediction <- Predictions[1]
-  TeamTwoPrediction <- Predictions[2]
+  FeatureRowTeamOne <- Features [1, ]
+  FeatureRowTeamTwo <- Features [2, ]
+  TeamOnePrediction <- predict(Model, FeatureRowTeamOne)
+  TeamTwoPrediction <- predict(Model, FeatureRowTeamTwo)
+  
+  #print(Predictions)
   
   if (TeamOnePrediction == 1 | TeamOnePrediction == 4) {
     print(paste("If", TeamOneName, "wins the toss, they should bat first"))
@@ -291,7 +294,7 @@ GetCreateGameSuggstion <- function (ChronoAllGames, Model, GroundID, TeamNames, 
   if (TeamOnePrediction == 2 | TeamOnePrediction == 3) {
     print(paste("If", TeamOneName, "wins the toss, they should bowl first"))
   }
-  
+
   if (TeamTwoPrediction == 1 | TeamTwoPrediction == 4) {
     print(paste("If", TeamTwoName, "wins the toss, they should bat first"))
   }
@@ -326,16 +329,27 @@ GetCreateGameSuggstion <- function (ChronoAllGames, Model, GroundID, TeamNames, 
   SuggestionFeatureRow <- GetFeatureRowforSuggestion(ChronoAllGames, 1, 902, 877)
   
   #The suggestion for both teams for the create game:
-  CreateGameSuggestion <- GetCreateGameSuggstion(ChronoAllGames, SuggesterSVMModel, 1, TeamNames, 902, 877)
+  CreateGameSuggestion <- GetCreateGameSuggestion(ChronoAllGames, SuggesterSVMModel, 1, TeamNames, 902, 877)
 
 
 
 
 ### ### #### #### ####
-# PredictionList <- c()
-# for (game in 1:nrow(ChronoAllGames)) {
-#   
+# SuggestionList <- c()
+# SuggestionNumberList <- c()
+# for (game in 1:1) {
+#   Features <- GetFeatureRowforSuggestion(ChronoAllGames, ChronoAllGames$ground_id[game], ChronoAllGames$team_one[game], ChronoAllGames$team_two[game])
+#   GameSuggestion <- GetCreateGameSuggestion(ChronoAllGames, SuggesterSVMModel, ChronoAllGames$ground_id[game], TeamNames, ChronoAllGames$team_one[game], ChronoAllGames$team_two[game])
+#   SuggestionList <- append(SuggestionList, GameSuggestion)
+#   Predictions <- predict(SuggesterSVMModel, Features)
+#   SuggestionNumberList <- append(SuggestionNumberList, Predictions)
 # }
+# print(SuggestionList)
+# print(Predictions)
+
+
+
+
 
 
 ##############################################################################

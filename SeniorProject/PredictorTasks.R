@@ -591,7 +591,7 @@ GetFeatureRowforCreateGame <- function (TeamOnePlayers, TeamTwoPlayers, PlayerSt
     WinRateAgstB <- 0.5
   } else {
     for (game in 1:nrow(AllGamesAandB)) {
-      if (AllGamesAandB$winner[game] == TeamOneID) {
+      if (AllGamesAandB$winner[game] %in% TeamOneID) {
         win <- win + 1
       } else {
         loss <- loss + 1
