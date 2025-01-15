@@ -1,0 +1,2343 @@
+match_id,toss_won,batting_first,winner,ground_id,name,overs,t1_total,t2_total,t1_balls,t2_balls,t1_wickets,t2_wickets,date
+2,1,4,1,1,Wilson Field Santa Clara,20,153,156,120,118,8,7,2016-07-02
+3,1,1,2,1,Wilson Field Santa Clara,20,136,137,120,118,9,7,2016-07-02
+6,2,2,4,1,Wilson Field Santa Clara,20,126,127,120,102,8,2,2016-07-02
+1,3,6,6,2,"Sea Breeze Park, Union City",20,151,140,120,120,7,8,2016-07-02
+4,6,6,5,2,"Sea Breeze Park, Union City",20,133,134,118,100,10,2,2016-07-02
+5,5,3,5,2,"Sea Breeze Park, Union City",20,122,123,120,104,8,5,2016-07-02
+7,6,4,4,1,Wilson Field Santa Clara,20,139,128,120,120,5,8,2016-07-03
+8,1,1,5,1,Wilson Field Santa Clara,20,116,117,120,81,9,2,2016-07-03
+9,4,5,5,1,Wilson Field Santa Clara,20,139,85,120,120,9,8,2016-07-03
+1296,315,315,315,2,"Sea Breeze Park, Union City",20,141,129,120,120,7,9,2016-11-12
+1292,313,316,316,2,"Sea Breeze Park, Union City",20,147,133,120,114,7,10,2016-11-12
+1293,324,324,325,3,Bracher Elementary Santa Clara,20,137,138,120,110,7,8,2016-11-13
+1294,319,319,319,3,Bracher Elementary Santa Clara,18,167,60,108,108,4,7,2016-11-13
+1297,314,314,311,5,Caroline Davis School  San Jose,20,117,118,120,82,3,2,2016-11-19
+1298,315,316,315,2,"Sea Breeze Park, Union City",16,117,118,96,91,8,5,2016-11-19
+1300,322,322,322,3,Bracher Elementary Santa Clara,18,137,79,108,108,6,7,2016-11-20
+1302,317,317,0,2,"Sea Breeze Park, Union City",20,75,0,56,0,2,0,2016-11-20
+1301,324,326,326,14,Kathryn Hughes School Santa Clara,20,176,169,120,120,6,8,2016-11-20
+1303,323,323,0,3,Bracher Elementary Santa Clara,20,0,0,0,0,0,0,2016-11-20
+1305,313,313,313,5,Caroline Davis School  San Jose,20,174,86,120,120,7,8,2016-12-03
+1304,311,316,311,3,Bracher Elementary Santa Clara,20,138,144,120,114,9,6,2016-12-03
+1306,312,312,315,3,Bracher Elementary Santa Clara,20,131,135,120,119,9,7,2016-12-03
+1308,324,324,327,1,Wilson Field Santa Clara,20,63,64,109,52,10,0,2016-12-04
+1307,317,317,317,2,"Sea Breeze Park, Union City",20,115,104,120,120,7,8,2016-12-04
+1309,325,326,326,3,Bracher Elementary Santa Clara,20,192,136,120,111,5,10,2016-12-04
+1320,320,319,320,11,"Rancho Milpitas School, Milpitas, CA",20,123,126,120,108,9,5,2016-12-18
+1314,311,313,311,3,Bracher Elementary Santa Clara,20,120,124,120,115,7,5,2016-12-11
+1315,312,316,312,14,Kathryn Hughes School Santa Clara,20,111,112,120,111,6,6,2016-12-11
+1310,324,324,325,14,Kathryn Hughes School Santa Clara,20,128,131,108,103,10,5,2016-12-11
+1313,323,326,323,4,"Northgate Park, Fremont",20,119,120,120,116,8,8,2016-12-11
+1312,322,322,322,2,"Sea Breeze Park, Union City",20,128,107,119,119,10,10,2016-12-11
+1311,318,321,318,3,Bracher Elementary Santa Clara,20,114,115,120,116,6,4,2016-12-11
+1319,321,321,322,2,"Sea Breeze Park, Union City",20,124,129,120,80,8,2,2016-12-18
+1318,325,327,327,1,Wilson Field Santa Clara,20,108,107,120,117,4,10,2016-12-18
+1316,317,317,318,2,"Sea Breeze Park, Union City",20,93,94,120,76,9,2,2016-12-18
+1317,323,323,323,3,Bracher Elementary Santa Clara,20,190,118,120,101,3,10,2016-12-18
+1321,319,319,320,11,"Rancho Milpitas School, Milpitas, CA",20,143,146,120,108,6,1,2016-12-18
+1326,314,314,0,5,Caroline Davis School  San Jose,0,0,0,0,0,0,0,2017-01-07
+1327,313,313,0,11,"Rancho Milpitas School, Milpitas, CA",0,0,0,0,0,0,0,2017-01-07
+1328,311,311,0,3,Bracher Elementary Santa Clara,0,0,0,0,0,0,0,2017-01-07
+1363,317,317,318,10,Fremont City Cricket Soccer Field,20,80,82,93,51,10,2,2017-02-18
+1323,319,319,0,11,"Rancho Milpitas School, Milpitas, CA",0,0,0,0,0,0,0,2017-01-08
+1375,324,324,326,1,Wilson Field Santa Clara,20,119,120,120,119,8,9,2017-02-26
+1334,314,314,312,5,Caroline Davis School  San Jose,20,114,119,120,60,3,2,2017-01-14
+1330,320,320,320,1,Wilson Field Santa Clara,20,181,92,120,111,6,10,2017-01-14
+1329,313,315,315,2,"Sea Breeze Park, Union City",20,139,88,120,99,8,10,2017-01-14
+1331,316,311,316,2,"Sea Breeze Park, Union City",20,153,159,120,107,6,3,2017-01-14
+1335,327,327,326,4,"Northgate Park, Fremont",20,145,146,120,114,10,6,2017-01-15
+1332,319,322,322,2,"Sea Breeze Park, Union City",20,130,118,120,120,7,9,2017-01-15
+1333,325,323,323,3,Bracher Elementary Santa Clara,20,172,145,120,120,5,8,2017-01-15
+1337,314,314,313,10,Fremont City Cricket Soccer Field,20,144,145,120,102,6,6,2017-01-21
+1336,315,311,315,3,Bracher Elementary Santa Clara,20,118,119,120,119,10,6,2017-01-21
+1376,321,321,0,3,Bracher Elementary Santa Clara,20,0,0,0,0,0,0,2017-01-21
+1371,324,327,327,1,Wilson Field Santa Clara,20,130,120,120,120,5,9,2017-02-26
+1377,319,319,0,10,Fremont City Cricket Soccer Field,20,0,0,0,0,0,0,2017-01-22
+1338,318,322,322,10,Fremont City Cricket Soccer Field,20,177,120,120,120,5,9,2017-01-22
+1378,323,323,326,2,"Sea Breeze Park, Union City",20,133,135,118,119,10,8,2017-03-04
+1341,320,320,320,10,Fremont City Cricket Soccer Field,20,195,159,120,120,4,9,2017-01-28
+1339,311,315,311,2,"Sea Breeze Park, Union City",20,113,114,120,110,8,5,2017-01-28
+1340,316,314,316,2,"Sea Breeze Park, Union City",20,119,120,120,106,7,5,2017-01-28
+1343,326,326,326,1,Wilson Field Santa Clara,20,136,65,120,120,9,10,2017-01-29
+1361,313,313,312,10,Fremont City Cricket Soccer Field,20,126,127,120,114,8,4,2017-01-29
+1345,319,319,319,10,Fremont City Cricket Soccer Field,20,187,157,120,120,8,9,2017-01-29
+1344,323,325,323,3,Bracher Elementary Santa Clara,20,166,170,120,103,4,3,2017-01-29
+1347,320,320,322,10,Fremont City Cricket Soccer Field,20,115,116,120,114,10,8,2017-02-04
+1346,321,317,317,2,"Sea Breeze Park, Union City",20,143,104,120,120,8,9,2017-02-04
+1349,311,311,311,2,"Sea Breeze Park, Union City",20,144,91,120,120,9,7,2017-02-04
+1351,323,324,323,14,Kathryn Hughes School Santa Clara,20,110,111,120,113,10,8,2017-02-05
+1350,319,319,319,10,Fremont City Cricket Soccer Field,20,129,104,120,111,7,10,2017-02-05
+1353,313,313,316,10,Fremont City Cricket Soccer Field,20,142,144,120,119,8,8,2017-02-05
+1352,326,326,326,4,"Northgate Park, Fremont",20,143,140,120,119,10,10,2017-02-05
+1354,317,317,320,2,"Sea Breeze Park, Union City",20,131,133,120,76,9,1,2017-02-11
+1356,315,315,316,2,"Sea Breeze Park, Union City",20,144,145,120,117,3,8,2017-02-11
+1355,312,312,312,3,Bracher Elementary Santa Clara,20,171,108,120,120,6,6,2017-02-11
+1357,311,313,311,10,Fremont City Cricket Soccer Field,20,137,138,120,107,8,4,2017-02-12
+1358,324,325,325,14,Kathryn Hughes School Santa Clara,20,139,136,120,120,7,10,2017-02-12
+1360,318,318,318,10,Fremont City Cricket Soccer Field,20,162,86,120,120,8,7,2017-02-12
+1359,327,327,326,4,"Northgate Park, Fremont",20,119,125,120,89,10,2,2017-02-12
+1362,322,322,322,1,Wilson Field Santa Clara,20,92,92,104,118,10,10,2017-02-18
+1370,312,312,0,3,Bracher Elementary Santa Clara,20,0,0,0,0,0,0,2017-02-18
+1364,318,318,318,10,Fremont City Cricket Soccer Field,20,181,131,120,115,8,10,2017-02-19
+1367,315,315,315,5,Caroline Davis School  San Jose,20,0,0,0,0,0,0,2017-02-18
+1368,312,312,312,2,"Sea Breeze Park, Union City",20,215,63,120,94,5,10,2017-02-25
+1374,314,314,315,5,Caroline Davis School  San Jose,20,99,100,114,114,9,6,2017-02-26
+1369,318,318,320,1,Wilson Field Santa Clara,20,78,86,114,84,9,3,2017-02-25
+1372,322,322,322,10,Fremont City Cricket Soccer Field,20,140,138,118,120,10,6,2017-02-26
+1373,323,325,323,2,"Sea Breeze Park, Union City",20,102,105,120,89,8,1,2017-02-26
+1382,317,317,317,1,Wilson Field Santa Clara,20,164,154,120,120,7,10,2017-03-04
+1380,323,323,0,1,Wilson Field Santa Clara,20,77,0,90,0,7,0,2017-03-05
+1379,318,318,318,10,Fremont City Cricket Soccer Field,20,130,126,120,120,7,7,2017-03-05
+1385,320,320,322,2,"Sea Breeze Park, Union City",20,156,157,120,113,5,8,2017-03-19
+1387,312,315,312,2,"Sea Breeze Park, Union City",20,108,112,112,110,10,4,2017-03-19
+1389,322,326,322,1,Wilson Field Santa Clara,20,118,119,120,112,8,5,2017-03-26
+1388,323,312,312,2,"Sea Breeze Park, Union City",20,115,110,118,120,10,6,2017-03-26
+1390,312,312,322,1,Wilson Field Santa Clara,20,133,134,117,120,10,6,2017-03-26
+1348,312,312,312,1,Wilson Field Santa Clara,20,203,130,120,112,7,10,2017-02-04
+1365,325,325,325,1,Wilson Field Santa Clara,20,94,78,120,120,5,9,2017-02-19
+1381,324,324,0,4,"Northgate Park, Fremont",20,167,167,120,118,7,10,2017-03-05
+1384,323,327,323,1,Wilson Field Santa Clara,20,71,73,105,114,10,6,2017-03-12
+1383,319,319,319,10,Fremont City Cricket Soccer Field,18,164,157,108,108,2,6,2017-03-05
+1396,370,370,370,16,"Sierra Bicentennial Park, Clovis",50,177,151,296,276,10,10,2017-04-15
+1590,368,368,374,16,"Sierra Bicentennial Park, Clovis",50,72,73,138,101,10,3,2017-07-29
+1568,364,364,365,16,"Sierra Bicentennial Park, Clovis",50,89,95,245,68,10,1,2017-07-16
+1706,362,362,362,7,"Plasencia Fields, Tracy, CA",45,225,209,270,270,7,9,2017-09-23
+1675,372,372,366,4,"Northgate Park, Fremont",40,143,144,228,220,10,7,2017-09-09
+1628,373,373,362,3,Bracher Elementary Santa Clara,50,114,116,219,233,10,7,2017-08-13
+1658,373,373,372,8,"Patwin Elementary School, Davis, CA",50,45,46,108,64,10,1,2017-08-26
+1660,363,364,364,1,Wilson Field Santa Clara,50,193,157,300,270,9,10,2017-08-27
+1690,372,365,372,5,Caroline Davis School  San Jose,50,139,140,225,249,10,5,2017-09-16
+1393,391,391,386,7,"Plasencia Fields, Tracy, CA",45,71,76,161,165,10,2,2017-04-15
+1397,387,383,387,5,Caroline Davis School  San Jose,45,94,97,219,115,10,4,2017-04-15
+1399,382,382,0,11,"Rancho Milpitas School, Milpitas, CA",45,120,0,252,0,6,0,2017-04-16
+1410,393,393,0,5,Caroline Davis School  San Jose,40,131,0,116,0,4,0,2017-04-16
+1404,380,392,0,2,"Sea Breeze Park, Union City",45,150,0,187,0,10,0,2017-04-16
+1401,379,385,0,1,Wilson Field Santa Clara,45,117,0,210,0,5,0,2017-04-16
+1405,376,384,376,3,Bracher Elementary Santa Clara,25,71,72,150,72,6,1,2017-04-16
+1714,376,376,376,7,"Plasencia Fields, Tracy, CA",30,235,70,181,126,8,10,2017-09-24
+1416,378,378,387,5,Caroline Davis School  San Jose,45,127,130,263,126,10,2,2017-04-22
+1417,390,390,390,9,"Ortega Park, Sunnyvale",45,202,149,270,246,5,10,2017-04-23
+1422,381,385,385,11,"Rancho Milpitas School, Milpitas, CA",45,97,86,198,243,10,10,2017-04-23
+1419,379,379,379,2,"Sea Breeze Park, Union City",45,109,81,184,176,10,10,2017-04-23
+1431,382,382,390,11,"Rancho Milpitas School, Milpitas, CA",45,163,164,270,267,7,7,2017-04-29
+1444,388,388,392,2,"Sea Breeze Park, Union City",45,94,100,208,78,10,3,2017-04-30
+1441,386,386,380,3,Bracher Elementary Santa Clara,45,81,82,171,76,10,1,2017-04-30
+1442,393,393,377,15,"Highland Elementary School, San Pablo",45,68,70,128,35,10,1,2017-04-30
+1438,389,389,389,11,"Rancho Milpitas School, Milpitas, CA",45,189,180,231,265,10,10,2017-04-30
+1459,388,388,377,4,"Northgate Park, Fremont",45,186,190,267,227,10,9,2017-05-07
+1461,386,390,386,5,Caroline Davis School  San Jose,45,90,92,170,94,10,1,2017-05-07
+1460,380,380,380,15,"Highland Elementary School, San Pablo",45,264,148,270,138,8,10,2017-05-07
+1454,378,381,381,2,"Sea Breeze Park, Union City",45,186,173,274,249,9,10,2017-05-07
+1464,383,383,385,1,Wilson Field Santa Clara,45,75,78,173,52,10,0,2017-05-07
+1467,380,380,380,4,"Northgate Park, Fremont",45,207,161,270,238,9,10,2017-05-13
+1469,391,391,393,7,"Plasencia Fields, Tracy, CA",45,175,176,247,246,10,6,2017-05-13
+1465,387,376,376,16,"Sierra Bicentennial Park, Clovis",45,209,168,259,230,10,10,2017-05-13
+1477,382,382,392,2,"Sea Breeze Park, Union City",45,101,103,270,86,9,3,2017-05-14
+1474,390,390,390,9,"Ortega Park, Sunnyvale",45,160,96,265,216,10,10,2017-05-14
+1472,381,381,381,11,"Rancho Milpitas School, Milpitas, CA",45,197,162,265,233,10,10,2017-05-14
+1478,383,383,383,6,"Piper Park, Larkspur, CA",45,247,202,244,254,8,10,2017-05-14
+1475,385,385,385,3,Bracher Elementary Santa Clara,45,260,111,264,262,10,10,2017-05-14
+1480,380,380,380,11,"Rancho Milpitas School, Milpitas, CA",45,238,130,270,207,9,9,2017-05-20
+1481,383,383,378,7,"Plasencia Fields, Tracy, CA",45,174,175,270,265,8,9,2017-05-20
+1482,385,385,385,5,Caroline Davis School  San Jose,45,216,174,270,240,7,10,2017-05-20
+1488,379,384,379,3,Bracher Elementary Santa Clara,30,117,118,180,102,10,2,2017-05-21
+1491,391,391,391,7,"Plasencia Fields, Tracy, CA",45,208,172,270,186,10,9,2017-05-21
+1487,392,392,393,15,"Highland Elementary School, San Pablo",45,199,200,215,250,10,9,2017-05-21
+1497,377,392,392,4,"Northgate Park, Fremont",45,232,199,261,236,10,10,2017-06-03
+1499,376,376,376,16,"Sierra Bicentennial Park, Clovis",45,212,198,270,258,9,10,2017-06-03
+1496,384,384,381,10,Fremont City Cricket Soccer Field,45,139,140,252,55,10,0,2017-06-03
+1501,382,382,388,10,Fremont City Cricket Soccer Field,45,138,139,258,201,10,6,2017-06-04
+1509,380,380,390,9,"Ortega Park, Sunnyvale",45,117,118,238,256,10,7,2017-06-04
+1504,393,393,393,15,"Highland Elementary School, San Pablo",45,136,27,186,79,10,10,2017-06-04
+1500,379,379,379,2,"Sea Breeze Park, Union City",45,210,106,260,212,10,10,2017-06-04
+1519,389,389,389,3,Bracher Elementary Santa Clara,35,273,72,210,184,7,10,2017-06-11
+1512,387,387,383,6,"Piper Park, Larkspur, CA",45,148,149,226,258,10,6,2017-06-10
+1511,391,391,377,7,"Plasencia Fields, Tracy, CA",45,138,146,257,184,10,4,2017-06-10
+1514,388,388,380,10,Fremont City Cricket Soccer Field,45,58,62,146,59,10,3,2017-06-11
+1516,390,390,390,9,"Ortega Park, Sunnyvale",45,234,110,270,185,5,10,2017-06-11
+1524,386,386,386,5,Caroline Davis School  San Jose,45,135,98,233,237,10,10,2017-06-17
+1531,382,382,382,10,Fremont City Cricket Soccer Field,45,119,96,182,176,10,10,2017-06-24
+1549,391,391,-1,10,Fremont City Cricket Soccer Field,45,226,187,270,221,10,6,2017-07-08
+1541,387,387,387,5,Caroline Davis School  San Jose,45,271,147,270,270,9,9,2017-07-08
+1550,380,380,380,10,Fremont City Cricket Soccer Field,45,247,181,270,214,8,10,2017-07-09
+1554,392,392,392,2,"Sea Breeze Park, Union City",45,193,129,270,213,9,10,2017-07-09
+1556,390,390,390,15,"Highland Elementary School, San Pablo",45,221,152,270,217,10,10,2017-07-09
+1562,377,377,377,4,"Northgate Park, Fremont",45,246,144,268,205,10,10,2017-07-15
+1560,380,380,380,10,Fremont City Cricket Soccer Field,45,183,171,268,263,10,10,2017-07-15
+1561,391,391,392,2,"Sea Breeze Park, Union City",45,43,44,124,33,10,1,2017-07-15
+1564,376,376,376,2,"Sea Breeze Park, Union City",45,185,126,257,232,10,10,2017-07-16
+1569,379,379,379,5,Caroline Davis School  San Jose,45,242,154,260,184,10,10,2017-07-16
+1572,384,384,383,6,"Piper Park, Larkspur, CA",40,72,73,139,42,10,1,2017-07-16
+1566,381,381,381,1,Wilson Field Santa Clara,45,163,126,268,196,10,10,2017-07-16
+1574,380,380,380,10,Fremont City Cricket Soccer Field,45,184,162,244,262,10,10,2017-07-22
+1581,391,390,390,9,"Ortega Park, Sunnyvale",45,99,90,230,219,10,10,2017-07-22
+1575,382,382,377,4,"Northgate Park, Fremont",45,129,132,221,126,10,2,2017-07-22
+1578,389,376,376,16,"Sierra Bicentennial Park, Clovis",45,215,168,271,263,10,9,2017-07-22
+1580,383,383,379,6,"Piper Park, Larkspur, CA",45,144,145,246,169,10,7,2017-07-22
+1579,387,387,387,5,Caroline Davis School  San Jose,45,150,58,214,102,10,10,2017-07-22
+1586,386,386,386,3,Bracher Elementary Santa Clara,45,222,145,270,168,8,10,2017-07-23
+1583,378,378,385,2,"Sea Breeze Park, Union City",45,84,87,173,133,10,6,2017-07-23
+1591,377,377,377,4,"Northgate Park, Fremont",45,276,257,261,270,10,7,2017-07-29
+1593,392,392,390,2,"Sea Breeze Park, Union City",45,195,196,272,264,10,7,2017-07-29
+1661,378,378,378,3,Bracher Elementary Santa Clara,20,124,102,121,120,9,7,2017-08-27
+1600,386,386,393,15,"Highland Elementary School, San Pablo",45,140,141,224,207,10,9,2017-07-30
+1598,387,387,387,5,Caroline Davis School  San Jose,45,155,72,254,147,10,10,2017-07-30
+1604,381,381,381,10,Fremont City Cricket Soccer Field,45,220,184,269,263,10,10,2017-07-30
+1602,385,385,389,1,Wilson Field Santa Clara,45,115,120,257,242,10,6,2017-07-30
+1611,391,380,380,7,"Plasencia Fields, Tracy, CA",45,109,75,233,223,10,10,2017-08-05
+1608,384,379,379,2,"Sea Breeze Park, Union City",45,258,127,270,145,9,7,2017-08-05
+1606,385,385,385,1,Wilson Field Santa Clara,45,160,126,259,249,10,10,2017-08-05
+1616,377,377,377,5,Caroline Davis School  San Jose,45,343,82,270,195,8,10,2017-08-06
+1619,392,390,390,9,"Ortega Park, Sunnyvale",45,125,121,270,269,9,10,2017-08-06
+1618,383,376,376,6,"Piper Park, Larkspur, CA",45,219,153,270,233,9,10,2017-08-06
+1624,391,392,392,7,"Plasencia Fields, Tracy, CA",45,201,135,270,218,8,10,2017-08-12
+1622,378,389,389,2,"Sea Breeze Park, Union City",45,181,90,231,130,10,10,2017-08-12
+1623,376,376,385,1,Wilson Field Santa Clara,45,93,94,232,113,10,4,2017-08-12
+1625,381,381,381,3,Bracher Elementary Santa Clara,45,313,74,270,124,7,10,2017-08-12
+1632,390,390,377,9,"Ortega Park, Sunnyvale",45,35,36,126,41,10,0,2017-08-13
+1743,382,382,382,11,"Rancho Milpitas School, Milpitas, CA",45,218,90,270,116,8,10,2017-10-15
+1627,387,387,379,2,"Sea Breeze Park, Union City",45,133,136,204,159,9,5,2017-08-13
+1639,386,386,377,4,"Northgate Park, Fremont",45,94,95,214,81,10,3,2017-08-19
+1641,381,381,381,10,Fremont City Cricket Soccer Field,45,224,73,260,97,10,10,2017-08-19
+1637,384,385,385,1,Wilson Field Santa Clara,45,124,79,196,232,10,10,2017-08-19
+1643,378,379,379,2,"Sea Breeze Park, Union City",45,164,122,219,211,10,10,2017-08-20
+1649,392,392,392,10,Fremont City Cricket Soccer Field,45,388,164,270,270,8,4,2017-08-20
+1646,380,380,380,5,Caroline Davis School  San Jose,45,267,78,270,222,8,10,2017-08-20
+1650,393,393,393,9,"Ortega Park, Sunnyvale",45,141,103,258,246,10,10,2017-08-20
+1655,377,390,377,4,"Northgate Park, Fremont",45,199,200,270,257,8,9,2017-08-26
+1659,380,380,380,10,Fremont City Cricket Soccer Field,45,289,96,270,143,4,9,2017-08-26
+1657,391,391,391,5,Caroline Davis School  San Jose,45,268,157,270,270,9,8,2017-08-26
+1654,385,385,387,1,Wilson Field Santa Clara,45,202,206,270,268,7,7,2017-08-26
+1668,384,384,378,3,Bracher Elementary Santa Clara,20,159,160,120,117,7,4,2017-08-27
+1662,379,383,379,2,"Sea Breeze Park, Union City",45,199,200,270,171,8,2,2017-08-27
+1663,386,386,392,5,Caroline Davis School  San Jose,45,90,94,180,62,10,3,2017-08-27
+1665,388,388,393,15,"Highland Elementary School, San Pablo",45,129,133,140,147,10,5,2017-08-27
+1667,381,381,381,10,Fremont City Cricket Soccer Field,45,180,102,256,174,10,10,2017-08-27
+1674,386,386,391,5,Caroline Davis School  San Jose,45,99,104,203,196,10,7,2017-09-09
+1671,379,381,381,2,"Sea Breeze Park, Union City",45,241,102,270,187,8,10,2017-09-09
+1680,393,393,380,10,Fremont City Cricket Soccer Field,45,142,145,242,168,10,5,2017-09-10
+1684,382,382,388,5,Caroline Davis School  San Jose,45,173,174,270,223,8,4,2017-09-10
+1678,377,377,377,2,"Sea Breeze Park, Union City",45,157,87,260,168,10,10,2017-09-10
+1681,387,387,387,3,Bracher Elementary Santa Clara,45,243,130,270,262,9,10,2017-09-10
+1685,383,385,385,6,"Piper Park, Larkspur, CA",45,209,108,270,228,9,10,2017-09-10
+1691,391,391,380,7,"Plasencia Fields, Tracy, CA",45,119,120,176,270,10,9,2017-09-16
+1689,381,381,381,16,"Sierra Bicentennial Park, Clovis",45,148,98,224,201,10,10,2017-09-16
+1687,387,387,387,2,"Sea Breeze Park, Union City",45,225,158,244,245,10,10,2017-09-16
+1699,388,388,386,5,Caroline Davis School  San Jose,45,73,74,155,94,10,3,2017-09-17
+1695,393,393,393,15,"Highland Elementary School, San Pablo",45,257,149,227,182,10,10,2017-09-17
+1696,384,383,383,3,Bracher Elementary Santa Clara,45,169,131,270,270,9,9,2017-09-17
+1708,380,380,380,10,Fremont City Cricket Soccer Field,45,267,172,270,270,10,7,2017-09-23
+1704,386,386,377,2,"Sea Breeze Park, Union City",45,163,164,269,183,10,6,2017-09-23
+1707,387,387,389,5,Caroline Davis School  San Jose,45,128,129,222,200,10,9,2017-09-23
+1717,393,393,392,2,"Sea Breeze Park, Union City",45,186,187,266,156,10,2,2017-09-24
+1712,388,390,388,5,Caroline Davis School  San Jose,45,159,160,271,187,10,5,2017-09-24
+1709,381,381,381,10,Fremont City Cricket Soccer Field,45,260,96,271,112,8,9,2017-09-24
+1713,383,383,383,6,"Piper Park, Larkspur, CA",45,236,119,270,143,6,10,2017-09-24
+1720,388,388,392,5,Caroline Davis School  San Jose,45,79,81,145,97,10,2,2017-09-30
+1721,391,390,390,7,"Plasencia Fields, Tracy, CA",40,111,84,218,181,10,10,2017-09-30
+1724,379,379,379,2,"Sea Breeze Park, Union City",45,206,148,236,208,10,10,2017-10-01
+1723,393,393,382,10,Fremont City Cricket Soccer Field,45,186,187,261,215,10,3,2017-10-01
+1726,388,388,388,5,Caroline Davis School  San Jose,45,199,198,268,265,10,10,2017-10-01
+1722,376,376,376,16,"Sierra Bicentennial Park, Clovis",45,358,58,270,113,6,10,2017-10-01
+1727,381,381,381,6,"Piper Park, Larkspur, CA",45,187,158,245,255,10,10,2017-10-01
+1398,402,402,402,11,"Rancho Milpitas School, Milpitas, CA",20,186,172,120,120,3,5,2017-04-15
+1702,406,406,0,11,"Rancho Milpitas School, Milpitas, CA",0,0,0,0,0,0,0,2017-04-15
+1408,408,404,404,15,"Highland Elementary School, San Pablo",20,213,76,120,117,5,9,2017-04-15
+1412,402,402,403,11,"Rancho Milpitas School, Milpitas, CA",20,126,130,116,107,10,4,2017-04-22
+1414,405,405,400,15,"Highland Elementary School, San Pablo",20,107,109,120,99,9,4,2017-04-22
+1427,406,408,408,11,"Rancho Milpitas School, Milpitas, CA",20,144,83,120,120,8,9,2017-04-22
+1425,404,404,407,15,"Highland Elementary School, San Pablo",20,90,91,105,66,10,5,2017-04-23
+1433,403,403,403,15,"Highland Elementary School, San Pablo",20,158,152,120,120,6,7,2017-04-29
+1692,400,400,400,14,Kathryn Hughes School Santa Clara,20,152,108,120,117,7,10,2017-09-16
+1436,397,397,397,15,"Highland Elementary School, San Pablo",20,165,148,120,120,9,7,2017-04-29
+1451,403,403,402,2,"Sea Breeze Park, Union City",20,118,119,120,113,8,3,2017-05-06
+1449,400,400,401,4,"Northgate Park, Fremont",20,193,195,120,88,7,1,2017-05-06
+1456,397,397,397,3,Bracher Elementary Santa Clara,20,137,94,120,110,7,10,2017-05-07
+1479,401,401,403,4,"Northgate Park, Fremont",20,155,157,120,95,3,2,2017-05-20
+1493,407,407,407,5,Caroline Davis School  San Jose,20,221,116,117,120,10,9,2017-05-21
+1498,402,405,402,15,"Highland Elementary School, San Pablo",20,181,182,120,118,7,5,2017-06-03
+1513,397,397,397,3,Bracher Elementary Santa Clara,20,180,83,120,108,5,9,2017-06-11
+1503,398,398,408,3,Bracher Elementary Santa Clara,20,122,125,120,119,9,6,2017-06-04
+1539,401,401,401,4,"Northgate Park, Fremont",20,220,202,120,120,1,7,2017-07-08
+1640,407,407,397,5,Caroline Davis School  San Jose,20,134,138,120,106,9,4,2017-08-19
+1542,398,398,398,3,Bracher Elementary Santa Clara,20,0,0,0,0,0,0,2017-07-09
+1559,404,404,408,3,Bracher Elementary Santa Clara,20,92,96,114,100,10,8,2017-07-09
+1563,399,405,399,15,"Highland Elementary School, San Pablo",20,199,200,120,107,4,7,2017-07-15
+1536,403,403,400,2,"Sea Breeze Park, Union City",20,140,141,120,111,6,4,2017-07-02
+1543,397,397,397,5,Caroline Davis School  San Jose,20,0,0,0,0,0,0,2017-07-15
+1571,398,398,407,11,"Rancho Milpitas School, Milpitas, CA",20,167,169,120,106,7,7,2017-07-16
+1577,400,405,400,14,Kathryn Hughes School Santa Clara,20,97,98,120,65,9,2,2017-07-22
+1584,397,397,407,5,Caroline Davis School  San Jose,20,74,75,86,51,10,2,2017-07-23
+1544,408,408,408,5,Caroline Davis School  San Jose,20,0,0,0,0,0,0,2017-07-23
+1587,404,404,404,15,"Highland Elementary School, San Pablo",20,221,150,120,111,2,10,2017-07-23
+1605,401,401,401,5,Caroline Davis School  San Jose,20,181,155,120,120,6,4,2017-07-29
+1595,402,405,402,10,Fremont City Cricket Soccer Field,20,131,132,120,92,8,4,2017-07-29
+1596,407,407,407,5,Caroline Davis School  San Jose,20,187,130,120,112,5,9,2017-07-29
+1545,406,406,397,10,Fremont City Cricket Soccer Field,20,0,0,0,0,0,0,2017-07-29
+1620,401,401,401,15,"Highland Elementary School, San Pablo",20,186,121,120,104,4,10,2017-08-05
+1610,408,408,397,5,Caroline Davis School  San Jose,20,105,107,120,87,8,4,2017-08-05
+1612,398,398,407,5,Caroline Davis School  San Jose,20,104,108,119,104,10,8,2017-08-05
+1546,404,404,404,15,"Highland Elementary School, San Pablo",20,0,0,0,0,0,0,2017-08-05
+1626,400,400,0,10,Fremont City Cricket Soccer Field,20,180,16,120,7,6,1,2017-08-12
+1701,397,397,397,10,Fremont City Cricket Soccer Field,20,175,87,120,97,6,10,2017-09-17
+1547,406,406,404,10,Fremont City Cricket Soccer Field,20,0,0,0,0,0,0,2017-08-12
+1634,401,401,401,4,"Northgate Park, Fremont",1,0,0,0,0,0,0,2017-08-13
+1642,405,405,405,5,Caroline Davis School  San Jose,20,148,119,120,120,8,8,2017-08-19
+1652,400,403,400,14,Kathryn Hughes School Santa Clara,20,121,122,120,111,8,6,2017-08-26
+1669,402,402,401,4,"Northgate Park, Fremont",20,144,145,120,89,9,2,2017-08-27
+1656,404,404,404,15,"Highland Elementary School, San Pablo",20,207,127,120,106,7,10,2017-08-27
+1676,399,402,402,10,Fremont City Cricket Soccer Field,20,176,135,120,120,7,7,2017-09-09
+1548,406,406,398,10,Fremont City Cricket Soccer Field,20,0,0,0,0,0,0,2017-09-16
+1688,399,400,400,14,Kathryn Hughes School Santa Clara,20,219,112,120,120,6,8,2017-09-16
+1730,400,407,400,5,Caroline Davis School  San Jose,20,66,69,86,75,10,4,2017-10-07
+1732,397,402,397,5,Caroline Davis School  San Jose,20,105,109,116,98,10,6,2017-10-07
+1738,397,400,397,5,Caroline Davis School  San Jose,20,129,130,120,107,10,5,2017-10-14
+1443,406,406,407,11,"Rancho Milpitas School, Milpitas, CA",20,58,59,86,78,10,6,2017-04-15
+1462,379,379,379,16,"Sierra Bicentennial Park, Clovis",45,191,144,270,194,8,10,2017-05-06
+1521,415,415,415,2,"Sea Breeze Park, Union City",20,185,130,120,120,5,8,2017-06-11
+1520,418,418,418,1,Wilson Field Santa Clara,20,171,151,120,120,2,7,2017-06-11
+1518,425,425,425,6,"Piper Park, Larkspur, CA",20,201,68,120,110,4,10,2017-06-11
+1515,420,426,426,1,Wilson Field Santa Clara,20,155,140,120,120,4,9,2017-06-11
+1517,423,419,419,4,"Northgate Park, Fremont",20,168,114,120,100,5,10,2017-06-11
+1523,415,415,409,4,"Northgate Park, Fremont",20,168,174,120,105,8,5,2017-06-17
+1530,416,416,416,6,"Piper Park, Larkspur, CA",20,186,88,120,91,5,10,2017-06-18
+1528,410,410,410,5,Caroline Davis School  San Jose,20,226,173,120,47,1,8,2017-06-18
+1529,417,417,412,2,"Sea Breeze Park, Union City",20,137,138,120,113,6,9,2017-06-18
+1525,422,424,422,16,"Sierra Bicentennial Park, Clovis",20,107,110,120,117,7,8,2017-06-18
+1527,426,426,426,1,Wilson Field Santa Clara,20,180,168,120,120,4,9,2017-06-18
+1526,425,425,429,6,"Piper Park, Larkspur, CA",20,209,210,120,118,4,5,2017-06-18
+1532,409,409,412,2,"Sea Breeze Park, Union City",20,124,126,120,112,9,5,2017-06-24
+1535,410,410,410,6,"Piper Park, Larkspur, CA",20,203,139,120,120,6,8,2017-06-25
+1533,419,419,419,1,Wilson Field Santa Clara,20,124,94,117,105,10,10,2017-06-24
+1534,429,429,429,1,Wilson Field Santa Clara,20,166,91,120,109,5,10,2017-06-25
+1728,419,429,429,1,Wilson Field Santa Clara,20,156,65,120,93,7,10,2017-09-16
+1737,391,391,0,7,"Plasencia Fields, Tracy, CA",30,195,195,180,180,2,8,2017-10-08
+1718,402,401,402,10,Fremont City Cricket Soccer Field,20,136,137,120,117,7,5,2017-09-30
+1731,434,434,434,10,Fremont City Cricket Soccer Field,40,0,0,0,0,0,0,2017-10-07
+1733,433,433,431,10,Fremont City Cricket Soccer Field,45,180,183,270,168,8,3,2017-10-08
+1729,374,374,374,12,"Beckman Park, Lodi",40,172,78,220,116,10,6,2017-10-07
+1734,375,375,375,2,"Sea Breeze Park, Union City",45,158,136,252,243,10,10,2017-10-08
+1739,433,433,430,10,Fremont City Cricket Soccer Field,40,142,145,232,142,10,3,2017-10-15
+1741,431,431,431,2,"Sea Breeze Park, Union City",40,171,101,233,182,10,10,2017-10-15
+1742,375,375,370,1,Wilson Field Santa Clara,45,110,111,215,243,10,4,2017-10-15
+1751,370,372,370,5,Caroline Davis School  San Jose,40,131,132,209,174,10,3,2017-10-29
+1747,431,431,431,2,"Sea Breeze Park, Union City",40,139,102,226,161,10,10,2017-10-22
+1746,434,435,435,10,Fremont City Cricket Soccer Field,40,234,223,238,240,10,8,2017-10-22
+1748,433,433,432,3,Bracher Elementary Santa Clara,40,129,131,201,160,10,4,2017-10-22
+1749,410,410,410,5,Caroline Davis School  San Jose,20,148,120,120,120,9,6,2017-10-22
+1752,438,449,449,2,"Sea Breeze Park, Union City",20,170,70,120,120,3,9,2017-11-18
+1777,441,443,443,10,Fremont City Cricket Soccer Field,20,152,145,120,120,5,7,2017-12-09
+1757,451,451,457,11,"Rancho Milpitas School, Milpitas, CA",20,154,155,120,106,8,1,2017-11-18
+1756,446,446,452,1,Wilson Field Santa Clara,20,84,86,120,99,9,2,2017-11-18
+1755,447,447,459,15,"Highland Elementary School, San Pablo",20,106,109,114,75,10,2,2017-11-18
+1761,444,444,444,5,Caroline Davis School  San Jose,20,154,52,120,120,5,8,2017-11-19
+1758,454,442,454,3,Bracher Elementary Santa Clara,20,110,111,120,80,6,4,2017-11-19
+1762,439,439,439,3,Bracher Elementary Santa Clara,20,224,60,120,83,5,10,2017-11-19
+1763,460,460,460,15,"Highland Elementary School, San Pablo",20,0,0,0,0,0,0,2017-11-19
+1759,456,453,456,14,Kathryn Hughes School Santa Clara,20,150,151,117,113,10,3,2017-11-19
+1760,440,445,445,2,"Sea Breeze Park, Union City",20,166,125,120,120,6,7,2017-11-19
+1766,459,449,449,2,"Sea Breeze Park, Union City",20,178,177,120,118,4,10,2017-12-02
+1780,438,438,438,11,"Rancho Milpitas School, Milpitas, CA",20,201,129,120,108,2,10,2017-12-09
+1765,458,458,447,11,"Rancho Milpitas School, Milpitas, CA",20,131,133,120,112,8,9,2017-12-02
+1764,443,443,452,1,Wilson Field Santa Clara,20,60,61,120,75,9,7,2017-12-02
+1767,446,446,446,1,Wilson Field Santa Clara,20,155,66,120,120,3,9,2017-12-02
+1770,457,457,441,14,Kathryn Hughes School Santa Clara,20,115,116,120,77,8,5,2017-12-02
+1774,455,462,455,5,Caroline Davis School  San Jose,20,91,92,120,109,5,4,2017-12-03
+1772,444,460,460,15,"Highland Elementary School, San Pablo",20,231,132,120,95,7,10,2017-12-03
+1771,453,453,456,1,Wilson Field Santa Clara,20,111,112,120,72,8,1,2017-12-03
+1776,445,445,439,1,Wilson Field Santa Clara,20,122,124,120,82,7,4,2017-12-03
+1775,440,440,442,4,"Northgate Park, Fremont",20,130,131,120,116,8,8,2017-12-03
+1773,454,454,454,3,Bracher Elementary Santa Clara,20,154,108,120,120,5,6,2017-12-03
+1781,460,460,462,5,Caroline Davis School  San Jose,20,154,155,120,119,6,4,2017-12-09
+1778,452,452,452,2,"Sea Breeze Park, Union City",20,157,95,120,120,7,8,2017-12-09
+1782,454,454,454,2,"Sea Breeze Park, Union City",20,145,103,120,120,4,8,2017-12-09
+1754,441,443,441,10,Fremont City Cricket Soccer Field,20,157,158,120,118,10,7,2017-11-18
+1784,447,447,449,10,Fremont City Cricket Soccer Field,20,116,118,120,86,9,4,2017-12-09
+1783,461,445,445,1,Wilson Field Santa Clara,20,178,88,120,113,5,9,2017-12-09
+1779,459,459,459,15,"Highland Elementary School, San Pablo",20,201,190,120,120,7,7,2017-12-09
+1769,438,438,450,2,"Sea Breeze Park, Union City",20,118,121,120,105,9,5,2017-12-02
+1802,458,458,458,15,"Highland Elementary School, San Pablo",20,207,138,120,120,8,9,2018-01-06
+1788,452,452,457,2,"Sea Breeze Park, Union City",20,146,147,120,120,10,7,2017-12-16
+1785,451,443,443,10,Fremont City Cricket Soccer Field,20,165,118,120,120,9,8,2017-12-16
+1790,438,438,438,10,Fremont City Cricket Soccer Field,20,143,127,120,120,9,5,2017-12-16
+1789,441,446,441,1,Wilson Field Santa Clara,20,83,86,114,69,10,1,2017-12-16
+1811,450,450,0,2,"Sea Breeze Park, Union City",0,0,0,0,0,0,0,2018-01-06
+1786,453,453,460,14,Kathryn Hughes School Santa Clara,20,132,135,118,108,10,6,2017-12-16
+1793,456,456,456,5,Caroline Davis School  San Jose,20,201,55,120,104,8,9,2017-12-17
+1791,445,445,445,3,Bracher Elementary Santa Clara,20,236,119,120,99,2,10,2017-12-17
+1795,439,439,439,3,Bracher Elementary Santa Clara,20,273,170,120,120,3,5,2017-12-17
+1792,440,442,442,2,"Sea Breeze Park, Union City",20,155,129,120,120,3,8,2017-12-17
+1794,444,444,455,11,"Rancho Milpitas School, Milpitas, CA",20,164,165,120,119,6,7,2017-12-17
+1797,450,450,459,15,"Highland Elementary School, San Pablo",20,185,188,122,112,9,8,2017-12-16
+1800,452,452,452,2,"Sea Breeze Park, Union City",20,235,66,122,120,2,3,2018-01-06
+1799,438,438,438,10,Fremont City Cricket Soccer Field,20,152,99,120,109,8,10,2018-01-06
+1803,457,443,443,10,Fremont City Cricket Soccer Field,20,176,77,120,99,5,10,2018-01-06
+1801,446,446,441,1,Wilson Field Santa Clara,20,64,68,97,61,10,4,2018-01-06
+1796,458,458,449,2,"Sea Breeze Park, Union City",20,182,186,120,108,4,3,2017-12-17
+1846,455,453,453,14,Kathryn Hughes School Santa Clara,20,174,121,120,117,4,10,2018-01-28
+1809,444,444,460,10,Fremont City Cricket Soccer Field,20,143,149,120,109,7,4,2018-01-07
+1808,445,454,0,1,Wilson Field Santa Clara,20,134,134,120,120,8,9,2018-01-07
+1807,442,461,442,4,"Northgate Park, Fremont",20,87,89,113,78,10,6,2018-01-07
+1805,439,439,439,2,"Sea Breeze Park, Union City",20,138,106,120,102,6,10,2018-01-07
+1823,450,450,450,2,"Sea Breeze Park, Union City",20,171,164,120,117,7,10,2018-01-14
+1821,457,446,446,1,Wilson Field Santa Clara,20,146,76,120,103,2,10,2018-01-14
+1870,459,459,449,15,"Highland Elementary School, San Pablo",20,210,211,120,110,6,3,2018-02-17
+1824,445,445,445,1,Wilson Field Santa Clara,20,166,112,120,120,5,9,2018-01-14
+1822,454,439,439,10,Fremont City Cricket Soccer Field,20,174,161,120,120,5,7,2018-01-14
+1825,444,444,456,10,Fremont City Cricket Soccer Field,20,135,136,116,100,10,4,2018-01-14
+1826,451,441,441,2,"Sea Breeze Park, Union City",20,158,77,120,119,3,10,2018-01-20
+1829,457,457,457,2,"Sea Breeze Park, Union City",20,135,128,120,118,4,10,2018-01-20
+1827,447,447,450,10,Fremont City Cricket Soccer Field,20,165,166,120,105,4,6,2018-01-20
+1828,438,438,459,11,"Rancho Milpitas School, Milpitas, CA",20,125,127,120,115,7,7,2018-01-20
+1830,455,444,455,10,Fremont City Cricket Soccer Field,20,113,117,120,105,9,4,2018-01-20
+1832,453,453,453,5,Caroline Davis School  San Jose,20,109,76,120,116,9,10,2018-01-21
+1835,440,440,440,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2018-01-21
+1833,452,452,446,1,Wilson Field Santa Clara,20,142,143,120,119,7,8,2018-01-21
+1831,456,456,456,10,Fremont City Cricket Soccer Field,20,180,144,120,120,6,8,2018-01-21
+1834,439,439,439,10,Fremont City Cricket Soccer Field,20,181,167,120,120,5,7,2018-01-21
+1836,449,449,449,2,"Sea Breeze Park, Union City",20,158,154,119,119,7,9,2018-01-27
+1838,441,441,441,2,"Sea Breeze Park, Union City",20,188,126,120,120,2,9,2018-01-27
+1837,452,452,452,10,Fremont City Cricket Soccer Field,20,176,124,120,118,8,10,2018-01-27
+1840,459,459,459,10,Fremont City Cricket Soccer Field,20,167,98,120,120,7,9,2018-01-27
+1839,458,458,458,15,"Highland Elementary School, San Pablo",20,141,103,120,120,8,7,2018-01-27
+1842,444,444,444,11,"Rancho Milpitas School, Milpitas, CA",20,165,111,120,120,6,7,2018-01-28
+1845,445,445,445,1,Wilson Field Santa Clara,20,177,92,120,113,5,10,2018-01-28
+1844,442,442,439,4,"Northgate Park, Fremont",20,124,125,120,111,7,6,2018-01-28
+1843,454,454,454,3,Bracher Elementary Santa Clara,20,207,94,120,113,7,10,2018-01-28
+1841,460,456,460,15,"Highland Elementary School, San Pablo",20,166,169,120,115,7,7,2018-01-28
+1806,455,455,453,10,Fremont City Cricket Soccer Field,20,97,99,118,95,10,5,2018-01-07
+1848,446,446,446,2,"Sea Breeze Park, Union City",20,120,81,119,100,10,10,2018-02-03
+1851,450,450,449,2,"Sea Breeze Park, Union City",20,113,114,120,118,9,8,2018-02-03
+1847,451,451,443,11,"Rancho Milpitas School, Milpitas, CA",20,143,144,120,91,8,2,2018-02-03
+1852,441,441,452,11,"Rancho Milpitas School, Milpitas, CA",20,136,140,117,111,10,4,2018-02-03
+1850,447,447,458,15,"Highland Elementary School, San Pablo",20,126,127,106,86,10,2,2018-02-03
+1849,453,453,444,10,Fremont City Cricket Soccer Field,20,122,123,120,117,8,5,2018-02-03
+1853,455,460,455,10,Fremont City Cricket Soccer Field,20,101,105,101,102,10,3,2018-02-03
+1856,454,454,454,4,"Northgate Park, Fremont",20,151,140,120,120,3,7,2018-02-04
+1854,456,456,456,10,Fremont City Cricket Soccer Field,20,189,102,120,120,5,8,2018-02-04
+1857,438,438,438,10,Fremont City Cricket Soccer Field,20,137,124,120,119,9,10,2018-02-04
+1855,440,440,440,3,Bracher Elementary Santa Clara,20,134,98,120,108,9,9,2018-02-04
+1861,457,457,451,2,"Sea Breeze Park, Union City",20,115,120,120,105,7,3,2018-02-10
+1859,449,449,449,10,Fremont City Cricket Soccer Field,20,205,134,120,120,6,8,2018-02-10
+1862,443,443,446,1,Wilson Field Santa Clara,18,181,182,108,108,7,4,2018-02-10
+1860,450,450,450,15,"Highland Elementary School, San Pablo",20,264,233,120,120,3,4,2018-02-10
+1858,438,438,438,15,"Highland Elementary School, San Pablo",20,155,113,120,86,6,10,2018-02-10
+1863,455,462,455,10,Fremont City Cricket Soccer Field,20,82,85,120,104,8,1,2018-02-11
+1867,456,456,444,10,Fremont City Cricket Soccer Field,20,160,161,120,117,9,2,2018-02-11
+1866,445,445,445,1,Wilson Field Santa Clara,20,139,116,120,120,8,8,2018-02-11
+1865,454,454,439,3,Bracher Elementary Santa Clara,20,85,86,105,79,9,3,2018-02-11
+1864,460,453,460,14,Kathryn Hughes School Santa Clara,20,155,157,120,106,9,6,2018-02-11
+1871,457,457,452,2,"Sea Breeze Park, Union City",20,80,82,120,50,9,2,2018-02-17
+1869,443,443,446,10,Fremont City Cricket Soccer Field,20,157,161,120,99,8,1,2018-02-17
+1872,455,456,456,10,Fremont City Cricket Soccer Field,20,202,139,120,120,2,8,2018-02-18
+1874,445,445,442,1,Wilson Field Santa Clara,20,121,124,120,87,7,2,2018-02-18
+1875,440,440,439,10,Fremont City Cricket Soccer Field,20,131,132,120,69,5,1,2018-02-18
+1873,462,462,453,14,Kathryn Hughes School Santa Clara,20,105,108,120,89,8,3,2018-02-18
+1878,450,450,450,2,"Sea Breeze Park, Union City",20,192,168,120,120,6,8,2018-02-24
+1881,446,446,446,2,"Sea Breeze Park, Union City",20,179,130,120,109,5,9,2018-02-24
+1877,438,438,449,11,"Rancho Milpitas School, Milpitas, CA",20,126,129,120,89,6,6,2018-02-24
+1879,441,457,441,11,"Rancho Milpitas School, Milpitas, CA",20,92,93,120,55,10,3,2018-02-24
+1880,458,458,459,15,"Highland Elementary School, San Pablo",20,177,180,120,109,4,6,2018-02-24
+1886,454,454,454,2,"Sea Breeze Park, Union City",20,162,138,120,121,9,7,2018-02-25
+1885,442,442,442,4,"Northgate Park, Fremont",20,235,111,120,120,4,6,2018-02-25
+1883,439,439,445,10,Fremont City Cricket Soccer Field,20,157,159,120,110,7,2,2018-02-25
+1887,456,456,456,10,Fremont City Cricket Soccer Field,20,207,178,120,120,6,6,2018-02-25
+1884,460,460,460,15,"Highland Elementary School, San Pablo",20,226,110,120,120,6,8,2018-02-25
+1882,444,453,453,14,Kathryn Hughes School Santa Clara,20,207,119,120,115,3,9,2018-02-25
+1890,449,449,449,10,Fremont City Cricket Soccer Field,20,200,190,120,120,5,7,2018-03-10
+1891,459,459,452,10,Fremont City Cricket Soccer Field,20,122,123,120,108,9,2,2018-03-10
+1892,460,460,439,1,Wilson Field Santa Clara,20,101,102,120,100,7,3,2018-03-11
+1893,445,445,445,1,Wilson Field Santa Clara,20,142,59,120,87,5,10,2018-03-11
+1894,449,449,449,10,Fremont City Cricket Soccer Field,20,151,144,120,113,9,10,2018-03-18
+1895,439,439,439,10,Fremont City Cricket Soccer Field,20,154,112,120,98,7,10,2018-03-18
+1896,439,439,449,10,Fremont City Cricket Soccer Field,20,162,163,120,113,7,4,2018-03-25
+1798,463,463,464,3,Bracher Elementary Santa Clara,25,201,260,144,150,6,6,2017-12-31
+1813,465,465,466,10,Fremont City Cricket Soccer Field,10,91,95,60,53,7,2,2018-01-13
+1812,470,470,469,2,"Sea Breeze Park, Union City",10,95,96,60,51,4,4,2018-01-13
+1815,468,468,468,10,Fremont City Cricket Soccer Field,10,104,92,60,60,6,6,2018-01-13
+1814,471,471,472,2,"Sea Breeze Park, Union City",10,38,39,60,30,5,2,2018-01-13
+1817,465,465,468,10,Fremont City Cricket Soccer Field,10,67,71,60,43,7,4,2018-01-13
+1816,469,472,472,2,"Sea Breeze Park, Union City",10,89,67,60,60,7,6,2018-01-13
+1819,467,467,466,10,Fremont City Cricket Soccer Field,10,79,80,60,55,8,5,2018-01-13
+1818,470,470,470,2,"Sea Breeze Park, Union City",10,106,60,60,60,7,4,2018-01-13
+1820,468,468,468,10,Fremont City Cricket Soccer Field,10,111,96,60,60,4,3,2018-01-13
+1889,452,441,452,2,"Sea Breeze Park, Union City",20,84,88,110,88,10,4,2018-03-04
+1908,474,484,474,19,Morgan Hill Field-1,8,52,53,48,44,8,2,2018-04-08
+1913,480,476,476,19,Morgan Hill Field-1,8,72,47,48,39,4,10,2018-04-08
+1916,480,480,480,19,Morgan Hill Field-1,8,72,54,48,48,6,6,2018-04-08
+1921,476,476,476,19,Morgan Hill Field-1,8,121,88,48,48,1,3,2018-04-08
+1920,486,485,486,20,Morgan Hill Field-2,8,64,65,48,43,5,4,2018-04-08
+1912,482,475,475,20,Morgan Hill Field-2,8,92,88,48,48,3,4,2018-04-08
+1907,475,485,475,20,Morgan Hill Field-2,8,58,59,48,35,5,4,2018-04-08
+1923,486,482,482,20,Morgan Hill Field-2,8,81,76,48,48,5,9,2018-04-08
+1919,478,478,481,3,Bracher Elementary Santa Clara,8,61,62,48,46,3,2,2018-04-08
+1909,481,479,479,3,Bracher Elementary Santa Clara,8,61,46,48,48,6,3,2018-04-08
+1918,477,477,477,27,George ,8,75,74,48,48,3,4,2018-04-08
+1906,473,477,473,27,George ,8,78,79,48,48,1,5,2018-04-08
+1911,483,483,483,27,George ,8,62,58,48,48,5,6,2018-04-08
+1924,476,476,475,19,Morgan Hill Field-1,10,100,101,60,47,7,3,2018-04-08
+1925,483,483,479,20,Morgan Hill Field-2,8,77,79,48,39,5,1,2018-04-08
+1926,479,475,475,19,Morgan Hill Field-1,10,113,74,60,57,3,7,2018-04-08
+1897,464,463,464,3,Bracher Elementary Santa Clara,10,89,128,60,60,4,3,2018-03-25
+1898,464,464,464,3,Bracher Elementary Santa Clara,10,119,49,60,56,2,8,2018-03-25
+1900,496,496,494,19,Morgan Hill Field-1,45,151,155,270,150,8,2,2018-03-31
+1899,500,500,500,20,Morgan Hill Field-2,45,365,126,270,176,4,9,2018-03-31
+1905,497,495,495,20,Morgan Hill Field-2,45,183,146,270,268,8,9,2018-04-01
+1904,494,500,494,19,Morgan Hill Field-1,45,79,83,196,98,10,0,2018-04-01
+1910,495,495,498,2,"Sea Breeze Park, Union City",45,89,90,242,209,10,8,2018-04-08
+1902,511,511,509,25,"Delaine Eastin Elementary, Union City",30,98,99,180,162,9,9,2018-03-31
+1901,510,512,510,21,Windmere Ranch Middle School,30,90,91,180,119,7,3,2018-03-31
+1903,550,550,0,2,"Sea Breeze Park, Union City",40,191,76,219,162,10,9,2018-04-01
+1915,552,552,552,11,"Rancho Milpitas School, Milpitas, CA",40,225,159,240,222,2,10,2018-04-08
+1914,502,507,502,22,Cupertino Library Field,40,129,132,208,166,10,4,2018-04-08
+1917,511,510,510,26,Thornton Junior High School,30,151,82,180,141,5,10,2018-04-08
+1930,519,522,519,20,Morgan Hill Field-2,50,208,209,288,292,10,8,2018-04-14
+1939,514,514,514,3,Bracher Elementary Santa Clara,50,111,75,230,169,10,10,2018-04-15
+1937,520,520,520,19,Morgan Hill Field-1,50,273,219,300,255,6,10,2018-04-15
+1935,516,516,518,1,Wilson Field Santa Clara,50,63,64,134,117,10,4,2018-04-15
+1947,521,521,518,12,"Beckman Park, Lodi",50,121,125,239,201,10,8,2018-04-21
+1957,516,515,515,8,"Patwin Elementary School, Davis, CA",50,243,68,300,120,8,10,2018-04-22
+1953,517,517,522,2,"Sea Breeze Park, Union City",50,152,153,297,160,10,4,2018-04-22
+1965,521,521,521,12,"Beckman Park, Lodi",50,221,208,300,283,6,10,2018-04-28
+1970,516,516,520,20,Morgan Hill Field-2,50,159,163,259,234,10,8,2018-04-29
+1975,515,515,515,8,"Patwin Elementary School, Davis, CA",50,168,98,276,232,10,10,2018-04-29
+1983,519,519,519,19,Morgan Hill Field-1,50,250,145,296,251,10,10,2018-05-05
+1990,522,522,518,1,Wilson Field Santa Clara,50,211,214,295,260,10,5,2018-05-06
+1994,520,520,520,19,Morgan Hill Field-1,50,181,140,255,255,10,10,2018-05-06
+1997,521,521,521,6,"Piper Park, Larkspur, CA",45,172,152,228,249,10,10,2018-05-06
+2010,515,515,515,1,Wilson Field Santa Clara,50,136,127,267,254,10,10,2018-05-13
+2014,519,519,514,3,Bracher Elementary Santa Clara,50,115,116,228,203,10,4,2018-05-13
+2013,521,520,520,20,Morgan Hill Field-2,50,195,147,300,206,9,10,2018-05-13
+2008,516,516,522,2,"Sea Breeze Park, Union City",50,96,97,230,133,10,6,2018-05-13
+2032,514,514,518,3,Bracher Elementary Santa Clara,50,266,267,300,283,9,4,2018-05-20
+2035,517,517,519,6,"Piper Park, Larkspur, CA",45,169,170,267,259,10,6,2018-05-20
+2028,522,520,520,19,Morgan Hill Field-1,50,357,91,300,118,8,10,2018-05-20
+2041,521,521,522,12,"Beckman Park, Lodi",50,142,146,205,265,10,6,2018-06-02
+2046,518,518,518,19,Morgan Hill Field-1,50,252,206,300,300,9,8,2018-06-03
+2048,517,516,517,16,"Sierra Bicentennial Park, Clovis",50,124,128,281,192,10,6,2018-06-03
+2054,516,516,521,12,"Beckman Park, Lodi",50,66,68,177,136,10,6,2018-06-09
+2071,518,518,518,6,"Piper Park, Larkspur, CA",45,203,160,270,233,8,10,2018-06-10
+2064,520,520,519,11,"Rancho Milpitas School, Milpitas, CA",50,128,131,213,157,10,4,2018-06-10
+2085,520,520,520,3,Bracher Elementary Santa Clara,50,245,231,298,294,10,10,2018-06-17
+2082,516,516,519,16,"Sierra Bicentennial Park, Clovis",50,228,230,300,209,7,2,2018-06-17
+2090,515,515,517,6,"Piper Park, Larkspur, CA",45,125,129,234,125,10,1,2018-06-17
+2094,521,521,520,12,"Beckman Park, Lodi",50,106,107,255,226,10,4,2018-06-23
+2103,515,515,515,8,"Patwin Elementary School, Davis, CA",45,183,150,269,239,10,10,2018-06-24
+2099,514,514,514,3,Bracher Elementary Santa Clara,50,231,212,283,300,10,9,2018-06-24
+2107,517,521,521,12,"Beckman Park, Lodi",50,128,90,262,211,10,10,2018-06-30
+2110,519,519,519,8,"Patwin Elementary School, Davis, CA",50,156,77,249,187,10,10,2018-07-01
+2111,514,516,516,16,"Sierra Bicentennial Park, Clovis",50,211,172,298,280,10,9,2018-07-01
+2118,519,519,0,2,"Sea Breeze Park, Union City",50,306,89,300,102,5,4,2018-07-07
+2130,518,518,514,1,Wilson Field Santa Clara,50,73,75,156,98,10,2,2018-07-08
+2125,515,515,521,8,"Patwin Elementary School, Davis, CA",50,117,121,208,157,10,7,2018-07-08
+2131,516,516,517,6,"Piper Park, Larkspur, CA",45,48,49,114,66,10,3,2018-07-08
+2135,521,515,515,12,"Beckman Park, Lodi",50,170,132,300,262,9,10,2018-07-14
+2134,522,518,522,2,"Sea Breeze Park, Union City",50,188,191,288,295,10,7,2018-07-14
+2143,517,517,514,3,Bracher Elementary Santa Clara,50,167,168,291,263,10,5,2018-07-15
+2140,520,516,516,16,"Sierra Bicentennial Park, Clovis",50,196,111,292,196,10,10,2018-07-15
+2148,522,522,520,2,"Sea Breeze Park, Union City",50,188,190,272,220,10,4,2018-07-21
+2156,518,518,518,1,Wilson Field Santa Clara,50,155,139,283,287,10,10,2018-07-22
+2154,521,521,521,3,Bracher Elementary Santa Clara,50,116,107,226,224,10,10,2018-07-22
+2159,515,515,515,19,Morgan Hill Field-1,50,228,196,295,237,10,10,2018-07-22
+2166,519,519,519,19,Morgan Hill Field-1,50,317,66,300,184,4,9,2018-07-28
+2165,514,514,521,12,"Beckman Park, Lodi",50,147,151,300,289,9,6,2018-07-28
+2175,516,516,516,16,"Sierra Bicentennial Park, Clovis",50,157,151,221,263,10,10,2018-07-29
+2184,521,521,521,19,Morgan Hill Field-1,50,289,242,300,281,7,10,2018-08-04
+2192,518,520,520,1,Wilson Field Santa Clara,50,125,107,252,233,10,10,2018-08-05
+2194,522,522,522,8,"Patwin Elementary School, Davis, CA",50,89,34,185,125,10,10,2018-08-05
+2199,521,521,521,2,"Sea Breeze Park, Union City",50,189,122,288,181,10,10,2018-08-11
+2210,520,520,515,8,"Patwin Elementary School, Davis, CA",50,91,96,234,153,10,5,2018-08-12
+2211,518,518,518,16,"Sierra Bicentennial Park, Clovis",50,183,66,300,146,9,10,2018-08-12
+2213,514,514,517,6,"Piper Park, Larkspur, CA",45,124,125,259,148,10,2,2018-08-12
+2218,520,519,519,3,Bracher Elementary Santa Clara,50,154,144,274,290,10,10,2018-08-18
+2221,514,522,522,3,Bracher Elementary Santa Clara,50,253,158,294,270,10,10,2018-08-19
+2226,515,515,515,16,"Sierra Bicentennial Park, Clovis",50,264,152,300,254,10,10,2018-08-19
+2234,519,518,519,1,Wilson Field Santa Clara,50,47,49,139,98,10,5,2018-08-25
+2232,521,516,521,16,"Sierra Bicentennial Park, Clovis",50,71,72,177,185,10,9,2018-08-25
+2240,520,515,520,20,Morgan Hill Field-2,50,242,243,298,283,10,6,2018-08-26
+2239,522,522,522,2,"Sea Breeze Park, Union City",50,213,132,295,195,10,10,2018-08-26
+2265,522,522,522,6,"Piper Park, Larkspur, CA",45,104,91,171,164,10,10,2018-09-09
+2255,518,518,519,19,Morgan Hill Field-1,50,193,197,300,152,9,2,2018-09-09
+2260,514,514,514,8,"Patwin Elementary School, Davis, CA",50,190,122,300,164,9,10,2018-09-09
+2267,514,514,519,1,Wilson Field Santa Clara,50,80,82,252,86,10,2,2018-09-15
+2268,515,522,515,2,"Sea Breeze Park, Union City",45,214,216,270,234,8,4,2018-09-15
+2279,521,521,518,1,Wilson Field Santa Clara,40,116,117,145,207,10,5,2018-09-16
+2281,520,520,520,6,"Piper Park, Larkspur, CA",45,419,101,270,153,5,10,2018-09-16
+1929,529,529,525,11,"Rancho Milpitas School, Milpitas, CA",45,153,154,237,240,10,7,2018-04-14
+1931,523,523,523,7,"Plasencia Fields, Tracy, CA",45,189,105,247,190,10,10,2018-04-14
+1928,524,526,526,19,Morgan Hill Field-1,45,286,195,270,262,4,10,2018-04-14
+1946,525,525,525,20,Morgan Hill Field-2,45,279,228,270,270,9,7,2018-04-21
+1948,531,531,531,11,"Rancho Milpitas School, Milpitas, CA",45,195,153,272,199,9,10,2018-04-21
+1952,523,527,523,1,Wilson Field Santa Clara,45,105,107,202,172,10,6,2018-04-22
+1964,524,524,524,19,Morgan Hill Field-1,45,234,207,270,250,9,10,2018-04-28
+1963,531,531,527,10,Fremont City Cricket Soccer Field,45,132,133,198,208,10,3,2018-04-28
+1962,529,526,526,11,"Rancho Milpitas School, Milpitas, CA",45,148,111,269,227,10,10,2018-04-28
+1971,530,530,525,2,"Sea Breeze Park, Union City",45,106,107,229,112,10,3,2018-04-29
+1981,531,531,531,11,"Rancho Milpitas School, Milpitas, CA",45,120,113,211,249,10,10,2018-05-05
+1980,528,526,526,4,"Northgate Park, Fremont",50,147,88,230,228,10,9,2018-05-05
+1993,530,530,529,11,"Rancho Milpitas School, Milpitas, CA",45,143,161,239,187,9,3,2018-05-06
+1991,527,527,524,20,Morgan Hill Field-2,45,228,229,270,263,10,8,2018-05-06
+1998,529,529,529,19,Morgan Hill Field-1,45,247,148,270,212,7,10,2018-05-12
+2003,523,523,523,7,"Plasencia Fields, Tracy, CA",45,159,101,244,230,10,10,2018-05-12
+2002,525,525,525,11,"Rancho Milpitas School, Milpitas, CA",45,264,170,270,255,9,10,2018-05-12
+2006,530,526,526,4,"Northgate Park, Fremont",45,177,86,244,185,10,10,2018-05-13
+2023,524,524,524,7,"Plasencia Fields, Tracy, CA",45,175,141,270,247,9,10,2018-05-19
+2020,525,525,526,4,"Northgate Park, Fremont",45,120,121,242,260,10,8,2018-05-19
+2018,527,527,529,11,"Rancho Milpitas School, Milpitas, CA",45,126,127,249,171,10,4,2018-05-19
+2030,531,531,531,11,"Rancho Milpitas School, Milpitas, CA",45,187,121,243,186,10,10,2018-05-20
+2037,528,528,528,4,"Northgate Park, Fremont",45,132,101,223,222,10,10,2018-06-02
+2039,524,524,525,16,"Sierra Bicentennial Park, Clovis",45,146,151,269,70,10,1,2018-06-02
+2060,529,529,529,10,Fremont City Cricket Soccer Field,45,238,162,270,270,6,9,2018-06-09
+2062,527,527,527,1,Wilson Field Santa Clara,45,200,114,264,193,10,10,2018-06-10
+2063,525,525,525,16,"Sierra Bicentennial Park, Clovis",45,283,144,270,264,7,10,2018-06-10
+2061,523,523,523,2,"Sea Breeze Park, Union City",45,285,198,270,237,4,10,2018-06-10
+2074,525,525,525,7,"Plasencia Fields, Tracy, CA",45,212,170,270,242,10,10,2018-06-16
+2080,527,527,527,1,Wilson Field Santa Clara,45,158,157,260,221,10,10,2018-06-17
+2084,528,528,528,2,"Sea Breeze Park, Union City",45,125,31,224,95,10,10,2018-06-17
+2089,531,531,524,10,Fremont City Cricket Soccer Field,45,181,182,261,262,10,8,2018-06-17
+2092,526,527,526,4,"Northgate Park, Fremont",45,89,93,207,173,10,6,2018-06-23
+2101,525,525,525,16,"Sierra Bicentennial Park, Clovis",45,163,99,231,182,10,10,2018-06-24
+2105,529,529,529,10,Fremont City Cricket Soccer Field,45,169,110,245,193,10,9,2018-06-24
+2108,523,523,526,7,"Plasencia Fields, Tracy, CA",45,133,134,211,173,10,1,2018-06-30
+2106,528,528,525,4,"Northgate Park, Fremont",45,194,195,262,247,10,9,2018-06-30
+2195,529,529,531,10,Fremont City Cricket Soccer Field,45,145,146,230,102,9,2,2018-08-05
+2112,524,524,527,1,Wilson Field Santa Clara,45,202,204,267,230,10,4,2018-07-01
+2122,529,529,529,7,"Plasencia Fields, Tracy, CA",45,118,35,181,118,10,10,2018-07-07
+2119,526,526,526,4,"Northgate Park, Fremont",45,175,63,255,173,10,10,2018-07-07
+2117,525,525,525,16,"Sierra Bicentennial Park, Clovis",45,422,68,270,91,6,10,2018-07-07
+2128,528,528,530,4,"Northgate Park, Fremont",45,156,157,270,188,10,6,2018-07-08
+2133,523,526,526,4,"Northgate Park, Fremont",45,155,126,250,222,10,10,2018-07-14
+2139,531,531,529,10,Fremont City Cricket Soccer Field,45,178,182,270,182,7,6,2018-07-14
+2142,527,527,527,1,Wilson Field Santa Clara,45,190,133,270,244,9,10,2018-07-15
+2150,524,524,524,19,Morgan Hill Field-1,45,213,166,270,205,10,10,2018-07-21
+2149,528,528,528,4,"Northgate Park, Fremont",45,184,71,234,150,10,10,2018-07-21
+2155,530,529,529,2,"Sea Breeze Park, Union City",45,155,79,238,189,10,10,2018-07-22
+2163,528,528,528,4,"Northgate Park, Fremont",45,169,143,240,228,10,10,2018-07-28
+2177,525,525,527,1,Wilson Field Santa Clara,45,144,145,225,236,10,7,2018-07-29
+2171,526,526,526,4,"Northgate Park, Fremont",45,254,132,270,197,6,10,2018-07-29
+2182,524,524,524,4,"Northgate Park, Fremont",45,173,129,270,209,9,10,2018-08-04
+2181,525,526,526,16,"Sierra Bicentennial Park, Clovis",45,226,213,270,264,8,10,2018-08-04
+2183,530,530,531,2,"Sea Breeze Park, Union City",45,143,144,226,126,10,4,2018-08-04
+2200,528,528,528,4,"Northgate Park, Fremont",45,171,94,256,154,10,10,2018-08-11
+2201,525,525,525,16,"Sierra Bicentennial Park, Clovis",45,163,157,229,266,10,10,2018-08-11
+2202,523,523,523,10,Fremont City Cricket Soccer Field,45,192,93,270,223,9,10,2018-08-11
+2248,524,524,524,19,Morgan Hill Field-1,0,0,0,0,0,0,0,2018-08-26
+2216,527,527,527,1,Wilson Field Santa Clara,45,249,146,270,225,8,10,2018-08-18
+2299,528,526,526,4,"Northgate Park, Fremont",45,237,167,223,151,8,6,2018-09-29
+2215,523,523,525,16,"Sierra Bicentennial Park, Clovis",45,63,64,164,55,10,4,2018-08-18
+2231,531,531,531,10,Fremont City Cricket Soccer Field,45,172,160,267,252,10,10,2018-08-25
+2207,524,524,530,2,"Sea Breeze Park, Union City",45,212,213,270,250,9,7,2018-08-12
+2246,523,523,523,7,"Plasencia Fields, Tracy, CA",45,193,90,269,168,10,10,2018-08-26
+2253,527,527,528,1,Wilson Field Santa Clara,45,227,228,270,267,7,9,2018-09-08
+2251,523,523,523,7,"Plasencia Fields, Tracy, CA",45,0,0,0,0,0,0,2018-09-08
+2259,525,525,525,16,"Sierra Bicentennial Park, Clovis",45,210,142,270,236,7,10,2018-09-09
+2269,528,528,524,29,MLK Jr. Middle School,45,131,132,243,177,10,7,2018-09-15
+2274,526,526,526,10,Fremont City Cricket Soccer Field,45,263,199,270,270,6,9,2018-09-15
+2283,530,530,527,2,"Sea Breeze Park, Union City",45,0,0,0,0,0,0,2018-09-16
+2296,530,530,0,2,"Sea Breeze Park, Union City",0,0,0,0,0,0,0,2018-09-23
+1932,537,537,532,5,Caroline Davis School  San Jose,45,72,73,204,101,10,3,2018-04-14
+1941,539,539,539,5,Caroline Davis School  San Jose,45,124,82,212,205,10,10,2018-04-15
+1936,538,538,540,20,Morgan Hill Field-2,45,213,214,269,211,10,7,2018-04-15
+1933,534,534,535,2,"Sea Breeze Park, Union City",45,60,61,177,104,10,3,2018-04-15
+1949,538,538,532,5,Caroline Davis School  San Jose,45,93,94,185,134,10,5,2018-04-21
+1959,534,534,534,5,Caroline Davis School  San Jose,45,276,81,270,243,6,10,2018-04-22
+1954,539,539,536,15,"Highland Elementary School, San Pablo",45,116,120,184,135,10,3,2018-04-22
+1956,540,540,540,19,Morgan Hill Field-1,45,255,92,270,120,8,10,2018-04-22
+1976,537,539,537,1,Wilson Field Santa Clara,45,109,110,206,254,10,9,2018-04-29
+1977,538,538,538,5,Caroline Davis School  San Jose,45,255,152,270,270,6,10,2018-04-29
+1969,536,540,540,15,"Highland Elementary School, San Pablo",45,275,127,264,177,10,10,2018-04-29
+1986,534,532,532,5,Caroline Davis School  San Jose,45,132,87,225,197,10,10,2018-05-05
+1996,533,533,537,5,Caroline Davis School  San Jose,45,100,101,195,103,10,1,2018-05-06
+1992,535,536,536,2,"Sea Breeze Park, Union City",45,227,224,270,270,9,9,2018-05-06
+2015,532,532,532,5,Caroline Davis School  San Jose,45,303,101,270,208,6,10,2018-05-13
+2011,540,540,534,19,Morgan Hill Field-1,45,78,79,161,176,10,3,2018-05-13
+2009,536,536,536,15,"Highland Elementary School, San Pablo",45,242,235,270,260,10,10,2018-05-13
+2029,535,535,535,1,Wilson Field Santa Clara,45,189,187,269,269,10,10,2018-05-20
+2031,540,532,532,20,Morgan Hill Field-2,45,211,145,270,250,9,10,2018-05-20
+2047,539,539,534,1,Wilson Field Santa Clara,45,83,86,153,117,10,4,2018-06-03
+2044,535,535,532,2,"Sea Breeze Park, Union City",45,118,119,250,233,10,6,2018-06-03
+2049,536,536,536,15,"Highland Elementary School, San Pablo",45,147,131,200,233,10,10,2018-06-03
+2055,537,537,537,16,"Sierra Bicentennial Park, Clovis",45,306,216,270,270,9,10,2018-06-09
+2058,532,532,532,5,Caroline Davis School  San Jose,45,243,224,270,261,9,10,2018-06-09
+2067,534,534,534,5,Caroline Davis School  San Jose,45,249,179,270,229,5,10,2018-06-10
+2070,533,533,540,12,"Beckman Park, Lodi",40,76,77,240,51,8,0,2018-06-10
+2076,538,538,539,6,"Piper Park, Larkspur, CA",45,174,175,233,191,10,6,2018-06-16
+2088,535,535,533,5,Caroline Davis School  San Jose,40,132,133,175,219,10,8,2018-06-17
+2104,540,540,540,6,"Piper Park, Larkspur, CA",45,153,72,267,185,10,10,2018-06-24
+2096,539,532,532,1,Wilson Field Santa Clara,45,132,65,223,135,10,10,2018-06-24
+2098,536,536,534,15,"Highland Elementary School, San Pablo",45,263,264,270,269,8,9,2018-06-24
+2115,537,537,538,6,"Piper Park, Larkspur, CA",45,184,185,267,228,10,6,2018-07-01
+2113,536,536,535,15,"Highland Elementary School, San Pablo",45,160,161,196,159,10,5,2018-07-01
+2129,539,537,537,16,"Sierra Bicentennial Park, Clovis",45,197,73,267,114,10,9,2018-07-08
+2127,540,540,540,2,"Sea Breeze Park, Union City",45,169,158,270,260,9,10,2018-07-08
+2124,536,536,532,15,"Highland Elementary School, San Pablo",45,279,280,270,268,6,8,2018-07-08
+2136,540,540,537,16,"Sierra Bicentennial Park, Clovis",45,223,224,270,201,9,4,2018-07-14
+2138,535,532,532,5,Caroline Davis School  San Jose,45,139,89,225,185,10,10,2018-07-14
+2147,534,534,534,6,"Piper Park, Larkspur, CA",45,204,193,270,270,5,9,2018-07-15
+2151,537,537,537,16,"Sierra Bicentennial Park, Clovis",45,222,48,269,113,10,10,2018-07-21
+2153,532,532,532,5,Caroline Davis School  San Jose,45,221,123,270,154,8,10,2018-07-21
+2162,538,538,538,6,"Piper Park, Larkspur, CA",45,241,181,262,232,10,10,2018-07-22
+2158,534,534,534,20,Morgan Hill Field-2,45,292,108,270,144,6,10,2018-07-22
+2167,537,532,532,16,"Sierra Bicentennial Park, Clovis",45,208,162,270,260,7,10,2018-07-28
+2176,535,535,539,2,"Sea Breeze Park, Union City",45,165,166,270,243,9,7,2018-07-29
+2179,533,538,538,6,"Piper Park, Larkspur, CA",45,234,186,265,270,10,7,2018-07-29
+2174,536,536,540,19,Morgan Hill Field-1,45,100,101,143,83,10,2,2018-07-29
+2186,533,533,533,1,Wilson Field Santa Clara,45,149,106,265,180,10,10,2018-08-04
+2193,535,535,535,2,"Sea Breeze Park, Union City",45,197,188,270,267,7,10,2018-08-05
+2191,540,534,540,9,"Ortega Park, Sunnyvale",45,97,101,231,236,10,5,2018-08-05
+2189,536,536,536,15,"Highland Elementary School, San Pablo",45,371,69,270,184,8,10,2018-08-05
+2205,540,540,540,1,Wilson Field Santa Clara,45,181,64,270,129,8,10,2018-08-12
+2208,537,537,534,9,"Ortega Park, Sunnyvale",45,79,81,221,151,10,6,2018-08-12
+2224,538,538,538,2,"Sea Breeze Park, Union City",45,164,116,270,270,8,9,2018-08-19
+2222,539,539,536,1,Wilson Field Santa Clara,45,137,141,258,126,10,0,2018-08-19
+2227,533,533,540,5,Caroline Davis School  San Jose,45,87,88,150,100,10,3,2018-08-19
+2225,534,534,534,9,"Ortega Park, Sunnyvale",45,154,144,270,265,8,10,2018-08-19
+2235,535,535,540,19,Morgan Hill Field-1,45,186,187,246,239,10,5,2018-08-25
+2238,537,537,537,16,"Sierra Bicentennial Park, Clovis",45,196,186,257,251,10,10,2018-08-26
+2243,539,539,538,1,Wilson Field Santa Clara,45,163,164,255,264,10,7,2018-08-26
+2241,533,534,534,9,"Ortega Park, Sunnyvale",45,270,81,270,179,7,10,2018-08-26
+2254,540,540,540,19,Morgan Hill Field-1,45,281,162,270,224,9,8,2018-09-08
+2256,533,533,535,2,"Sea Breeze Park, Union City",45,165,168,266,212,10,3,2018-09-09
+2264,536,536,532,5,Caroline Davis School  San Jose,45,71,72,134,74,8,1,2018-09-09
+2258,534,534,534,9,"Ortega Park, Sunnyvale",45,133,57,238,163,10,10,2018-09-09
+2273,532,532,532,6,"Piper Park, Larkspur, CA",45,225,210,270,236,8,10,2018-09-15
+2270,537,537,537,5,Caroline Davis School  San Jose,45,177,112,239,189,10,10,2018-09-15
+2275,535,535,534,9,"Ortega Park, Sunnyvale",45,119,120,265,224,10,4,2018-09-16
+2285,537,537,534,16,"Sierra Bicentennial Park, Clovis",45,84,85,157,117,10,2,2018-09-22
+2288,533,533,532,5,Caroline Davis School  San Jose,45,75,79,191,99,10,1,2018-09-22
+2293,533,536,533,5,Caroline Davis School  San Jose,45,68,70,131,77,9,1,2018-09-23
+2294,535,538,538,6,"Piper Park, Larkspur, CA",45,193,165,270,265,6,10,2018-09-23
+1940,548,548,548,7,"Plasencia Fields, Tracy, CA",45,157,129,232,193,10,10,2018-04-15
+1934,549,549,541,11,"Rancho Milpitas School, Milpitas, CA",45,190,191,270,227,9,5,2018-04-15
+1938,547,557,557,15,"Highland Elementary School, San Pablo",40,229,163,240,186,10,5,2018-04-15
+1943,548,548,548,19,Morgan Hill Field-1,45,353,194,270,270,9,5,2018-04-21
+1951,541,542,541,11,"Rancho Milpitas School, Milpitas, CA",45,149,150,267,245,9,3,2018-04-22
+1955,557,557,557,3,Bracher Elementary Santa Clara,45,147,143,214,259,10,10,2018-04-22
+1982,544,544,544,20,Morgan Hill Field-2,45,253,164,270,254,9,10,2018-05-05
+1967,549,549,544,5,Caroline Davis School  San Jose,45,187,188,270,221,7,6,2018-04-28
+1972,541,557,541,11,"Rancho Milpitas School, Milpitas, CA",45,178,179,213,265,10,7,2018-04-29
+1973,545,548,545,19,Morgan Hill Field-1,45,96,97,193,161,10,9,2018-04-29
+1974,542,543,542,3,Bracher Elementary Santa Clara,45,107,108,258,73,10,0,2018-04-29
+1979,547,547,547,15,"Highland Elementary School, San Pablo",45,220,128,225,213,10,10,2018-05-05
+1988,549,557,557,23,"Emerald Glen Cricket Ground, Dublin",45,206,82,270,202,9,10,2018-05-06
+1989,543,545,545,3,Bracher Elementary Santa Clara,45,179,89,270,270,8,8,2018-05-06
+2005,544,544,544,5,Caroline Davis School  San Jose,45,240,127,237,195,10,10,2018-05-12
+2007,547,547,541,11,"Rancho Milpitas School, Milpitas, CA",45,65,66,113,94,10,5,2018-05-13
+2012,548,548,548,7,"Plasencia Fields, Tracy, CA",45,261,152,270,270,8,7,2018-05-13
+2017,541,548,548,19,Morgan Hill Field-1,45,238,129,270,211,8,10,2018-05-19
+2026,543,543,542,2,"Sea Breeze Park, Union City",45,136,139,269,121,9,2,2018-05-20
+2027,547,547,547,15,"Highland Elementary School, San Pablo",45,303,200,270,270,9,8,2018-05-20
+2040,548,548,548,19,Morgan Hill Field-1,45,164,112,240,135,10,10,2018-06-02
+2052,547,547,544,5,Caroline Davis School  San Jose,45,196,198,270,161,9,2,2018-06-03
+2045,543,543,549,3,Bracher Elementary Santa Clara,45,156,157,270,244,9,5,2018-06-03
+2066,545,545,541,10,Fremont City Cricket Soccer Field,45,159,160,270,188,9,2,2018-06-10
+2297,557,543,557,3,Bracher Elementary Santa Clara,45,66,67,156,96,10,2,2018-09-29
+2068,549,549,549,7,"Plasencia Fields, Tracy, CA",45,253,135,270,205,5,9,2018-06-10
+2075,544,544,541,5,Caroline Davis School  San Jose,45,188,190,217,249,10,9,2018-06-16
+2087,557,557,557,7,"Plasencia Fields, Tracy, CA",45,224,130,270,167,10,10,2018-06-17
+2081,548,548,548,19,Morgan Hill Field-1,45,377,184,270,217,3,10,2018-06-17
+2086,547,547,547,23,"Emerald Glen Cricket Ground, Dublin",45,212,88,270,179,8,10,2018-06-17
+2093,547,547,544,15,"Highland Elementary School, San Pablo",45,95,96,172,45,10,3,2018-06-23
+2102,542,545,545,7,"Plasencia Fields, Tracy, CA",45,182,59,241,101,10,10,2018-06-24
+2114,545,545,547,7,"Plasencia Fields, Tracy, CA",45,109,110,200,108,10,7,2018-07-01
+2109,541,541,541,10,Fremont City Cricket Soccer Field,45,169,94,265,192,10,10,2018-07-01
+2065,557,557,557,3,Bracher Elementary Santa Clara,45,299,92,264,225,10,10,2018-06-10
+2126,548,548,557,3,Bracher Elementary Santa Clara,45,181,186,262,164,10,4,2018-07-08
+2146,557,557,557,5,Caroline Davis School  San Jose,45,281,177,270,213,8,10,2018-07-15
+2145,545,545,545,7,"Plasencia Fields, Tracy, CA",45,178,149,269,270,10,9,2018-07-15
+2141,541,542,541,2,"Sea Breeze Park, Union City",45,127,132,249,175,10,4,2018-07-15
+2144,548,548,548,15,"Highland Elementary School, San Pablo",45,181,116,218,128,10,10,2018-07-15
+2161,542,542,544,5,Caroline Davis School  San Jose,45,193,194,265,207,10,8,2018-07-22
+2160,549,549,549,23,"Emerald Glen Cricket Ground, Dublin",45,153,61,256,152,10,10,2018-07-22
+2164,542,542,544,2,"Sea Breeze Park, Union City",45,125,126,214,171,10,6,2018-07-28
+2168,543,543,543,7,"Plasencia Fields, Tracy, CA",45,140,112,249,246,10,10,2018-07-28
+2173,557,557,557,3,Bracher Elementary Santa Clara,45,264,109,255,233,10,10,2018-07-29
+2172,548,548,548,20,Morgan Hill Field-2,45,241,76,252,122,10,9,2018-07-29
+2196,545,545,545,5,Caroline Davis School  San Jose,45,198,145,260,197,10,10,2018-08-05
+2300,548,549,548,20,Morgan Hill Field-2,45,114,116,200,56,10,8,2018-09-29
+2190,543,543,541,3,Bracher Elementary Santa Clara,45,82,83,253,75,10,0,2018-08-05
+2209,547,547,547,15,"Highland Elementary School, San Pablo",45,291,148,249,171,10,10,2018-08-12
+2250,557,557,557,2,"Sea Breeze Park, Union City",45,182,130,211,207,10,9,2018-09-02
+2212,545,545,544,7,"Plasencia Fields, Tracy, CA",45,74,76,177,78,10,4,2018-08-12
+2217,548,548,544,5,Caroline Davis School  San Jose,45,170,173,248,232,10,8,2018-08-18
+2206,542,542,557,3,Bracher Elementary Santa Clara,45,151,152,258,141,10,7,2018-08-12
+2228,541,541,541,10,Fremont City Cricket Soccer Field,45,224,98,265,270,10,7,2018-08-19
+2220,545,545,549,29,MLK Jr. Middle School,45,181,184,234,239,10,7,2018-08-19
+2233,542,548,548,3,Bracher Elementary Santa Clara,45,235,87,270,141,7,10,2018-08-25
+2247,544,544,544,10,Fremont City Cricket Soccer Field,45,213,109,259,243,10,10,2018-08-26
+2242,547,547,547,3,Bracher Elementary Santa Clara,45,213,157,257,261,10,10,2018-08-26
+2252,547,547,547,2,"Sea Breeze Park, Union City",45,201,148,258,220,10,10,2018-09-08
+2261,544,544,557,29,MLK Jr. Middle School,45,124,125,216,145,10,4,2018-09-09
+2263,549,549,541,7,"Plasencia Fields, Tracy, CA",45,97,98,270,179,10,3,2018-09-09
+2257,548,543,548,3,Bracher Elementary Santa Clara,45,145,146,242,143,10,2,2018-09-09
+2280,542,542,549,5,Caroline Davis School  San Jose,45,190,192,271,173,8,1,2018-09-16
+2282,541,541,557,10,Fremont City Cricket Soccer Field,45,98,99,192,120,10,6,2018-09-16
+2278,543,543,544,3,Bracher Elementary Santa Clara,45,27,28,102,13,10,0,2018-09-16
+2277,547,547,547,2,"Sea Breeze Park, Union City",45,187,73,267,162,10,10,2018-09-16
+2284,545,542,542,2,"Sea Breeze Park, Union City",45,131,51,192,123,9,10,2018-09-22
+2289,557,557,557,3,Bracher Elementary Santa Clara,45,258,77,257,145,10,10,2018-09-23
+2292,548,548,544,19,Morgan Hill Field-1,45,156,157,228,151,10,2,2018-09-23
+1942,502,502,501,22,Cupertino Library Field,35,120,121,210,174,5,4,2018-04-15
+1927,576,573,576,15,"Highland Elementary School, San Pablo",20,56,59,80,46,10,0,2018-04-14
+1945,576,576,576,15,"Highland Elementary School, San Pablo",20,169,166,120,120,9,6,2018-04-21
+1958,573,569,573,18,Kirgin Cellars Winery Ground,20,139,141,120,117,5,5,2018-04-22
+2019,574,572,572,15,"Highland Elementary School, San Pablo",20,180,167,120,120,4,9,2018-05-19
+2022,567,567,569,10,Fremont City Cricket Soccer Field,20,154,157,120,119,6,6,2018-05-19
+2025,577,577,578,10,Fremont City Cricket Soccer Field,20,107,108,120,92,4,3,2018-05-19
+2050,579,579,569,18,Kirgin Cellars Winery Ground,20,141,147,120,99,9,2,2018-06-03
+2057,577,577,572,11,"Rancho Milpitas School, Milpitas, CA",20,124,128,120,79,7,3,2018-06-09
+2301,578,578,574,5,Caroline Davis School  San Jose,20,168,169,120,94,7,2,2018-09-29
+2053,567,567,567,15,"Highland Elementary School, San Pablo",20,147,139,120,114,6,10,2018-06-09
+2309,579,579,569,15,"Highland Elementary School, San Pablo",20,72,73,120,66,9,4,2018-09-30
+2152,578,574,574,14,Kathryn Hughes School Santa Clara,20,172,130,120,117,6,9,2018-07-21
+2079,579,579,573,15,"Highland Elementary School, San Pablo",20,108,109,96,90,10,3,2018-06-17
+2308,576,576,0,15,"Highland Elementary School, San Pablo",20,0,0,0,0,0,0,2018-06-17
+2091,577,577,574,14,Kathryn Hughes School Santa Clara,20,156,161,120,97,6,6,2018-06-23
+2097,567,567,579,11,"Rancho Milpitas School, Milpitas, CA",20,118,120,106,95,10,3,2018-06-24
+2095,571,574,574,11,"Rancho Milpitas School, Milpitas, CA",20,176,82,120,120,5,9,2018-07-01
+2121,571,571,571,11,"Rancho Milpitas School, Milpitas, CA",20,169,164,120,120,9,10,2018-07-07
+2123,567,567,567,11,"Rancho Milpitas School, Milpitas, CA",20,173,168,120,120,7,7,2018-07-07
+2120,572,574,574,14,Kathryn Hughes School Santa Clara,20,175,111,120,95,6,10,2018-07-07
+2137,571,574,574,14,Kathryn Hughes School Santa Clara,20,124,117,120,120,6,8,2018-07-14
+2132,572,572,572,15,"Highland Elementary School, San Pablo",20,214,127,120,103,3,9,2018-07-14
+2157,579,576,576,15,"Highland Elementary School, San Pablo",20,218,207,120,120,7,9,2018-07-22
+2169,571,571,572,5,Caroline Davis School  San Jose,20,127,131,120,96,5,3,2018-07-28
+2170,577,577,578,5,Caroline Davis School  San Jose,20,151,152,120,119,8,9,2018-07-28
+2178,579,567,567,15,"Highland Elementary School, San Pablo",20,224,122,120,87,1,10,2018-07-29
+2180,573,573,573,15,"Highland Elementary School, San Pablo",20,200,115,120,120,7,8,2018-07-29
+2187,572,572,572,5,Caroline Davis School  San Jose,20,180,172,120,120,5,4,2018-08-04
+2185,577,577,577,11,"Rancho Milpitas School, Milpitas, CA",20,172,152,120,120,10,6,2018-08-04
+2188,567,567,567,11,"Rancho Milpitas School, Milpitas, CA",20,173,170,120,112,3,9,2018-08-04
+2198,578,578,578,11,"Rancho Milpitas School, Milpitas, CA",20,162,97,120,116,6,10,2018-08-11
+2245,567,567,573,11,"Rancho Milpitas School, Milpitas, CA",20,148,149,120,118,8,9,2018-08-26
+2287,577,577,574,3,Bracher Elementary Santa Clara,20,115,116,120,91,5,2,2018-09-22
+2219,571,578,0,10,Fremont City Cricket Soccer Field,20,141,141,120,120,7,10,2018-08-18
+2223,569,573,569,15,"Highland Elementary School, San Pablo",20,162,163,120,113,8,7,2018-08-19
+2236,571,571,571,5,Caroline Davis School  San Jose,20,144,139,120,114,9,10,2018-08-25
+2237,577,577,572,5,Caroline Davis School  San Jose,20,137,139,120,104,9,5,2018-08-25
+2204,567,567,567,15,"Highland Elementary School, San Pablo",20,197,192,120,120,2,7,2018-08-11
+2244,569,579,569,5,Caroline Davis School  San Jose,20,109,110,116,99,10,4,2018-08-26
+2249,571,572,572,2,"Sea Breeze Park, Union City",20,165,104,120,120,9,5,2018-09-01
+2262,576,576,569,15,"Highland Elementary School, San Pablo",20,160,161,120,106,8,4,2018-09-09
+2266,567,567,567,15,"Highland Elementary School, San Pablo",20,159,154,120,120,6,7,2018-09-09
+2272,578,578,578,15,"Highland Elementary School, San Pablo",20,201,172,120,119,8,6,2018-09-15
+2271,574,574,574,14,Kathryn Hughes School Santa Clara,20,202,158,119,117,6,10,2018-09-15
+2295,569,569,569,18,Kirgin Cellars Winery Ground,20,0,0,0,0,0,0,2018-09-16
+2276,579,579,573,15,"Highland Elementary School, San Pablo",20,127,131,120,63,9,2,2018-09-16
+2286,571,571,572,11,"Rancho Milpitas School, Milpitas, CA",20,130,134,120,114,5,6,2018-09-22
+2304,578,578,574,5,Caroline Davis School  San Jose,20,104,105,120,79,7,5,2018-09-29
+2290,567,567,567,18,Kirgin Cellars Winery Ground,20,185,144,120,113,6,10,2018-09-23
+2291,573,573,573,15,"Highland Elementary School, San Pablo",20,212,118,120,120,9,7,2018-09-23
+2311,567,567,574,10,Fremont City Cricket Soccer Field,20,142,143,120,99,9,3,2018-10-07
+2314,572,569,572,10,Fremont City Cricket Soccer Field,20,109,111,120,81,8,4,2018-10-07
+2322,574,574,572,10,Fremont City Cricket Soccer Field,20,140,141,120,86,9,2,2018-10-14
+1950,510,510,510,26,Thornton Junior High School,30,164,122,180,180,4,4,2018-04-21
+1944,496,498,498,10,Fremont City Cricket Soccer Field,45,198,94,270,175,10,10,2018-04-21
+1961,501,501,501,20,Morgan Hill Field-2,35,115,106,210,210,7,7,2018-04-22
+1960,503,503,503,26,Thornton Junior High School,35,208,43,186,120,5,10,2018-04-22
+1966,504,505,505,20,Morgan Hill Field-2,40,206,101,240,171,7,8,2018-04-28
+1968,512,512,512,21,Windmere Ranch Middle School,30,124,95,181,169,6,9,2018-04-28
+1978,511,508,508,24,"Dilworth Elementary, San Jose ",30,166,96,180,180,2,7,2018-04-29
+1985,496,496,497,10,Fremont City Cricket Soccer Field,45,141,142,226,266,9,9,2018-05-05
+1999,498,494,494,28,Martin Luther King Jr. Middle School,45,108,91,262,236,10,10,2018-05-12
+2004,500,500,500,10,Fremont City Cricket Soccer Field,45,304,55,263,99,6,9,2018-05-12
+2042,496,496,500,26,Thornton Junior High School,30,107,109,180,90,7,1,2018-06-02
+2051,494,494,494,7,"Plasencia Fields, Tracy, CA",40,259,58,240,240,4,9,2018-06-03
+2077,497,497,500,10,Fremont City Cricket Soccer Field,45,52,53,208,38,9,0,2018-06-16
+2083,495,495,494,11,"Rancho Milpitas School, Milpitas, CA",45,109,110,176,92,10,4,2018-06-17
+1987,508,508,508,22,Cupertino Library Field,30,101,94,180,177,6,9,2018-05-05
+1984,512,512,512,21,Windmere Ranch Middle School,30,66,23,137,72,10,10,2018-05-05
+2016,509,508,508,22,Cupertino Library Field,30,121,50,179,154,10,10,2018-05-13
+2056,512,512,508,21,Windmere Ranch Middle School,30,64,65,180,103,7,2,2018-06-09
+1995,503,503,501,22,Cupertino Library Field,30,76,77,179,157,10,3,2018-05-06
+2001,503,503,504,21,Windmere Ranch Middle School,40,60,61,146,121,10,7,2018-05-12
+2000,502,506,506,23,"Emerald Glen Cricket Ground, Dublin",40,100,79,240,219,8,10,2018-05-12
+2021,506,506,504,23,"Emerald Glen Cricket Ground, Dublin",40,62,63,164,58,10,0,2018-05-19
+2024,505,505,505,26,Thornton Junior High School,40,208,83,240,166,7,10,2018-05-19
+2033,502,502,503,24,"Dilworth Elementary, San Jose ",40,118,119,240,206,8,4,2018-05-20
+2034,501,501,501,8,"Patwin Elementary School, Davis, CA",40,238,63,240,153,6,10,2018-05-20
+2036,502,502,504,21,Windmere Ranch Middle School,40,73,74,214,212,10,6,2018-06-02
+2038,506,506,501,23,"Emerald Glen Cricket Ground, Dublin",40,43,45,184,107,10,3,2018-06-02
+2059,504,504,504,8,"Patwin Elementary School, Davis, CA",40,103,40,185,80,10,10,2018-06-09
+2069,505,505,505,11,"Rancho Milpitas School, Milpitas, CA",40,170,107,240,225,6,10,2018-06-10
+2078,506,506,503,26,Thornton Junior High School,40,79,80,200,108,10,4,2018-06-16
+2043,507,507,505,8,"Patwin Elementary School, Davis, CA",30,15,19,57,25,10,0,2018-06-03
+2116,585,585,585,15,"Highland Elementary School, San Pablo",25,339,249,150,150,6,5,2018-07-04
+2298,603,603,-1,7,"Plasencia Fields, Tracy, CA",20,186,68,120,84,7,10,2018-09-29
+2306,605,605,601,3,Bracher Elementary Santa Clara,20,97,98,119,90,9,3,2018-09-30
+2307,600,600,606,1,Wilson Field Santa Clara,20,87,92,120,101,7,2,2018-09-30
+2303,590,590,588,7,"Plasencia Fields, Tracy, CA",20,109,110,117,117,10,7,2018-09-29
+2302,589,589,593,2,"Sea Breeze Park, Union City",20,91,92,107,65,9,1,2018-09-29
+2305,595,595,595,1,Wilson Field Santa Clara,20,167,137,120,120,7,5,2018-09-30
+2319,608,608,599,6,"Piper Park, Larkspur, CA",20,108,109,116,100,10,6,2018-10-07
+2321,604,604,609,2,"Sea Breeze Park, Union City",20,136,141,120,115,8,7,2018-10-07
+2317,602,606,606,5,Caroline Davis School  San Jose,20,192,87,120,120,2,8,2018-10-07
+2315,593,593,593,2,"Sea Breeze Park, Union City",20,163,119,120,120,9,8,2018-10-07
+2318,594,595,594,1,Wilson Field Santa Clara,20,96,97,110,117,10,7,2018-10-07
+2312,596,587,587,3,Bracher Elementary Santa Clara,20,144,142,120,121,7,5,2018-10-06
+2320,601,601,603,5,Caroline Davis School  San Jose,20,110,111,120,116,8,7,2018-10-07
+2316,598,598,598,6,"Piper Park, Larkspur, CA",20,158,89,121,105,4,9,2018-10-07
+2324,599,599,609,6,"Piper Park, Larkspur, CA",20,143,144,120,111,5,4,2018-10-14
+2325,594,594,0,10,Fremont City Cricket Soccer Field,20,144,144,120,120,7,7,2018-10-14
+2323,588,598,598,2,"Sea Breeze Park, Union City",20,106,105,90,120,8,10,2018-10-14
+2326,598,598,587,2,"Sea Breeze Park, Union City",20,114,118,120,107,7,4,2018-10-14
+2328,593,587,593,5,Caroline Davis School  San Jose,20,126,127,120,107,7,2,2018-10-21
+2329,609,606,606,5,Caroline Davis School  San Jose,20,101,89,107,109,10,10,2018-10-21
+2327,551,551,551,11,"Rancho Milpitas School, Milpitas, CA",25,203,185,150,150,4,8,2018-10-20
+2331,613,618,613,2,"Sea Breeze Park, Union City",20,114,115,120,94,5,4,2018-11-03
+2332,636,636,633,3,Bracher Elementary Santa Clara,20,93,98,120,68,7,2,2018-11-03
+2334,624,624,615,2,"Sea Breeze Park, Union City",20,127,128,120,117,10,7,2018-11-03
+2333,634,634,634,29,MLK Jr. Middle School,20,169,90,120,120,7,9,2018-11-03
+2335,616,625,625,3,Bracher Elementary Santa Clara,20,138,132,120,120,9,5,2018-11-03
+2340,612,612,632,2,"Sea Breeze Park, Union City",20,91,92,106,108,10,9,2018-11-04
+2336,629,629,629,2,"Sea Breeze Park, Union City",20,80,49,111,82,10,10,2018-11-04
+2339,621,621,631,5,Caroline Davis School  San Jose,20,101,102,120,112,5,5,2018-11-04
+2338,622,622,622,15,"Highland Elementary School, San Pablo",20,215,131,120,92,6,10,2018-11-04
+2342,630,613,613,2,"Sea Breeze Park, Union City",20,84,72,113,110,10,10,2018-11-10
+2344,626,626,633,3,Bracher Elementary Santa Clara,20,158,160,119,118,5,5,2018-11-10
+2343,624,624,634,14,Kathryn Hughes School Santa Clara,20,152,155,120,93,7,2,2018-11-10
+2341,615,611,615,11,"Rancho Milpitas School, Milpitas, CA",20,139,144,113,110,10,2,2018-11-10
+2345,635,635,636,2,"Sea Breeze Park, Union City",20,106,107,120,107,7,5,2018-11-10
+2346,618,618,616,11,"Rancho Milpitas School, Milpitas, CA",20,117,120,120,82,10,2,2018-11-10
+2347,638,638,629,3,Bracher Elementary Santa Clara,20,151,154,120,110,6,4,2018-11-11
+2351,617,617,0,10,Fremont City Cricket Soccer Field,20,0,0,0,0,0,0,2018-11-11
+2350,620,620,620,3,Bracher Elementary Santa Clara,20,180,131,120,120,7,9,2018-11-11
+2349,621,621,621,5,Caroline Davis School  San Jose,20,123,121,120,120,6,7,2018-11-11
+2352,633,633,633,3,Bracher Elementary Santa Clara,20,201,148,120,120,5,8,2018-11-17
+2355,618,618,0,15,"Highland Elementary School, San Pablo",20,0,0,0,0,0,0,2018-11-17
+2353,636,636,613,11,"Rancho Milpitas School, Milpitas, CA",20,140,141,120,107,7,1,2018-11-17
+2354,625,625,0,29,MLK Jr. Middle School,20,0,0,0,0,0,0,2018-11-17
+2356,630,630,630,3,Bracher Elementary Santa Clara,20,180,163,120,120,7,9,2018-11-17
+2357,638,638,638,3,Bracher Elementary Santa Clara,20,162,122,120,120,6,9,2018-11-18
+2359,612,612,612,2,"Sea Breeze Park, Union City",20,138,120,120,120,7,4,2018-11-18
+2360,631,623,631,15,"Highland Elementary School, San Pablo",20,155,156,120,119,6,6,2018-11-18
+2358,632,629,629,29,MLK Jr. Middle School,20,155,106,120,106,4,10,2018-11-18
+2361,611,611,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2018-12-01
+2362,633,633,0,3,Bracher Elementary Santa Clara,20,0,0,0,0,0,0,2018-12-01
+2363,616,616,0,11,"Rancho Milpitas School, Milpitas, CA",20,0,0,0,0,0,0,2018-12-01
+2364,636,636,0,11,"Rancho Milpitas School, Milpitas, CA",20,0,0,0,0,0,0,2018-12-01
+2371,630,630,0,3,Bracher Elementary Santa Clara,20,0,0,0,0,0,0,2018-12-01
+2368,626,626,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2018-12-01
+2366,638,638,638,3,Bracher Elementary Santa Clara,20,134,106,120,113,9,9,2018-12-02
+2365,621,621,621,2,"Sea Breeze Park, Union City",20,144,113,120,120,7,4,2018-12-02
+2370,632,632,622,2,"Sea Breeze Park, Union City",20,112,116,110,62,7,3,2018-12-02
+2369,629,629,629,15,"Highland Elementary School, San Pablo",20,172,111,120,108,6,9,2018-12-02
+2372,613,626,626,2,"Sea Breeze Park, Union City",20,161,130,120,104,6,10,2018-12-08
+2373,633,633,611,3,Bracher Elementary Santa Clara,20,104,105,120,96,9,4,2018-12-08
+2375,616,616,616,3,Bracher Elementary Santa Clara,20,120,86,120,106,6,10,2018-12-08
+2376,635,635,624,2,"Sea Breeze Park, Union City",20,88,90,120,97,10,5,2018-12-08
+2374,618,618,618,15,"Highland Elementary School, San Pablo",20,176,91,120,87,6,10,2018-12-08
+2377,631,638,631,3,Bracher Elementary Santa Clara,20,127,128,120,114,9,5,2018-12-09
+2382,617,617,617,10,Fremont City Cricket Soccer Field,20,118,116,120,120,8,7,2018-12-09
+2378,622,622,629,29,MLK Jr. Middle School,20,102,105,120,116,9,7,2018-12-09
+2381,620,620,620,5,Caroline Davis School  San Jose,20,115,60,120,120,7,9,2018-12-09
+2380,612,612,612,15,"Highland Elementary School, San Pablo",20,191,149,120,116,8,9,2018-12-09
+2385,635,635,613,2,"Sea Breeze Park, Union City",20,71,72,104,55,10,2,2018-12-15
+2383,633,616,616,3,Bracher Elementary Santa Clara,20,154,121,120,115,4,10,2018-12-15
+2386,624,626,626,14,Kathryn Hughes School Santa Clara,20,206,201,120,120,3,6,2018-12-15
+2384,636,636,634,10,Fremont City Cricket Soccer Field,20,96,97,120,59,7,0,2018-12-15
+2387,615,615,615,3,Bracher Elementary Santa Clara,20,143,124,120,120,5,10,2018-12-15
+2390,638,638,638,3,Bracher Elementary Santa Clara,20,174,132,120,120,6,8,2018-12-16
+2392,631,631,0,15,"Highland Elementary School, San Pablo",0,0,0,0,0,0,0,2018-12-16
+2389,617,617,617,10,Fremont City Cricket Soccer Field,20,135,112,120,120,4,8,2018-12-16
+2391,622,622,0,10,Fremont City Cricket Soccer Field,15,145,10,90,5,4,0,2018-12-16
+2393,633,615,615,2,"Sea Breeze Park, Union City",20,168,100,120,111,4,10,2019-01-05
+2395,635,635,611,2,"Sea Breeze Park, Union City",20,81,86,120,45,9,1,2019-01-05
+2394,625,625,0,29,MLK Jr. Middle School,20,0,0,0,0,0,0,2019-01-05
+2396,616,616,0,10,Fremont City Cricket Soccer Field,20,0,0,0,0,0,0,2019-01-05
+2476,613,634,0,29,MLK Jr. Middle School,20,30,0,48,0,4,0,2019-03-09
+2397,617,617,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-01-06
+2400,618,618,0,15,"Highland Elementary School, San Pablo",0,0,0,0,0,0,0,2019-01-06
+2401,629,629,0,29,MLK Jr. Middle School,0,0,0,0,0,0,0,2019-01-06
+2402,620,620,0,1,Wilson Field Santa Clara,0,0,0,0,0,0,0,2019-01-06
+2403,631,631,0,15,"Highland Elementary School, San Pablo",0,0,0,0,0,0,0,2019-01-06
+2398,621,621,0,5,Caroline Davis School  San Jose,20,0,0,0,0,0,0,2019-01-06
+2406,611,613,611,2,"Sea Breeze Park, Union City",20,119,120,120,109,6,3,2019-01-12
+2405,634,633,633,29,MLK Jr. Middle School,20,104,69,120,106,10,10,2019-01-12
+2407,635,635,625,29,MLK Jr. Middle School,20,79,80,118,93,10,3,2019-01-12
+2404,616,616,630,2,"Sea Breeze Park, Union City",20,92,93,120,119,7,8,2019-01-12
+2410,620,620,612,1,Wilson Field Santa Clara,20,84,86,120,62,7,4,2019-01-13
+2409,621,632,621,5,Caroline Davis School  San Jose,20,108,109,115,102,10,4,2019-01-13
+2411,622,622,622,10,Fremont City Cricket Soccer Field,20,191,76,120,81,6,10,2019-01-13
+2412,625,625,613,2,"Sea Breeze Park, Union City",20,132,133,120,114,4,4,2019-01-19
+2414,633,633,624,14,Kathryn Hughes School Santa Clara,20,83,89,107,111,10,5,2019-01-19
+2417,635,635,615,2,"Sea Breeze Park, Union City",20,134,135,120,116,2,5,2019-01-19
+2415,611,611,611,11,"Rancho Milpitas School, Milpitas, CA",18,217,106,108,108,3,8,2019-01-19
+2413,630,630,630,1,Wilson Field Santa Clara,20,161,100,120,115,8,10,2019-01-19
+2416,621,619,621,5,Caroline Davis School  San Jose,20,90,91,120,115,7,9,2019-01-19
+2418,620,629,0,1,Wilson Field Santa Clara,20,91,53,120,66,9,2,2019-01-20
+2419,622,622,0,10,Fremont City Cricket Soccer Field,0,0,0,0,0,0,0,2019-01-20
+2420,623,623,0,15,"Highland Elementary School, San Pablo",0,0,0,0,0,0,0,2019-01-20
+2422,626,626,625,2,"Sea Breeze Park, Union City",20,172,173,120,119,7,7,2019-01-26
+2426,611,611,611,10,Fremont City Cricket Soccer Field,20,170,110,120,115,9,9,2019-01-26
+2423,634,634,634,29,MLK Jr. Middle School,20,90,80,120,120,9,9,2019-01-26
+2424,616,616,616,10,Fremont City Cricket Soccer Field,20,178,75,120,120,7,7,2019-01-26
+2425,636,636,624,14,Kathryn Hughes School Santa Clara,20,35,36,89,12,10,0,2019-01-26
+2427,619,632,632,29,MLK Jr. Middle School,20,99,85,109,120,10,10,2019-01-27
+2428,622,622,622,10,Fremont City Cricket Soccer Field,20,146,108,120,114,5,10,2019-01-27
+2429,629,629,612,29,MLK Jr. Middle School,20,67,71,102,98,10,6,2019-01-27
+2430,638,638,638,15,"Highland Elementary School, San Pablo",20,185,180,120,102,5,4,2019-01-27
+2436,626,626,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-02-09
+2435,613,613,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-02-09
+2438,615,615,0,11,"Rancho Milpitas School, Milpitas, CA",0,0,0,0,0,0,0,2019-02-09
+2439,618,618,0,15,"Highland Elementary School, San Pablo",0,0,0,0,0,0,0,2019-02-09
+2431,612,612,612,15,"Highland Elementary School, San Pablo",18,131,105,108,108,8,10,2019-02-10
+2437,619,619,0,29,MLK Jr. Middle School,0,0,0,0,0,0,0,2019-02-10
+2432,621,621,621,10,Fremont City Cricket Soccer Field,20,0,0,0,0,0,0,2019-02-10
+2440,626,626,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-02-16
+2448,611,611,0,11,"Rancho Milpitas School, Milpitas, CA",0,0,0,0,0,0,0,2019-02-16
+2449,636,636,0,11,"Rancho Milpitas School, Milpitas, CA",0,0,0,0,0,0,0,2019-02-16
+2441,634,625,0,29,MLK Jr. Middle School,20,0,0,0,0,0,0,2019-02-16
+2442,612,612,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-02-17
+2445,632,632,631,15,"Highland Elementary School, San Pablo",20,58,59,97,54,10,0,2019-02-17
+2444,621,629,629,29,MLK Jr. Middle School,20,166,89,120,120,6,7,2019-02-17
+2443,619,619,638,29,MLK Jr. Middle School,20,83,84,120,106,8,7,2019-02-17
+2447,620,620,0,2,"Sea Breeze Park, Union City",0,0,0,0,0,0,0,2019-02-17
+2458,613,624,613,14,Kathryn Hughes School Santa Clara,20,90,91,119,77,9,5,2019-02-23
+2457,616,616,616,11,"Rancho Milpitas School, Milpitas, CA",20,185,80,120,89,6,10,2019-02-23
+2452,618,618,626,15,"Highland Elementary School, San Pablo",20,173,177,120,116,3,6,2019-02-23
+2451,625,625,625,29,MLK Jr. Middle School,20,118,102,120,119,10,10,2019-02-23
+2450,630,630,630,11,"Rancho Milpitas School, Milpitas, CA",20,175,38,120,84,9,10,2019-02-23
+2459,638,612,612,2,"Sea Breeze Park, Union City",20,161,87,120,117,6,10,2019-02-24
+2465,632,632,0,29,MLK Jr. Middle School,0,0,0,0,0,0,0,2019-02-24
+2463,619,617,617,29,MLK Jr. Middle School,20,132,111,120,111,7,10,2019-02-24
+2464,620,620,631,2,"Sea Breeze Park, Union City",20,81,87,120,66,10,2,2019-02-24
+2468,611,611,0,11,"Rancho Milpitas School, Milpitas, CA",20,0,0,0,0,0,0,2019-03-02
+2466,613,613,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-03-02
+2473,635,635,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-03-02
+2467,634,634,0,29,MLK Jr. Middle School,20,0,0,0,0,0,0,2019-03-02
+2471,616,616,0,11,"Rancho Milpitas School, Milpitas, CA",20,0,0,0,0,0,0,2019-03-02
+2475,618,618,0,15,"Highland Elementary School, San Pablo",0,0,0,0,0,0,0,2019-03-02
+2472,631,631,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-03-03
+2469,612,612,612,10,Fremont City Cricket Soccer Field,20,163,149,120,120,6,5,2019-03-03
+2474,620,620,0,2,"Sea Breeze Park, Union City",0,0,0,0,0,0,0,2019-03-03
+2470,621,621,621,15,"Highland Elementary School, San Pablo",20,0,0,0,0,0,0,2019-03-03
+2477,611,611,611,10,Fremont City Cricket Soccer Field,20,131,111,120,120,10,8,2019-03-09
+2485,624,624,630,14,Kathryn Hughes School Santa Clara,20,0,0,0,0,0,0,2019-03-09
+2479,615,615,0,1,Wilson Field Santa Clara,20,0,0,0,0,0,0,2019-03-09
+2484,635,635,618,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-03-09
+2478,626,626,0,2,"Sea Breeze Park, Union City",20,47,0,87,0,9,0,2019-03-09
+2480,620,620,632,29,MLK Jr. Middle School,20,62,64,114,119,10,9,2019-03-10
+2483,622,622,0,10,Fremont City Cricket Soccer Field,20,0,0,0,0,0,0,2019-03-10
+2481,629,629,629,29,MLK Jr. Middle School,20,143,117,120,120,4,5,2019-03-10
+2486,634,634,0,29,MLK Jr. Middle School,20,0,0,0,0,0,0,2019-03-16
+2487,611,611,611,10,Fremont City Cricket Soccer Field,20,181,142,120,114,8,10,2019-03-16
+2492,613,613,613,10,Fremont City Cricket Soccer Field,20,177,91,120,120,7,9,2019-03-16
+2493,637,637,615,10,Fremont City Cricket Soccer Field,20,120,123,120,106,8,4,2019-03-17
+2496,629,629,629,10,Fremont City Cricket Soccer Field,20,137,120,120,116,5,10,2019-03-17
+2500,613,613,611,10,Fremont City Cricket Soccer Field,20,136,137,120,117,9,8,2019-03-24
+2503,629,629,629,10,Fremont City Cricket Soccer Field,20,163,99,120,107,5,10,2019-03-24
+2512,629,629,611,10,Fremont City Cricket Soccer Field,20,128,129,120,106,6,3,2019-03-31
+2367,637,637,0,12,"Beckman Park, Lodi",20,0,0,0,0,0,0,2018-12-02
+2379,637,619,637,12,"Beckman Park, Lodi",20,116,120,120,71,10,1,2018-12-09
+2399,637,637,0,12,"Beckman Park, Lodi",20,0,0,0,0,0,0,2019-01-06
+2434,637,637,0,12,"Beckman Park, Lodi",20,0,0,0,0,0,0,2019-02-10
+2446,637,637,637,12,"Beckman Park, Lodi",20,0,0,0,0,0,0,2019-02-17
+2460,637,637,637,12,"Beckman Park, Lodi",20,120,93,120,108,10,10,2019-02-24
+2337,637,637,637,3,Bracher Elementary Santa Clara,20,210,68,120,101,8,10,2018-11-04
+2348,612,637,637,2,"Sea Breeze Park, Union City",20,150,108,120,96,6,10,2018-11-11
+2388,629,629,637,29,MLK Jr. Middle School,20,101,102,120,116,10,5,2018-12-16
+2408,617,637,637,10,Fremont City Cricket Soccer Field,20,151,137,120,117,7,10,2019-01-13
+2421,632,632,0,29,MLK Jr. Middle School,0,0,0,0,0,0,0,2019-01-20
+2482,621,621,0,5,Caroline Davis School  San Jose,20,0,0,0,0,0,0,2019-03-10
+2455,649,656,649,22,Cupertino Library Field,30,55,56,167,57,10,0,2019-02-23
+2453,652,652,652,21,Windmere Ranch Middle School,30,108,101,180,180,4,8,2019-02-23
+2456,651,651,651,29,MLK Jr. Middle School,25,188,55,150,134,4,10,2019-02-23
+2454,640,640,640,1,Wilson Field Santa Clara,40,236,26,237,73,8,8,2019-02-23
+2461,640,640,640,1,Wilson Field Santa Clara,40,293,30,240,95,4,10,2019-02-24
+2462,655,655,655,8,"Patwin Elementary School, Davis, CA",40,184,80,240,181,6,10,2019-02-24
+2548,640,640,641,1,Wilson Field Santa Clara,45,96,97,190,85,10,1,2019-04-14
+2597,654,654,653,1,Wilson Field Santa Clara,20,0,0,0,0,0,0,2019-05-04
+2539,642,642,642,20,Morgan Hill Field-2,45,147,96,266,223,10,9,2019-04-13
+2662,640,640,0,1,Wilson Field Santa Clara,20,0,0,0,0,0,0,2019-05-19
+2636,639,639,639,20,Morgan Hill Field-2,45,237,62,268,135,9,9,2019-05-12
+2489,642,642,640,7,"Plasencia Fields, Tracy, CA",45,150,151,248,245,10,7,2019-03-16
+2488,653,653,639,1,Wilson Field Santa Clara,45,100,101,250,112,8,2,2019-03-16
+2494,639,640,639,1,Wilson Field Santa Clara,45,150,151,262,254,10,7,2019-03-17
+2574,639,641,639,20,Morgan Hill Field-2,45,131,133,239,225,10,5,2019-04-21
+2498,653,653,642,1,Wilson Field Santa Clara,30,93,94,180,94,8,1,2019-03-23
+2505,641,641,642,19,Morgan Hill Field-1,45,210,212,270,190,7,3,2019-03-30
+2506,653,653,654,11,"Rancho Milpitas School, Milpitas, CA",45,177,178,182,197,8,7,2019-03-30
+2511,642,642,639,19,Morgan Hill Field-1,45,186,187,262,270,9,9,2019-03-31
+2510,654,654,641,20,Morgan Hill Field-2,45,121,125,270,50,8,1,2019-03-31
+2538,641,641,641,1,Wilson Field Santa Clara,45,368,146,270,259,8,9,2019-04-13
+2531,639,641,641,1,Wilson Field Santa Clara,45,171,79,255,166,10,10,2019-04-07
+2558,653,653,653,1,Wilson Field Santa Clara,45,231,114,213,204,7,9,2019-04-20
+2608,641,641,641,19,Morgan Hill Field-1,20,0,0,0,0,0,0,2019-05-05
+2619,641,642,642,19,Morgan Hill Field-1,45,248,143,270,216,6,10,2019-05-11
+2623,653,653,653,1,Wilson Field Santa Clara,45,156,113,172,143,7,10,2019-05-11
+2629,655,655,655,26,Thornton Junior High School,40,161,132,237,233,9,10,2019-05-11
+2533,655,655,655,30,Anthony W. Ochoa Middle School,30,60,48,180,131,8,10,2019-04-07
+2495,644,644,644,8,"Patwin Elementary School, Davis, CA",40,170,86,216,128,10,10,2019-03-17
+2497,645,646,645,29,MLK Jr. Middle School,35,81,83,123,172,10,4,2019-03-23
+2684,644,655,644,26,Thornton Junior High School,40,61,62,165,107,10,4,2019-06-02
+2555,644,644,644,26,Thornton Junior High School,35,121,108,210,203,8,10,2019-04-14
+2507,644,644,643,22,Cupertino Library Field,40,96,97,221,227,10,9,2019-03-30
+2518,643,645,643,22,Cupertino Library Field,40,55,56,127,88,9,4,2019-04-06
+2682,648,643,643,8,"Patwin Elementary School, Davis, CA",40,152,27,240,80,9,10,2019-06-02
+2564,643,643,645,21,Windmere Ranch Middle School,40,109,110,231,232,10,6,2019-04-20
+2702,646,646,648,8,"Patwin Elementary School, Davis, CA",40,79,80,137,207,10,8,2019-06-09
+2554,643,643,643,29,MLK Jr. Middle School,40,119,57,240,193,9,10,2019-04-14
+2580,644,644,644,10,Fremont City Cricket Soccer Field,40,225,147,240,199,4,10,2019-04-27
+2595,655,655,655,8,"Patwin Elementary School, Davis, CA",40,174,101,240,200,7,10,2019-04-28
+2607,643,643,643,1,Wilson Field Santa Clara,40,146,130,226,223,10,10,2019-05-04
+2604,648,645,645,23,"Emerald Glen Cricket Ground, Dublin",40,175,142,231,236,10,10,2019-05-04
+2685,643,643,0,1,Wilson Field Santa Clara,40,0,0,240,240,0,0,2019-06-08
+2501,645,655,655,1,Wilson Field Santa Clara,40,132,112,212,218,8,8,2019-03-24
+2639,645,645,645,8,"Patwin Elementary School, Davis, CA",40,217,138,240,222,7,10,2019-05-12
+2669,655,655,645,23,"Emerald Glen Cricket Ground, Dublin",40,98,99,223,197,8,6,2019-06-01
+2668,643,643,643,1,Wilson Field Santa Clara,40,216,54,240,190,5,10,2019-06-01
+2712,648,646,646,25,"Delaine Eastin Elementary, Union City",40,236,152,240,240,5,9,2019-06-15
+2509,657,649,649,23,"Emerald Glen Cricket Ground, Dublin",30,148,20,180,133,2,10,2019-03-30
+2502,650,651,651,25,"Delaine Eastin Elementary, Union City",30,165,45,180,150,5,10,2019-03-24
+2582,656,656,652,21,Windmere Ranch Middle School,30,64,65,137,131,8,5,2019-04-27
+2563,651,651,651,25,"Delaine Eastin Elementary, Union City",30,165,53,180,117,7,10,2019-04-20
+2671,649,649,649,26,Thornton Junior High School,30,159,61,180,140,3,10,2019-06-01
+2490,649,651,649,22,Cupertino Library Field,30,69,70,180,153,9,2,2019-03-16
+2491,656,650,650,29,MLK Jr. Middle School,30,156,98,180,167,8,10,2019-03-16
+2499,649,652,649,22,Cupertino Library Field,30,64,65,162,115,10,3,2019-03-23
+2542,656,656,656,23,"Emerald Glen Cricket Ground, Dublin",30,98,70,172,156,10,8,2019-04-13
+2514,650,650,650,26,Thornton Junior High School,30,175,89,180,157,6,10,2019-03-31
+2508,651,651,651,21,Windmere Ranch Middle School,30,145,69,180,148,5,9,2019-03-30
+2520,656,656,656,23,"Emerald Glen Cricket Ground, Dublin",30,215,105,180,180,2,9,2019-04-06
+2522,652,652,651,25,"Delaine Eastin Elementary, Union City",30,49,50,149,91,9,2,2019-04-06
+2565,649,650,649,22,Cupertino Library Field,30,45,46,175,68,10,1,2019-04-20
+2561,652,657,652,23,"Emerald Glen Cricket Ground, Dublin",30,53,55,141,87,9,4,2019-04-20
+2606,651,651,649,22,Cupertino Library Field,30,96,97,178,170,10,4,2019-05-04
+2605,657,657,656,10,Fremont City Cricket Soccer Field,30,108,109,155,143,9,6,2019-05-04
+2618,650,650,650,26,Thornton Junior High School,30,121,90,163,159,10,10,2019-05-05
+2627,652,652,649,21,Windmere Ranch Middle School,30,59,60,156,118,10,2,2019-05-11
+2621,656,657,656,23,"Emerald Glen Cricket Ground, Dublin",30,92,93,180,121,9,2,2019-05-11
+2626,650,650,651,10,Fremont City Cricket Soccer Field,30,56,57,120,83,10,4,2019-05-11
+2549,664,664,664,19,Morgan Hill Field-1,50,241,87,295,139,10,10,2019-04-14
+2553,658,658,661,5,Caroline Davis School  San Jose,50,167,168,296,238,10,4,2019-04-14
+2546,665,665,665,16,"Sierra Bicentennial Park, Clovis",50,304,258,300,274,8,10,2019-04-14
+2552,659,659,659,8,"Patwin Elementary School, Davis, CA",50,178,69,300,145,9,10,2019-04-14
+2570,661,661,661,19,Morgan Hill Field-1,50,234,90,295,146,10,10,2019-04-21
+2567,660,660,662,1,Wilson Field Santa Clara,50,121,122,247,137,10,7,2019-04-21
+2569,664,665,664,16,"Sierra Bicentennial Park, Clovis",50,151,152,246,165,10,5,2019-04-21
+2579,663,663,664,12,"Beckman Park, Lodi",50,97,99,178,152,10,5,2019-04-27
+2588,661,661,661,19,Morgan Hill Field-1,50,277,241,300,274,4,10,2019-04-28
+2594,659,658,659,5,Caroline Davis School  San Jose,50,55,58,116,62,10,3,2019-04-28
+2587,665,660,660,16,"Sierra Bicentennial Park, Clovis",50,273,270,300,297,6,10,2019-04-28
+2600,663,663,666,12,"Beckman Park, Lodi",50,23,24,76,12,10,0,2019-05-04
+2610,660,660,660,2,"Sea Breeze Park, Union City",50,167,161,282,286,10,10,2019-05-05
+2615,665,665,658,5,Caroline Davis School  San Jose,50,237,238,243,235,10,3,2019-05-05
+2622,663,663,660,12,"Beckman Park, Lodi",50,205,220,300,293,7,8,2019-05-11
+2634,661,661,661,16,"Sierra Bicentennial Park, Clovis",50,239,185,300,220,8,10,2019-05-12
+2956,663,662,662,29,MLK Jr. Middle School,40,228,219,240,236,9,10,2019-10-05
+2818,664,664,661,2,"Sea Breeze Park, Union City",50,121,130,185,216,10,4,2019-07-27
+2821,666,659,666,4,"Northgate Park, Fremont",50,85,86,191,97,10,3,2019-08-03
+2680,661,661,661,19,Morgan Hill Field-1,50,149,107,260,259,10,10,2019-06-02
+2673,666,666,663,4,"Northgate Park, Fremont",50,185,186,270,229,10,7,2019-06-02
+2676,662,665,665,16,"Sierra Bicentennial Park, Clovis",50,168,108,256,159,10,10,2019-06-02
+2686,662,662,663,12,"Beckman Park, Lodi",50,90,91,220,112,10,5,2019-06-08
+2698,659,659,659,1,Wilson Field Santa Clara,50,135,112,252,232,10,10,2019-06-09
+2696,665,665,658,16,"Sierra Bicentennial Park, Clovis",50,157,161,148,140,10,3,2019-06-09
+2708,660,660,660,19,Morgan Hill Field-1,50,211,169,300,270,9,10,2019-06-15
+2718,666,658,658,4,"Northgate Park, Fremont",50,229,136,300,228,9,10,2019-06-16
+2716,663,665,665,16,"Sierra Bicentennial Park, Clovis",50,122,117,128,162,10,10,2019-06-16
+2715,659,659,664,8,"Patwin Elementary School, Davis, CA",50,108,109,208,161,10,8,2019-06-16
+2729,664,664,664,1,Wilson Field Santa Clara,50,185,158,284,274,10,10,2019-06-23
+2730,666,666,662,4,"Northgate Park, Fremont",50,170,173,268,298,10,9,2019-06-23
+2736,659,659,659,8,"Patwin Elementary School, Davis, CA",45,179,113,270,170,9,10,2019-06-23
+2738,666,666,664,4,"Northgate Park, Fremont",50,103,104,229,129,10,2,2019-06-29
+2741,658,658,658,12,"Beckman Park, Lodi",50,173,159,289,288,10,10,2019-06-29
+2743,660,660,661,1,Wilson Field Santa Clara,50,154,155,291,274,10,9,2019-06-30
+2750,665,665,0,8,"Patwin Elementary School, Davis, CA",50,124,124,172,248,10,10,2019-06-30
+2765,664,664,665,2,"Sea Breeze Park, Union City",50,121,123,251,181,10,5,2019-07-13
+2763,666,666,666,29,MLK Jr. Middle School,50,258,229,300,287,6,10,2019-07-13
+2767,663,663,659,12,"Beckman Park, Lodi",50,228,229,300,285,9,6,2019-07-13
+2778,662,662,662,19,Morgan Hill Field-1,30,190,157,180,180,5,10,2019-07-14
+2781,664,664,666,2,"Sea Breeze Park, Union City",50,235,237,300,218,8,3,2019-07-20
+2782,665,665,663,12,"Beckman Park, Lodi",50,54,56,196,63,10,2,2019-07-20
+2793,658,658,658,29,MLK Jr. Middle School,50,227,225,283,300,10,9,2019-07-21
+2814,660,660,660,1,Wilson Field Santa Clara,40,210,170,240,230,8,10,2019-07-28
+2812,658,666,658,5,Caroline Davis School  San Jose,50,188,189,276,268,10,6,2019-07-28
+2804,663,663,663,8,"Patwin Elementary School, Davis, CA",50,208,172,241,240,10,10,2019-07-28
+2820,664,664,664,2,"Sea Breeze Park, Union City",50,176,150,279,254,10,10,2019-08-03
+2819,660,660,660,29,MLK Jr. Middle School,40,202,188,240,240,7,8,2019-08-03
+2832,661,661,661,19,Morgan Hill Field-1,50,207,113,300,191,6,10,2019-08-04
+2840,662,662,661,19,Morgan Hill Field-1,50,296,297,300,297,4,6,2019-08-10
+2957,658,658,664,2,"Sea Breeze Park, Union City",50,168,169,300,167,9,4,2019-10-05
+2958,659,659,659,8,"Patwin Elementary School, Davis, CA",50,146,131,273,290,10,10,2019-10-05
+2847,663,664,663,2,"Sea Breeze Park, Union City",50,183,186,300,252,8,7,2019-08-17
+2853,666,666,660,4,"Northgate Park, Fremont",50,116,118,267,231,10,3,2019-08-18
+2857,662,662,662,8,"Patwin Elementary School, Davis, CA",45,148,145,232,268,10,10,2019-08-18
+2876,659,659,662,32,"Riverview Middle School, Bay Point",50,98,99,206,169,10,8,2019-08-25
+2875,665,665,661,33,Sierramont Middle School,50,91,94,163,92,10,3,2019-08-25
+2878,660,660,660,5,Caroline Davis School  San Jose,50,250,195,300,300,9,8,2019-08-25
+2890,666,666,662,19,Morgan Hill Field-1,50,199,200,300,272,10,9,2019-09-08
+2896,658,658,663,5,Caroline Davis School  San Jose,45,163,164,238,236,10,4,2019-09-08
+2889,659,665,665,16,"Sierra Bicentennial Park, Clovis",50,183,119,300,193,9,10,2019-09-08
+2901,659,659,659,2,"Sea Breeze Park, Union City",50,300,240,300,236,8,10,2019-09-14
+2903,663,661,663,12,"Beckman Park, Lodi",50,134,135,259,273,10,9,2019-09-14
+2913,662,662,662,19,Morgan Hill Field-1,50,257,159,299,190,10,10,2019-09-15
+2912,660,660,660,1,Wilson Field Santa Clara,40,149,91,240,201,9,10,2019-09-15
+2918,664,664,658,2,"Sea Breeze Park, Union City",50,55,56,138,111,10,3,2019-09-21
+2931,660,660,662,19,Morgan Hill Field-1,50,87,88,197,81,10,2,2019-09-22
+2933,661,661,659,8,"Patwin Elementary School, Davis, CA",50,143,144,300,300,9,9,2019-09-22
+2940,661,661,661,19,Morgan Hill Field-1,50,248,231,300,301,6,8,2019-09-28
+2941,662,662,662,5,Caroline Davis School  San Jose,50,128,81,175,167,10,10,2019-09-28
+2945,665,665,666,4,"Northgate Park, Fremont",45,88,90,164,61,10,1,2019-09-29
+2968,666,666,0,4,"Northgate Park, Fremont",0,0,0,0,0,0,0,2019-10-06
+2551,705,705,0,14,Kathryn Hughes School Santa Clara,20,159,159,120,120,6,7,2019-04-14
+2572,705,705,705,14,Kathryn Hughes School Santa Clara,20,184,150,120,120,8,8,2019-04-21
+2591,705,705,705,20,Morgan Hill Field-2,20,178,158,120,120,4,9,2019-04-28
+2596,709,706,709,20,Morgan Hill Field-2,20,109,111,120,106,10,6,2019-04-28
+2590,699,699,699,14,Kathryn Hughes School Santa Clara,20,176,126,120,120,3,9,2019-04-28
+2613,702,699,699,14,Kathryn Hughes School Santa Clara,20,212,123,120,94,6,10,2019-05-05
+2638,701,701,701,5,Caroline Davis School  San Jose,20,117,87,120,102,7,10,2019-05-12
+2641,704,704,723,5,Caroline Davis School  San Jose,20,134,135,120,107,8,3,2019-05-12
+2635,710,699,710,14,Kathryn Hughes School Santa Clara,20,67,68,104,50,10,3,2019-05-12
+2667,707,707,699,4,"Northgate Park, Fremont",20,131,132,121,119,9,9,2019-06-01
+2670,708,708,708,7,"Plasencia Fields, Tracy, CA",20,144,72,120,110,7,10,2019-06-01
+2672,704,709,709,7,"Plasencia Fields, Tracy, CA",20,125,114,120,117,9,10,2019-06-01
+2675,702,705,702,29,MLK Jr. Middle School,20,110,111,120,119,10,7,2019-06-02
+2701,723,708,708,5,Caroline Davis School  San Jose,20,135,114,120,106,7,10,2019-06-09
+2704,706,704,706,5,Caroline Davis School  San Jose,20,131,132,122,111,9,5,2019-06-09
+2710,708,708,709,5,Caroline Davis School  San Jose,20,117,121,120,116,9,3,2019-06-15
+2720,710,710,710,5,Caroline Davis School  San Jose,20,170,144,120,120,8,8,2019-06-16
+2723,701,701,706,5,Caroline Davis School  San Jose,20,51,57,84,32,10,0,2019-06-16
+2753,708,708,706,5,Caroline Davis School  San Jose,20,123,127,120,92,9,4,2019-06-30
+2751,707,707,705,4,"Northgate Park, Fremont",20,57,63,120,36,8,0,2019-06-30
+2771,706,706,709,33,Sierramont Middle School,20,184,186,120,118,6,7,2019-07-14
+2779,710,710,702,33,Sierramont Middle School,20,141,143,120,118,9,7,2019-07-14
+2775,707,707,699,4,"Northgate Park, Fremont",20,101,102,118,78,10,2,2019-07-14
+2790,705,705,705,33,Sierramont Middle School,20,164,138,120,120,6,9,2019-07-21
+2794,707,707,710,4,"Northgate Park, Fremont",20,113,116,120,105,9,7,2019-07-21
+2796,704,704,701,7,"Plasencia Fields, Tracy, CA",20,114,115,120,110,7,6,2019-07-21
+2798,706,723,723,7,"Plasencia Fields, Tracy, CA",20,151,90,120,120,5,9,2019-07-21
+2800,723,723,701,7,"Plasencia Fields, Tracy, CA",20,125,127,120,93,10,2,2019-07-27
+2808,710,710,705,20,Morgan Hill Field-2,20,98,100,120,91,8,6,2019-07-28
+2817,704,709,709,20,Morgan Hill Field-2,20,150,104,120,120,7,9,2019-07-28
+2810,707,707,702,7,"Plasencia Fields, Tracy, CA",20,119,120,120,97,6,3,2019-07-28
+2825,723,723,723,7,"Plasencia Fields, Tracy, CA",20,155,143,120,120,9,6,2019-08-03
+2827,706,706,0,7,"Plasencia Fields, Tracy, CA",20,103,103,120,120,9,10,2019-08-03
+2835,705,705,705,20,Morgan Hill Field-2,20,132,75,120,99,7,10,2019-08-04
+2973,699,699,699,33,Sierramont Middle School,20,167,142,120,121,8,7,2019-10-12
+2852,723,709,723,20,Morgan Hill Field-2,20,104,109,120,113,8,6,2019-08-18
+2869,710,710,699,5,Caroline Davis School  San Jose,20,159,160,120,112,7,6,2019-08-24
+2871,704,704,708,5,Caroline Davis School  San Jose,20,130,131,120,109,7,5,2019-08-24
+2916,709,709,709,7,"Plasencia Fields, Tracy, CA",20,162,145,120,107,4,10,2019-08-24
+2870,723,723,706,7,"Plasencia Fields, Tracy, CA",20,93,95,118,87,10,4,2019-08-24
+2887,704,704,704,11,"Rancho Milpitas School, Milpitas, CA",20,163,118,120,106,8,10,2019-09-07
+2888,710,710,705,29,MLK Jr. Middle School,20,85,88,97,92,10,4,2019-09-08
+2868,701,701,709,7,"Plasencia Fields, Tracy, CA",20,116,118,120,118,5,1,2019-09-07
+2911,723,723,708,32,"Riverview Middle School, Bay Point",20,114,115,120,117,10,8,2019-09-15
+2898,710,710,710,29,MLK Jr. Middle School,20,193,186,120,121,1,4,2019-09-08
+2926,708,708,706,7,"Plasencia Fields, Tracy, CA",20,121,122,120,116,9,7,2019-09-21
+2924,704,704,701,7,"Plasencia Fields, Tracy, CA",20,102,103,120,118,10,8,2019-09-21
+2927,709,709,709,7,"Plasencia Fields, Tracy, CA",20,147,90,120,120,7,8,2019-09-21
+2949,707,707,702,20,Morgan Hill Field-2,20,110,89,120,112,5,10,2019-09-29
+2951,710,710,710,20,Morgan Hill Field-2,20,113,87,120,114,8,10,2019-09-29
+2965,702,707,702,20,Morgan Hill Field-2,20,142,144,120,91,5,2,2019-10-06
+2967,706,704,0,20,Morgan Hill Field-2,20,180,180,120,120,4,6,2019-10-06
+2966,708,708,708,5,Caroline Davis School  San Jose,20,135,121,120,120,6,4,2019-10-06
+2961,723,701,723,5,Caroline Davis School  San Jose,20,137,138,120,111,4,7,2019-10-06
+2975,709,702,709,10,Fremont City Cricket Soccer Field,20,114,115,120,103,9,4,2019-10-13
+2541,667,667,667,5,Caroline Davis School  San Jose,45,144,127,244,231,10,10,2019-04-13
+2537,669,669,669,29,MLK Jr. Middle School,45,143,65,263,216,10,10,2019-04-13
+2556,670,670,670,11,"Rancho Milpitas School, Milpitas, CA",45,216,199,270,264,9,10,2019-04-20
+2560,672,672,672,16,"Sierra Bicentennial Park, Clovis",45,272,222,270,270,9,9,2019-04-20
+2575,671,671,667,5,Caroline Davis School  San Jose,45,210,211,270,217,8,4,2019-04-21
+2581,674,674,667,5,Caroline Davis School  San Jose,45,129,131,248,206,10,6,2019-04-27
+2577,670,670,670,11,"Rancho Milpitas School, Milpitas, CA",45,240,161,270,230,8,10,2019-04-27
+2578,672,672,675,16,"Sierra Bicentennial Park, Clovis",45,235,237,266,265,10,6,2019-04-27
+2601,673,674,673,5,Caroline Davis School  San Jose,45,130,133,232,158,10,2,2019-05-04
+2602,672,672,672,16,"Sierra Bicentennial Park, Clovis",45,314,226,270,246,9,10,2019-05-04
+2598,670,670,670,29,MLK Jr. Middle School,45,229,115,270,236,8,10,2019-05-04
+2611,671,671,671,1,Wilson Field Santa Clara,45,125,96,254,229,10,10,2019-05-05
+2625,669,669,667,5,Caroline Davis School  San Jose,45,199,203,270,254,10,5,2019-05-11
+2620,670,670,670,11,"Rancho Milpitas School, Milpitas, CA",45,257,221,270,270,4,9,2019-05-11
+2640,675,675,675,6,"Piper Park, Larkspur, CA",45,139,127,263,256,10,10,2019-05-12
+2749,675,675,675,5,Caroline Davis School  San Jose,45,213,201,270,270,7,9,2019-06-30
+2699,669,669,669,4,"Northgate Park, Fremont",45,157,91,255,183,10,10,2019-06-09
+2642,668,668,673,29,MLK Jr. Middle School,45,22,25,116,15,10,1,2019-05-18
+2849,667,672,672,16,"Sierra Bicentennial Park, Clovis",45,259,180,270,233,7,10,2019-08-17
+2666,674,667,674,5,Caroline Davis School  San Jose,45,196,200,264,258,10,6,2019-06-01
+2665,670,670,670,16,"Sierra Bicentennial Park, Clovis",45,237,211,270,267,8,10,2019-06-01
+2664,668,668,675,29,MLK Jr. Middle School,45,188,189,263,234,10,6,2019-06-01
+2693,669,669,672,4,"Northgate Park, Fremont",45,148,154,245,226,10,4,2019-06-08
+2690,671,671,671,29,MLK Jr. Middle School,45,153,127,223,241,10,10,2019-06-08
+2703,674,673,673,6,"Piper Park, Larkspur, CA",45,264,69,270,160,6,10,2019-06-09
+2706,669,667,669,4,"Northgate Park, Fremont",45,170,171,263,232,10,6,2019-06-15
+2713,675,675,675,9,"Ortega Park, Sunnyvale",45,127,121,233,259,10,10,2019-06-16
+2722,668,673,673,6,"Piper Park, Larkspur, CA",45,225,109,270,230,9,10,2019-06-16
+2727,670,670,670,10,Fremont City Cricket Soccer Field,45,164,158,250,270,10,9,2019-06-22
+2725,675,675,675,4,"Northgate Park, Fremont",45,165,126,261,230,10,10,2019-06-22
+2726,674,674,672,16,"Sierra Bicentennial Park, Clovis",45,118,122,219,126,10,3,2019-06-22
+2739,671,671,671,1,Wilson Field Santa Clara,45,232,213,270,257,9,10,2019-06-29
+2742,667,667,667,5,Caroline Davis School  San Jose,45,184,102,249,204,10,10,2019-06-29
+2752,672,672,673,6,"Piper Park, Larkspur, CA",45,158,159,270,189,9,2,2019-06-30
+2768,668,668,669,4,"Northgate Park, Fremont",45,113,114,248,206,10,3,2019-07-13
+2774,671,671,671,29,MLK Jr. Middle School,45,242,234,270,270,7,9,2019-07-14
+2777,673,673,673,6,"Piper Park, Larkspur, CA",45,172,27,260,79,10,10,2019-07-14
+2787,673,673,673,5,Caroline Davis School  San Jose,45,184,132,270,198,10,10,2019-07-20
+2786,672,672,668,29,MLK Jr. Middle School,45,179,180,270,264,10,8,2019-07-20
+2788,675,675,674,9,"Ortega Park, Sunnyvale",45,143,144,270,268,10,8,2019-07-21
+2789,670,670,671,19,Morgan Hill Field-1,45,173,178,270,205,9,5,2019-07-21
+2799,671,671,671,1,Wilson Field Santa Clara,45,295,215,270,220,9,10,2019-07-27
+2801,667,667,667,5,Caroline Davis School  San Jose,45,182,171,222,262,10,10,2019-07-27
+2803,669,673,673,4,"Northgate Park, Fremont",45,183,98,270,101,8,10,2019-07-27
+2811,672,672,675,9,"Ortega Park, Sunnyvale",45,130,132,270,233,9,5,2019-07-28
+2824,672,672,672,5,Caroline Davis School  San Jose,45,236,162,270,255,9,10,2019-08-03
+2833,668,668,675,9,"Ortega Park, Sunnyvale",45,97,98,242,144,10,7,2019-08-04
+2828,667,667,667,33,Sierramont Middle School,45,181,164,265,248,10,10,2019-08-04
+2841,674,674,669,5,Caroline Davis School  San Jose,45,164,165,254,263,10,7,2019-08-10
+2838,667,667,670,4,"Northgate Park, Fremont",45,197,198,271,268,10,7,2019-08-10
+2845,671,671,673,6,"Piper Park, Larkspur, CA",45,82,83,153,97,10,1,2019-08-11
+2858,674,674,670,5,Caroline Davis School  San Jose,45,141,144,266,201,10,2,2019-08-18
+2861,673,673,673,6,"Piper Park, Larkspur, CA",45,208,167,270,242,7,10,2019-08-18
+2862,670,670,670,10,Fremont City Cricket Soccer Field,45,252,153,270,224,5,10,2019-08-24
+2864,668,668,674,29,MLK Jr. Middle School,45,164,170,270,204,9,7,2019-08-24
+2866,673,673,673,33,Sierramont Middle School,45,181,165,270,256,7,10,2019-08-24
+2873,667,667,675,9,"Ortega Park, Sunnyvale",45,122,123,268,190,10,7,2019-08-25
+2886,668,668,674,5,Caroline Davis School  San Jose,45,130,131,238,196,10,4,2019-09-07
+2884,673,673,672,16,"Sierra Bicentennial Park, Clovis",45,116,117,228,126,10,5,2019-09-07
+2891,675,671,671,9,"Ortega Park, Sunnyvale",45,153,60,263,151,10,10,2019-09-08
+2900,674,671,671,5,Caroline Davis School  San Jose,45,203,145,261,160,10,10,2019-09-14
+2909,675,675,669,9,"Ortega Park, Sunnyvale",45,74,75,232,249,10,9,2019-09-15
+2907,670,670,670,10,Fremont City Cricket Soccer Field,45,276,87,270,173,6,8,2019-09-15
+2917,675,675,675,33,Sierramont Middle School,45,195,153,258,247,10,9,2019-09-21
+2922,670,670,670,4,"Northgate Park, Fremont",45,225,119,270,270,9,9,2019-09-21
+2923,672,672,672,16,"Sierra Bicentennial Park, Clovis",45,279,199,270,251,9,10,2019-09-21
+2921,668,668,667,29,MLK Jr. Middle School,45,139,140,171,118,10,5,2019-09-21
+2936,674,674,674,4,"Northgate Park, Fremont",45,230,155,270,270,7,9,2019-09-28
+2946,670,670,670,33,Sierramont Middle School,45,245,178,270,227,6,10,2019-09-29
+2950,667,667,673,6,"Piper Park, Larkspur, CA",45,91,93,195,130,10,4,2019-09-29
+2959,667,672,667,5,Caroline Davis School  San Jose,45,199,200,261,234,10,5,2019-10-05
+2960,671,671,674,29,MLK Jr. Middle School,45,308,311,270,223,7,5,2019-10-06
+2544,676,676,676,16,"Sierra Bicentennial Park, Clovis",40,200,122,223,166,10,10,2019-04-13
+2547,679,679,682,2,"Sea Breeze Park, Union City",45,71,75,159,102,10,6,2019-04-14
+2550,681,681,681,11,"Rancho Milpitas School, Milpitas, CA",45,158,157,233,249,10,10,2019-04-14
+2545,684,684,684,20,Morgan Hill Field-2,35,176,168,208,210,10,9,2019-04-14
+2562,676,676,692,5,Caroline Davis School  San Jose,45,226,227,266,254,10,8,2019-04-20
+2568,683,683,683,11,"Rancho Milpitas School, Milpitas, CA",45,276,264,270,257,10,10,2019-04-21
+2571,684,684,682,30,Anthony W. Ochoa Middle School,45,218,219,223,236,10,6,2019-04-21
+2583,678,678,681,19,Morgan Hill Field-1,45,103,104,203,100,10,5,2019-04-27
+2592,679,683,683,29,MLK Jr. Middle School,45,193,149,270,240,8,10,2019-04-28
+2589,684,684,692,30,Anthony W. Ochoa Middle School,45,73,74,127,116,10,2,2019-04-28
+2603,683,683,676,7,"Plasencia Fields, Tracy, CA",45,233,235,270,235,9,7,2019-05-04
+2612,677,677,677,11,"Rancho Milpitas School, Milpitas, CA",45,227,180,270,241,7,10,2019-05-05
+2617,681,681,681,6,"Piper Park, Larkspur, CA",45,177,116,270,238,9,10,2019-05-05
+2609,678,678,692,16,"Sierra Bicentennial Park, Clovis",45,150,151,212,186,10,7,2019-05-05
+2628,676,676,676,7,"Plasencia Fields, Tracy, CA",45,147,72,247,122,10,10,2019-05-11
+2632,682,682,682,2,"Sea Breeze Park, Union City",45,271,88,270,170,8,10,2019-05-12
+2645,679,679,678,16,"Sierra Bicentennial Park, Clovis",40,177,178,240,237,7,9,2019-05-18
+2964,681,681,681,5,Caroline Davis School  San Jose,45,232,131,270,230,9,10,2019-10-06
+2953,683,683,677,4,"Northgate Park, Fremont",45,119,120,230,190,10,3,2019-10-05
+2681,677,677,677,5,Caroline Davis School  San Jose,45,190,113,252,187,10,10,2019-06-02
+2683,683,679,679,6,"Piper Park, Larkspur, CA",45,235,196,270,222,7,10,2019-06-02
+2691,692,679,679,5,Caroline Davis School  San Jose,45,246,164,270,265,2,10,2019-06-08
+2689,678,678,678,16,"Sierra Bicentennial Park, Clovis",45,177,163,241,259,10,10,2019-06-08
+2697,684,684,684,30,Anthony W. Ochoa Middle School,45,188,143,202,182,10,10,2019-06-09
+2707,678,677,678,16,"Sierra Bicentennial Park, Clovis",45,129,130,222,215,10,6,2019-06-15
+2711,676,676,676,7,"Plasencia Fields, Tracy, CA",45,227,84,270,137,6,10,2019-06-15
+2717,681,681,681,19,Morgan Hill Field-1,45,229,217,270,264,8,10,2019-06-16
+2728,681,681,681,7,"Plasencia Fields, Tracy, CA",45,202,138,270,249,8,10,2019-06-22
+2733,678,678,678,2,"Sea Breeze Park, Union City",45,238,54,270,99,10,10,2019-06-23
+2737,679,679,677,6,"Piper Park, Larkspur, CA",45,103,104,232,137,10,4,2019-06-23
+2732,684,684,683,30,Anthony W. Ochoa Middle School,45,182,183,234,268,10,8,2019-06-23
+2744,682,682,682,2,"Sea Breeze Park, Union City",45,177,96,267,147,10,10,2019-06-30
+2746,677,677,677,10,Fremont City Cricket Soccer Field,45,190,112,267,239,10,10,2019-06-30
+2769,678,678,676,7,"Plasencia Fields, Tracy, CA",45,133,139,233,189,10,5,2019-07-13
+2776,683,683,682,2,"Sea Breeze Park, Union City",35,115,116,178,142,10,4,2019-07-14
+2773,684,684,684,30,Anthony W. Ochoa Middle School,45,314,150,270,154,7,10,2019-07-14
+2785,681,681,681,20,Morgan Hill Field-2,45,172,168,234,270,10,9,2019-07-20
+2795,692,692,678,5,Caroline Davis School  San Jose,45,151,152,259,117,10,2,2019-07-21
+2791,677,677,677,10,Fremont City Cricket Soccer Field,45,222,163,270,237,9,10,2019-07-21
+2797,679,679,679,6,"Piper Park, Larkspur, CA",45,183,123,228,160,10,10,2019-07-21
+2815,681,681,681,20,Morgan Hill Field-2,45,307,25,270,100,6,10,2019-07-27
+2807,677,677,677,10,Fremont City Cricket Soccer Field,45,172,78,259,105,10,10,2019-07-28
+2816,679,679,682,6,"Piper Park, Larkspur, CA",45,177,178,270,268,9,9,2019-07-28
+2805,678,678,683,29,MLK Jr. Middle School,45,142,143,200,135,10,6,2019-07-28
+2836,692,692,682,5,Caroline Davis School  San Jose,45,103,104,206,192,10,8,2019-08-04
+2830,678,678,677,4,"Northgate Park, Fremont",45,191,195,270,252,8,6,2019-08-04
+2829,683,683,683,29,MLK Jr. Middle School,45,240,202,270,250,9,10,2019-08-04
+2834,681,681,684,30,Anthony W. Ochoa Middle School,45,228,229,266,265,10,9,2019-08-04
+2844,679,679,681,20,Morgan Hill Field-2,45,107,108,242,96,10,2,2019-08-11
+2952,676,676,0,2,"Sea Breeze Park, Union City",45,0,0,0,0,0,0,2019-10-05
+2899,683,683,683,34,Anthony W. Ochoa Middle School,35,285,231,210,208,5,9,2019-09-14
+2846,684,684,684,30,Anthony W. Ochoa Middle School,38,227,167,202,203,10,10,2019-08-11
+2850,683,683,692,5,Caroline Davis School  San Jose,45,122,126,228,104,10,3,2019-08-17
+2851,677,677,676,7,"Plasencia Fields, Tracy, CA",45,142,143,266,174,10,6,2019-08-17
+2854,682,682,681,2,"Sea Breeze Park, Union City",45,164,165,267,210,10,2,2019-08-18
+2856,684,684,684,30,Anthony W. Ochoa Middle School,45,161,108,214,142,10,10,2019-08-18
+2877,692,677,677,10,Fremont City Cricket Soccer Field,45,179,175,270,258,10,9,2019-08-25
+2881,679,679,679,6,"Piper Park, Larkspur, CA",45,204,181,267,259,10,10,2019-08-25
+2872,683,683,683,29,MLK Jr. Middle School,45,226,149,270,207,9,10,2019-08-25
+2885,676,676,681,19,Morgan Hill Field-1,45,138,139,257,220,10,5,2019-09-07
+2893,682,682,677,2,"Sea Breeze Park, Union City",45,124,136,169,228,9,4,2019-09-08
+2897,679,679,679,6,"Piper Park, Larkspur, CA",45,156,137,251,233,10,10,2019-09-08
+2906,681,684,681,19,Morgan Hill Field-1,35,125,129,150,197,10,7,2019-09-14
+2908,676,676,676,2,"Sea Breeze Park, Union City",45,186,170,266,261,10,10,2019-09-15
+2914,678,678,683,16,"Sierra Bicentennial Park, Clovis",45,92,93,165,205,10,8,2019-09-15
+2919,677,681,681,19,Morgan Hill Field-1,45,173,116,269,224,10,10,2019-09-21
+2935,684,684,684,16,"Sierra Bicentennial Park, Clovis",40,145,102,212,196,10,10,2019-09-22
+2934,692,676,676,7,"Plasencia Fields, Tracy, CA",45,239,96,270,186,9,10,2019-09-22
+2928,683,683,683,29,MLK Jr. Middle School,45,245,149,270,216,9,10,2019-09-22
+2942,679,679,679,6,"Piper Park, Larkspur, CA",45,152,127,269,193,10,10,2019-09-28
+2948,692,692,684,5,Caroline Davis School  San Jose,45,93,94,211,89,10,5,2019-09-29
+2944,681,681,681,16,"Sierra Bicentennial Park, Clovis",40,183,113,240,170,7,10,2019-09-29
+2536,685,685,694,19,Morgan Hill Field-1,45,147,151,229,175,10,3,2019-04-13
+2535,688,688,688,11,"Rancho Milpitas School, Milpitas, CA",45,236,158,270,209,9,10,2019-04-13
+2543,689,689,686,15,"Highland Elementary School, San Pablo",45,0,0,0,0,0,0,2019-04-14
+2557,693,687,687,19,Morgan Hill Field-1,45,228,167,270,241,8,10,2019-04-20
+2559,690,696,696,20,Morgan Hill Field-2,45,163,160,265,197,10,10,2019-04-20
+2573,689,689,689,15,"Highland Elementary School, San Pablo",45,200,187,250,268,10,10,2019-04-21
+2566,698,698,691,2,"Sea Breeze Park, Union City",45,120,123,244,224,10,7,2019-04-21
+2576,686,686,686,7,"Plasencia Fields, Tracy, CA",45,173,146,240,270,10,8,2019-04-21
+2585,689,689,696,15,"Highland Elementary School, San Pablo",45,0,0,0,0,0,0,2019-04-28
+2586,691,687,687,2,"Sea Breeze Park, Union City",45,238,117,270,198,8,9,2019-04-28
+2593,693,693,685,1,Wilson Field Santa Clara,45,166,167,270,240,9,9,2019-04-28
+2584,688,688,688,11,"Rancho Milpitas School, Milpitas, CA",45,118,83,225,185,10,9,2019-04-28
+2599,694,694,694,11,"Rancho Milpitas School, Milpitas, CA",45,145,115,203,234,10,10,2019-05-04
+2614,689,698,689,32,"Riverview Middle School, Bay Point",45,87,89,200,157,10,7,2019-05-05
+2616,691,690,690,7,"Plasencia Fields, Tracy, CA",45,203,71,267,144,10,10,2019-05-05
+2624,693,693,694,20,Morgan Hill Field-2,45,127,128,265,231,10,6,2019-05-11
+2631,690,690,690,19,Morgan Hill Field-1,45,269,111,270,151,8,10,2019-05-12
+2630,685,685,688,1,Wilson Field Santa Clara,45,113,114,195,234,10,4,2019-05-12
+2633,691,695,695,11,"Rancho Milpitas School, Milpitas, CA",45,225,175,265,247,10,10,2019-05-12
+2637,698,698,686,7,"Plasencia Fields, Tracy, CA",45,101,105,224,151,10,4,2019-05-12
+2865,696,696,688,4,"Northgate Park, Fremont",45,194,195,270,203,9,7,2019-08-24
+2747,689,689,690,32,"Riverview Middle School, Bay Point",45,76,82,139,75,10,3,2019-06-30
+2649,695,695,693,10,Fremont City Cricket Soccer Field,45,103,106,145,136,10,5,2019-05-19
+2650,691,691,0,7,"Plasencia Fields, Tracy, CA",45,0,0,0,0,0,0,2019-05-19
+2663,694,694,694,19,Morgan Hill Field-1,45,192,122,270,219,8,10,2019-06-01
+2678,689,689,689,32,"Riverview Middle School, Bay Point",45,203,59,270,135,9,10,2019-06-02
+2674,696,696,687,9,"Ortega Park, Sunnyvale",45,137,138,229,247,10,8,2019-06-02
+2679,690,690,690,2,"Sea Breeze Park, Union City",45,270,83,270,199,8,10,2019-06-02
+2677,685,685,686,1,Wilson Field Santa Clara,45,124,125,236,214,10,6,2019-06-02
+2687,695,695,695,11,"Rancho Milpitas School, Milpitas, CA",45,264,116,265,177,10,10,2019-06-08
+2692,686,685,686,7,"Plasencia Fields, Tracy, CA",45,123,124,235,243,10,6,2019-06-08
+2694,696,696,696,9,"Ortega Park, Sunnyvale",45,172,150,264,248,10,10,2019-06-09
+2695,687,687,688,2,"Sea Breeze Park, Union City",45,89,90,183,130,10,3,2019-06-09
+2700,689,689,689,7,"Plasencia Fields, Tracy, CA",45,165,73,250,165,10,10,2019-06-09
+2709,693,693,688,11,"Rancho Milpitas School, Milpitas, CA",45,88,89,189,96,10,4,2019-06-15
+2714,689,689,689,32,"Riverview Middle School, Bay Point",45,184,76,247,156,10,10,2019-06-16
+2721,695,695,695,2,"Sea Breeze Park, Union City",40,187,77,240,150,5,10,2019-06-16
+2719,694,694,694,7,"Plasencia Fields, Tracy, CA",45,177,167,269,267,10,10,2019-06-16
+2724,685,685,685,1,Wilson Field Santa Clara,45,165,45,265,128,10,10,2019-06-22
+2734,698,698,696,9,"Ortega Park, Sunnyvale",45,140,146,270,195,9,4,2019-06-23
+2731,695,695,690,10,Fremont City Cricket Soccer Field,45,113,117,198,93,10,1,2019-06-23
+2735,686,686,686,7,"Plasencia Fields, Tracy, CA",45,280,118,250,221,10,10,2019-06-23
+2740,698,698,695,10,Fremont City Cricket Soccer Field,45,142,146,270,152,10,3,2019-06-29
+2745,696,696,696,9,"Ortega Park, Sunnyvale",45,108,98,267,262,10,9,2019-06-30
+2748,686,686,686,7,"Plasencia Fields, Tracy, CA",45,243,125,270,258,9,10,2019-06-30
+2764,688,688,688,33,Sierramont Middle School,45,187,93,269,121,10,10,2019-07-13
+2766,687,687,690,20,Morgan Hill Field-2,45,157,160,253,225,10,8,2019-07-13
+2772,685,685,696,9,"Ortega Park, Sunnyvale",45,69,70,260,76,10,1,2019-07-14
+2770,689,689,689,10,Fremont City Cricket Soccer Field,45,204,128,234,228,10,10,2019-07-14
+2783,694,694,690,32,"Riverview Middle School, Bay Point",45,43,44,145,19,10,0,2019-07-20
+2780,685,685,691,33,Sierramont Middle School,45,143,146,257,222,10,7,2019-07-20
+2784,688,688,686,10,Fremont City Cricket Soccer Field,45,136,137,270,180,9,4,2019-07-20
+2792,695,695,687,2,"Sea Breeze Park, Union City",45,168,170,270,215,8,6,2019-07-21
+2802,688,688,690,19,Morgan Hill Field-1,45,150,153,219,162,10,2,2019-07-27
+2809,693,693,691,19,Morgan Hill Field-1,45,82,85,155,92,10,6,2019-07-28
+2806,687,687,687,2,"Sea Breeze Park, Union City",45,242,47,270,139,9,10,2019-07-28
+2813,696,696,686,7,"Plasencia Fields, Tracy, CA",45,134,135,270,240,9,7,2019-07-28
+2823,690,690,690,19,Morgan Hill Field-1,45,309,92,270,189,10,10,2019-08-03
+2822,687,687,694,33,Sierramont Middle School,45,110,111,223,149,10,2,2019-08-03
+2826,695,695,696,10,Fremont City Cricket Soccer Field,45,0,0,0,0,0,0,2019-08-03
+2831,698,698,686,2,"Sea Breeze Park, Union City",45,96,98,203,106,10,1,2019-08-04
+2837,691,688,691,7,"Plasencia Fields, Tracy, CA",45,105,110,263,153,10,5,2019-08-04
+2839,686,686,694,33,Sierramont Middle School,45,158,159,257,261,10,9,2019-08-10
+2848,691,696,696,32,"Riverview Middle School, Bay Point",45,127,24,226,104,10,10,2019-08-17
+2843,690,690,690,12,"Beckman Park, Lodi",45,193,100,236,168,10,10,2019-08-11
+2842,698,698,698,33,Sierramont Middle School,45,240,139,270,199,6,10,2019-08-11
+2892,688,688,689,32,"Riverview Middle School, Bay Point",45,61,65,125,83,10,5,2019-09-08
+2860,689,689,694,32,"Riverview Middle School, Bay Point",45,121,124,203,215,10,8,2019-08-18
+2855,685,685,685,1,Wilson Field Santa Clara,45,163,150,239,270,10,8,2019-08-18
+2859,690,690,690,7,"Plasencia Fields, Tracy, CA",45,218,32,250,72,10,10,2019-08-18
+2863,694,694,694,2,"Sea Breeze Park, Union City",45,313,60,270,142,7,10,2019-08-24
+2874,687,686,686,2,"Sea Breeze Park, Union City",45,114,103,229,184,10,10,2019-08-25
+2880,685,685,689,30,Anthony W. Ochoa Middle School,40,143,144,217,75,10,1,2019-08-25
+2879,691,691,691,7,"Plasencia Fields, Tracy, CA",45,192,46,270,126,6,9,2019-08-25
+2882,694,690,694,20,Morgan Hill Field-2,45,143,144,223,252,10,8,2019-09-07
+2883,687,689,687,2,"Sea Breeze Park, Union City",45,134,135,215,263,10,8,2019-09-07
+2894,693,693,696,20,Morgan Hill Field-2,45,129,131,270,152,9,3,2019-09-08
+2895,691,691,691,7,"Plasencia Fields, Tracy, CA",45,230,150,270,255,9,10,2019-09-08
+2905,694,694,694,33,Sierramont Middle School,45,206,171,270,255,7,10,2019-09-14
+2902,688,688,688,10,Fremont City Cricket Soccer Field,45,205,151,254,237,9,10,2019-09-14
+2904,687,687,686,7,"Plasencia Fields, Tracy, CA",45,96,97,205,211,10,6,2019-09-14
+2910,695,695,690,33,Sierramont Middle School,45,88,91,186,91,10,2,2019-09-15
+2915,685,685,691,7,"Plasencia Fields, Tracy, CA",45,116,117,228,159,10,2,2019-09-15
+2920,688,687,688,10,Fremont City Cricket Soccer Field,45,153,156,268,205,10,4,2019-09-21
+2932,696,696,696,9,"Ortega Park, Sunnyvale",45,150,106,270,218,8,10,2019-09-22
+2929,693,693,686,33,Sierramont Middle School,45,79,81,161,86,10,2,2019-09-22
+2930,685,685,685,1,Wilson Field Santa Clara,45,109,78,192,223,10,10,2019-09-22
+2939,690,690,690,20,Morgan Hill Field-2,45,307,119,270,138,8,10,2019-09-28
+2937,687,687,687,2,"Sea Breeze Park, Union City",45,139,131,242,245,10,10,2019-09-28
+2938,685,685,685,1,Wilson Field Santa Clara,45,176,155,246,245,10,10,2019-09-28
+2947,689,689,689,19,Morgan Hill Field-1,45,276,71,266,207,10,8,2019-09-29
+2943,698,698,696,2,"Sea Breeze Park, Union City",45,137,138,270,201,8,5,2019-09-29
+2955,696,696,690,19,Morgan Hill Field-1,45,162,164,270,124,10,1,2019-10-05
+2954,694,694,694,20,Morgan Hill Field-2,45,171,77,249,143,10,10,2019-10-05
+2963,693,693,688,19,Morgan Hill Field-1,45,110,111,233,113,10,2,2019-10-06
+2962,698,698,689,2,"Sea Breeze Park, Union City",45,59,63,188,123,10,4,2019-10-06
+2976,662,661,661,2,"Sea Breeze Park, Union City",45,97,95,203,267,10,10,2019-10-13
+2978,660,659,659,6,"Piper Park, Larkspur, CA",45,146,134,253,159,10,5,2019-10-13
+2982,659,659,662,10,Fremont City Cricket Soccer Field,45,157,158,269,236,10,7,2019-10-20
+2988,661,661,661,2,"Sea Breeze Park, Union City",45,186,166,270,258,9,10,2019-10-27
+2513,552,552,552,11,"Rancho Milpitas School, Milpitas, CA",40,236,151,240,198,8,10,2019-03-31
+2516,738,737,738,19,Morgan Hill Field-1,10,98,99,60,49,5,3,2019-04-06
+2519,736,736,737,19,Morgan Hill Field-1,10,71,75,60,30,7,2,2019-04-06
+2526,738,738,738,19,Morgan Hill Field-1,10,106,90,60,60,6,5,2019-04-06
+2521,739,739,739,20,Morgan Hill Field-2,10,117,62,60,60,4,9,2019-04-06
+2529,741,741,741,20,Morgan Hill Field-2,10,98,94,60,60,3,3,2019-04-06
+2524,739,739,739,19,Morgan Hill Field-1,10,115,94,60,60,6,5,2019-04-06
+2517,742,743,743,20,Morgan Hill Field-2,10,110,88,60,61,4,7,2019-04-06
+2523,744,743,743,20,Morgan Hill Field-2,10,142,110,60,60,4,4,2019-04-06
+2527,742,742,742,20,Morgan Hill Field-2,10,73,54,60,54,8,10,2019-04-06
+2525,747,747,747,1,Wilson Field Santa Clara,10,92,57,60,60,8,6,2019-04-06
+2528,747,747,747,1,Wilson Field Santa Clara,10,74,64,60,60,6,8,2019-04-06
+2530,739,739,743,19,Morgan Hill Field-1,10,73,74,60,27,3,0,2019-04-07
+2532,738,747,747,19,Morgan Hill Field-1,10,131,101,60,60,3,6,2019-04-07
+2534,747,747,743,19,Morgan Hill Field-1,10,117,120,60,58,3,3,2019-04-07
+2656,750,749,749,19,Morgan Hill Field-1,50,365,63,300,150,6,10,2019-05-25
+2657,751,751,752,20,Morgan Hill Field-2,50,209,210,297,245,10,3,2019-05-25
+2658,752,752,750,19,Morgan Hill Field-1,40,128,131,239,193,10,5,2019-05-26
+2659,749,749,749,20,Morgan Hill Field-2,40,209,159,240,227,9,10,2019-05-26
+2661,751,751,750,19,Morgan Hill Field-1,20,116,117,119,110,8,4,2019-05-27
+2660,749,752,749,20,Morgan Hill Field-2,20,147,148,120,115,4,6,2019-05-27
+2754,755,757,757,2,"Sea Breeze Park, Union City",20,172,148,119,120,10,9,2019-07-06
+2756,753,753,755,2,"Sea Breeze Park, Union City",20,159,160,120,114,4,4,2019-07-06
+2758,753,753,757,2,"Sea Breeze Park, Union City",20,169,173,120,98,3,4,2019-07-06
+2755,758,758,758,10,Fremont City Cricket Soccer Field,20,167,117,120,117,5,10,2019-07-06
+2757,756,756,758,10,Fremont City Cricket Soccer Field,20,109,110,120,109,10,5,2019-07-06
+2759,756,756,756,10,Fremont City Cricket Soccer Field,20,186,137,120,87,5,10,2019-07-06
+2760,757,756,757,10,Fremont City Cricket Soccer Field,20,122,123,120,66,9,1,2019-07-07
+2761,758,758,758,10,Fremont City Cricket Soccer Field,20,185,94,120,98,6,9,2019-07-07
+2762,757,757,758,10,Fremont City Cricket Soccer Field,20,154,155,120,104,6,4,2019-07-07
+2925,702,710,702,5,Caroline Davis School  San Jose,20,89,90,117,73,10,3,2019-09-21
+2971,670,670,670,2,"Sea Breeze Park, Union City",45,219,175,270,253,7,9,2019-10-12
+2972,667,667,667,20,Morgan Hill Field-2,45,199,196,270,267,9,7,2019-10-12
+2977,677,677,677,4,"Northgate Park, Fremont",45,216,120,261,179,10,10,2019-10-13
+2979,676,676,676,10,Fremont City Cricket Soccer Field,45,249,246,270,270,9,7,2019-10-13
+2970,690,690,690,4,"Northgate Park, Fremont",45,260,53,267,105,10,10,2019-10-12
+2969,696,696,694,10,Fremont City Cricket Soccer Field,45,87,90,215,93,10,2,2019-10-12
+2974,706,705,706,33,Sierramont Middle School,20,165,165,120,120,7,8,2019-10-12
+2981,667,673,667,2,"Sea Breeze Park, Union City",45,82,88,154,60,7,0,2019-10-19
+2983,681,681,681,2,"Sea Breeze Park, Union City",45,167,145,270,240,7,10,2019-10-20
+2980,694,686,694,10,Fremont City Cricket Soccer Field,45,175,176,270,184,9,2,2019-10-19
+2984,706,709,706,10,Fremont City Cricket Soccer Field,20,122,123,120,109,7,6,2019-10-20
+2987,677,677,681,5,Caroline Davis School  San Jose,45,141,142,249,257,10,8,2019-10-27
+2985,670,670,670,2,"Sea Breeze Park, Union City",45,225,154,270,222,8,10,2019-10-26
+2986,690,690,694,5,Caroline Davis School  San Jose,40,120,122,205,197,10,4,2019-10-26
+3156,776,776,0,2,"Sea Breeze Park, Union City",0,0,0,0,0,0,0,2020-03-15
+2992,777,777,777,2,"Sea Breeze Park, Union City",20,213,78,120,88,4,10,2019-11-02
+2990,792,783,792,10,Fremont City Cricket Soccer Field,20,61,64,85,54,10,1,2019-11-02
+2989,797,797,788,33,Sierramont Middle School,20,94,95,120,72,7,2,2019-11-02
+2993,798,798,780,33,Sierramont Middle School,20,154,157,120,84,10,3,2019-11-02
+2994,796,796,796,4,"Northgate Park, Fremont",20,136,135,120,120,8,7,2019-11-02
+2991,775,775,775,32,"Riverview Middle School, Bay Point",20,178,173,120,120,4,8,2019-11-02
+2995,776,776,776,2,"Sea Breeze Park, Union City",20,129,50,120,74,9,10,2019-11-03
+2997,790,790,791,2,"Sea Breeze Park, Union City",20,119,120,120,79,8,5,2019-11-03
+2996,785,785,801,10,Fremont City Cricket Soccer Field,20,120,124,120,111,9,5,2019-11-03
+2998,779,789,789,10,Fremont City Cricket Soccer Field,20,141,98,121,95,8,10,2019-11-03
+3002,799,799,783,5,Caroline Davis School  San Jose,20,126,127,120,114,8,5,2019-11-09
+3000,798,798,798,2,"Sea Breeze Park, Union City",20,149,132,120,120,6,9,2019-11-09
+3001,795,781,781,10,Fremont City Cricket Soccer Field,20,144,141,120,120,7,9,2019-11-09
+3004,780,780,780,10,Fremont City Cricket Soccer Field,20,107,89,120,120,9,9,2019-11-09
+2999,788,788,788,33,Sierramont Middle School,20,141,139,120,120,9,9,2019-11-09
+3003,796,796,796,2,"Sea Breeze Park, Union City",20,158,48,120,89,7,10,2019-11-09
+3008,785,785,786,5,Caroline Davis School  San Jose,20,79,80,120,55,7,2,2019-11-10
+3005,776,776,776,2,"Sea Breeze Park, Union City",20,136,111,120,120,6,8,2019-11-10
+3009,789,789,789,2,"Sea Breeze Park, Union City",20,155,62,120,78,8,10,2019-11-10
+3006,802,802,794,33,Sierramont Middle School,20,132,136,105,74,10,2,2019-11-10
+3007,791,790,790,32,"Riverview Middle School, Bay Point",20,172,120,120,110,5,10,2019-11-10
+3013,792,792,792,5,Caroline Davis School  San Jose,20,114,96,120,120,7,8,2019-11-16
+3011,795,795,795,33,Sierramont Middle School,20,193,180,120,118,5,10,2019-11-16
+3010,799,799,799,2,"Sea Breeze Park, Union City",20,134,112,120,120,7,7,2019-11-16
+3014,777,777,777,33,Sierramont Middle School,20,175,120,120,108,9,10,2019-11-16
+3015,796,796,796,2,"Sea Breeze Park, Union City",20,129,69,120,103,6,9,2019-11-16
+3012,782,782,782,32,"Riverview Middle School, Bay Point",20,179,72,120,99,8,10,2019-11-16
+3019,786,789,789,5,Caroline Davis School  San Jose,20,159,105,120,101,6,10,2019-11-17
+3018,790,779,779,2,"Sea Breeze Park, Union City",20,150,127,120,116,6,10,2019-11-17
+3020,793,793,778,2,"Sea Breeze Park, Union City",20,137,142,120,101,5,2,2019-11-17
+3017,800,800,787,11,"Rancho Milpitas School, Milpitas, CA",20,153,156,120,120,8,6,2019-11-17
+3021,785,785,801,11,"Rancho Milpitas School, Milpitas, CA",20,100,101,118,49,10,0,2019-11-17
+3016,776,776,802,32,"Riverview Middle School, Bay Point",20,116,119,120,85,5,6,2019-11-17
+3024,798,798,798,5,Caroline Davis School  San Jose,20,127,120,120,120,6,9,2019-11-23
+3023,777,777,799,2,"Sea Breeze Park, Union City",20,178,179,120,117,3,6,2019-11-23
+3022,775,775,775,33,Sierramont Middle School,20,162,113,111,117,10,10,2019-11-23
+3026,781,781,795,33,Sierramont Middle School,20,146,147,120,79,8,3,2019-11-23
+3025,780,780,780,2,"Sea Breeze Park, Union City",20,207,124,120,120,5,8,2019-11-23
+3027,779,779,779,5,Caroline Davis School  San Jose,20,147,91,120,120,4,8,2019-11-24
+3028,802,802,778,2,"Sea Breeze Park, Union City",20,114,115,116,107,10,5,2019-11-24
+3031,791,791,791,2,"Sea Breeze Park, Union City",20,181,139,120,120,6,7,2019-11-24
+3029,800,800,793,11,"Rancho Milpitas School, Milpitas, CA",20,139,140,117,111,10,6,2019-11-24
+3032,785,790,785,11,"Rancho Milpitas School, Milpitas, CA",20,119,124,116,90,10,4,2019-11-24
+3030,787,776,787,33,Sierramont Middle School,20,122,123,120,114,7,5,2019-11-24
+3066,783,783,0,5,Caroline Davis School  San Jose,0,0,0,0,0,0,0,2019-12-07
+3063,777,777,0,2,"Sea Breeze Park, Union City",0,0,0,0,0,0,0,2019-12-07
+3065,799,799,0,2,"Sea Breeze Park, Union City",0,0,0,0,0,0,0,2019-12-07
+3057,781,781,0,10,Fremont City Cricket Soccer Field,20,0,0,0,0,0,0,2019-12-07
+3064,782,782,0,32,"Riverview Middle School, Bay Point",0,0,0,0,0,0,0,2019-12-07
+3049,797,797,0,32,"Riverview Middle School, Bay Point",20,0,0,0,0,0,0,2019-12-07
+3062,786,786,0,5,Caroline Davis School  San Jose,0,0,0,0,0,0,0,2019-12-08
+3033,789,789,789,2,"Sea Breeze Park, Union City",20,133,92,120,108,9,10,2019-12-08
+3036,776,776,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-12-08
+3061,787,787,0,33,Sierramont Middle School,0,0,0,0,0,0,0,2019-12-08
+3034,802,802,794,32,"Riverview Middle School, Bay Point",20,66,67,103,51,10,2,2019-12-08
+3035,790,790,790,32,"Riverview Middle School, Bay Point",20,184,102,120,120,6,7,2019-12-08
+3042,777,777,783,5,Caroline Davis School  San Jose,20,79,80,121,98,10,7,2019-12-14
+3040,788,788,788,10,Fremont City Cricket Soccer Field,20,155,148,120,120,7,8,2019-12-14
+3038,795,795,795,33,Sierramont Middle School,20,148,129,120,114,9,10,2019-12-14
+3039,799,799,799,29,MLK Jr. Middle School,20,156,101,120,120,9,9,2019-12-14
+3037,797,797,796,4,"Northgate Park, Fremont",20,126,130,120,116,10,5,2019-12-14
+3041,780,780,780,4,"Northgate Park, Fremont",20,134,80,120,120,5,7,2019-12-14
+3047,786,791,791,5,Caroline Davis School  San Jose,20,105,77,118,121,8,10,2019-12-15
+3043,776,794,0,2,"Sea Breeze Park, Union City",20,123,123,120,120,9,7,2019-12-15
+3048,800,793,800,2,"Sea Breeze Park, Union City",20,95,99,118,106,9,3,2019-12-15
+3045,801,789,789,10,Fremont City Cricket Soccer Field,20,189,167,120,120,6,4,2019-12-15
+3044,787,787,0,33,Sierramont Middle School,20,0,0,0,0,0,0,2019-12-15
+3046,779,779,790,32,"Riverview Middle School, Bay Point",20,121,124,120,114,8,6,2019-12-15
+3053,784,784,783,5,Caroline Davis School  San Jose,20,117,118,117,120,10,5,2019-12-21
+3054,799,799,799,2,"Sea Breeze Park, Union City",20,141,138,120,120,9,2,2019-12-21
+3052,797,797,781,10,Fremont City Cricket Soccer Field,20,119,120,120,115,7,6,2019-12-21
+3050,796,796,775,4,"Northgate Park, Fremont",20,87,89,120,81,8,4,2019-12-21
+3051,788,788,782,32,"Riverview Middle School, Bay Point",20,151,152,120,101,5,3,2019-12-21
+3059,786,786,0,5,Caroline Davis School  San Jose,0,0,0,0,0,0,0,2019-12-22
+3060,789,789,0,10,Fremont City Cricket Soccer Field,0,0,0,0,0,0,0,2019-12-22
+3058,779,779,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2019-12-22
+3056,802,802,0,32,"Riverview Middle School, Bay Point",20,0,0,0,0,0,0,2019-12-22
+3055,776,794,0,33,Sierramont Middle School,20,21,0,18,0,0,0,2019-12-22
+3069,784,784,792,10,Fremont City Cricket Soccer Field,20,131,134,120,109,7,4,2020-01-04
+3067,777,798,777,33,Sierramont Middle School,20,127,128,120,113,9,6,2020-01-04
+3071,782,782,782,33,Sierramont Middle School,20,140,125,120,117,9,10,2020-01-04
+3070,799,799,799,4,"Northgate Park, Fremont",20,131,100,120,103,10,10,2020-01-04
+3068,795,795,795,32,"Riverview Middle School, Bay Point",20,139,130,120,120,6,3,2020-01-04
+3072,787,793,787,2,"Sea Breeze Park, Union City",20,121,122,120,120,6,5,2020-01-05
+3075,779,779,779,2,"Sea Breeze Park, Union City",20,119,113,120,117,6,9,2020-01-05
+3074,801,786,801,10,Fremont City Cricket Soccer Field,20,70,71,120,33,6,1,2020-01-05
+3076,789,789,789,10,Fremont City Cricket Soccer Field,20,156,99,120,109,7,10,2020-01-05
+3073,800,802,802,32,"Riverview Middle School, Bay Point",20,136,128,119,120,10,9,2020-01-05
+3079,799,777,799,2,"Sea Breeze Park, Union City",20,139,142,120,82,6,0,2020-01-11
+3080,792,798,798,10,Fremont City Cricket Soccer Field,20,127,102,120,112,8,10,2020-01-11
+3077,795,795,796,33,Sierramont Middle School,20,100,103,120,91,9,2,2020-01-11
+3082,775,775,775,33,Sierramont Middle School,20,138,116,120,119,8,10,2020-01-11
+3081,783,780,783,4,"Northgate Park, Fremont",20,81,82,120,75,9,3,2020-01-11
+3078,797,797,782,32,"Riverview Middle School, Bay Point",20,134,135,120,73,7,2,2020-01-11
+3085,778,778,778,2,"Sea Breeze Park, Union City",20,134,128,120,120,7,10,2020-01-12
+3086,801,791,801,10,Fremont City Cricket Soccer Field,20,99,100,108,110,10,4,2020-01-12
+3088,790,790,789,10,Fremont City Cricket Soccer Field,20,107,111,120,67,9,2,2020-01-12
+3083,802,802,800,11,"Rancho Milpitas School, Milpitas, CA",20,125,126,120,115,9,6,2020-01-12
+3087,779,779,785,11,"Rancho Milpitas School, Milpitas, CA",20,162,163,120,114,6,7,2020-01-12
+3084,787,787,794,33,Sierramont Middle School,20,73,74,120,45,10,1,2020-01-12
+3090,780,799,780,2,"Sea Breeze Park, Union City",20,98,99,120,78,9,4,2020-01-18
+3093,777,783,777,2,"Sea Breeze Park, Union City",20,106,107,120,88,9,5,2020-01-18
+3092,784,784,784,29,MLK Jr. Middle School,20,129,90,120,120,6,8,2020-01-18
+3089,796,775,775,33,Sierramont Middle School,20,134,124,120,120,4,8,2020-01-18
+3094,788,788,795,33,Sierramont Middle School,20,134,139,120,120,6,7,2020-01-18
+3091,781,782,782,32,"Riverview Middle School, Bay Point",20,205,73,120,85,6,10,2020-01-18
+3096,778,778,794,2,"Sea Breeze Park, Union City",20,74,77,118,72,10,2,2020-01-19
+3097,786,786,779,2,"Sea Breeze Park, Union City",20,91,92,120,95,7,4,2020-01-19
+3095,776,776,776,11,"Rancho Milpitas School, Milpitas, CA",20,108,107,120,120,8,8,2020-01-19
+3098,789,789,789,11,"Rancho Milpitas School, Milpitas, CA",20,164,148,120,120,4,8,2020-01-19
+3099,802,802,0,32,"Riverview Middle School, Bay Point",0,0,0,0,0,0,0,2020-01-19
+3100,790,790,0,32,"Riverview Middle School, Bay Point",0,0,0,0,0,0,0,2020-01-19
+3102,777,780,777,2,"Sea Breeze Park, Union City",20,121,127,120,113,10,7,2020-01-25
+3105,799,799,799,2,"Sea Breeze Park, Union City",20,152,141,120,120,7,10,2020-01-25
+3103,775,775,775,33,Sierramont Middle School,20,159,100,120,95,9,10,2020-01-25
+3104,784,784,798,33,Sierramont Middle School,20,54,55,88,78,10,6,2020-01-25
+3101,796,797,796,32,"Riverview Middle School, Bay Point",20,106,107,120,83,7,2,2020-01-25
+3108,776,776,0,2,"Sea Breeze Park, Union City",20,0,0,0,0,0,0,2020-01-26
+3110,791,791,0,2,"Sea Breeze Park, Union City",0,0,0,0,0,0,0,2020-01-26
+3107,790,801,801,10,Fremont City Cricket Soccer Field,20,199,79,120,118,1,10,2020-01-26
+3106,787,787,793,33,Sierramont Middle School,18,82,85,108,94,9,6,2020-01-26
+3109,794,794,794,33,Sierramont Middle School,20,139,77,120,80,9,10,2020-01-26
+3113,784,784,784,1,Wilson Field Santa Clara,20,99,73,120,117,10,10,2020-02-01
+3116,792,792,777,10,Fremont City Cricket Soccer Field,20,125,126,120,86,8,0,2020-02-01
+3114,781,781,781,10,Fremont City Cricket Soccer Field,20,187,146,120,120,5,7,2020-02-01
+3111,795,775,775,33,Sierramont Middle School,20,230,166,120,120,7,10,2020-02-01
+3115,796,796,796,33,Sierramont Middle School,20,155,132,120,120,6,9,2020-02-01
+3112,780,798,798,4,"Northgate Park, Fremont",20,104,97,120,116,8,10,2020-02-01
+3118,787,778,787,2,"Sea Breeze Park, Union City",20,93,96,120,95,9,2,2020-02-02
+3121,785,785,791,2,"Sea Breeze Park, Union City",20,117,118,120,115,4,7,2020-02-02
+3119,801,801,801,10,Fremont City Cricket Soccer Field,20,157,138,120,120,2,8,2020-02-02
+3120,789,789,789,5,Caroline Davis School  San Jose,20,151,65,120,120,10,7,2020-02-02
+3117,794,794,794,33,Sierramont Middle School,20,204,164,120,120,6,5,2020-02-02
+3125,799,799,799,10,Fremont City Cricket Soccer Field,20,145,109,120,120,9,8,2020-02-08
+3122,795,795,795,33,Sierramont Middle School,20,166,115,120,112,9,8,2020-02-08
+3126,781,781,781,33,Sierramont Middle School,20,111,110,120,120,7,9,2020-02-08
+3124,784,784,784,1,Wilson Field Santa Clara,20,125,112,120,120,5,7,2020-02-08
+3123,782,782,796,32,"Riverview Middle School, Bay Point",20,143,146,120,107,6,2,2020-02-08
+3129,793,778,778,2,"Sea Breeze Park, Union City",20,159,110,120,120,7,7,2020-02-09
+3131,779,779,801,2,"Sea Breeze Park, Union City",20,98,99,112,83,10,1,2020-02-09
+3128,800,800,794,11,"Rancho Milpitas School, Milpitas, CA",20,166,169,120,120,7,7,2020-02-09
+3130,785,791,791,11,"Rancho Milpitas School, Milpitas, CA",20,208,190,120,117,6,10,2020-02-09
+3127,787,787,787,33,Sierramont Middle School,20,218,149,120,120,1,7,2020-02-09
+3132,790,790,0,32,"Riverview Middle School, Bay Point",0,0,0,0,0,0,0,2020-02-09
+3134,781,781,796,10,Fremont City Cricket Soccer Field,20,117,118,113,118,10,4,2020-02-22
+3133,798,798,798,33,Sierramont Middle School,20,198,56,120,64,6,10,2020-02-22
+3135,784,784,780,1,Wilson Field Santa Clara,20,128,129,122,97,5,3,2020-02-22
+3136,797,797,775,32,"Riverview Middle School, Bay Point",20,97,100,120,84,8,2,2020-02-22
+3137,793,802,802,2,"Sea Breeze Park, Union City",20,152,76,120,120,5,7,2020-02-23
+3141,787,787,776,2,"Sea Breeze Park, Union City",20,98,99,120,117,8,7,2020-02-23
+3140,791,791,789,10,Fremont City Cricket Soccer Field,20,145,148,115,114,10,4,2020-02-23
+3139,778,794,794,33,Sierramont Middle School,20,216,144,120,120,7,7,2020-02-23
+3138,786,786,786,32,"Riverview Middle School, Bay Point",20,140,109,120,104,6,10,2020-02-23
+3144,784,784,777,1,Wilson Field Santa Clara,20,117,118,120,94,9,6,2020-02-29
+3142,792,792,798,33,Sierramont Middle School,20,176,178,120,100,7,4,2020-02-29
+3145,788,788,788,33,Sierramont Middle School,20,165,64,120,73,5,10,2020-02-29
+3143,797,797,797,32,"Riverview Middle School, Bay Point",20,188,133,120,120,2,9,2020-02-29
+3146,794,794,793,2,"Sea Breeze Park, Union City",20,63,65,92,66,10,0,2020-03-01
+3147,800,778,0,11,"Rancho Milpitas School, Milpitas, CA",20,114,114,104,120,10,10,2020-03-01
+3149,785,785,0,11,"Rancho Milpitas School, Milpitas, CA",20,125,125,120,120,9,5,2020-03-01
+3154,781,781,781,33,Sierramont Middle School,20,103,95,116,120,10,8,2020-03-08
+3150,799,799,798,33,Sierramont Middle School,20,156,157,120,114,6,5,2020-03-07
+3151,788,788,782,33,Sierramont Middle School,20,146,69,120,40,4,2,2020-03-07
+3148,800,800,778,2,"Sea Breeze Park, Union City",20,114,118,118,85,10,3,2020-03-08
+3153,794,787,794,33,Sierramont Middle School,20,88,89,120,102,9,6,2020-03-08
+3152,802,802,793,32,"Riverview Middle School, Bay Point",20,159,160,120,109,9,3,2020-03-08
+3155,779,779,791,2,"Sea Breeze Park, Union City",20,139,145,120,108,10,3,2020-03-08
+3157,849,849,849,8,"Patwin Elementary School, Davis, CA",35,241,175,210,210,6,9,2020-08-29
+3158,849,849,850,8,"Patwin Elementary School, Davis, CA",30,125,126,178,156,11,5,2021-02-21
+3159,851,851,853,11,"Rancho Milpitas School, Milpitas, CA",45,210,214,270,253,9,5,2021-03-06
+3160,852,852,852,35,Gale Ranch Middle School,45,219,122,270,200,9,10,2021-03-06
+3162,857,857,855,21,Windmere Ranch Middle School,40,114,115,239,208,10,5,2021-03-07
+3164,852,852,852,11,"Rancho Milpitas School, Milpitas, CA",45,206,159,270,240,9,10,2021-03-14
+3165,851,851,854,5,Caroline Davis School  San Jose,45,112,114,269,124,10,1,2021-03-14
+3168,854,854,854,5,Caroline Davis School  San Jose,45,239,142,270,270,7,9,2021-03-21
+3167,851,851,851,11,"Rancho Milpitas School, Milpitas, CA",45,149,122,261,228,10,10,2021-03-21
+3171,853,853,851,5,Caroline Davis School  San Jose,45,186,190,270,207,8,3,2021-03-28
+3170,852,852,852,11,"Rancho Milpitas School, Milpitas, CA",45,245,214,270,258,9,10,2021-03-28
+3174,853,853,852,5,Caroline Davis School  San Jose,45,50,51,192,52,10,0,2021-04-04
+3173,851,851,851,11,"Rancho Milpitas School, Milpitas, CA",45,210,166,270,261,8,10,2021-04-04
+3177,853,853,854,11,"Rancho Milpitas School, Milpitas, CA",45,143,144,263,232,9,8,2021-04-11
+3178,851,852,851,5,Caroline Davis School  San Jose,45,178,179,269,257,9,7,2021-04-11
+3163,858,858,856,5,Caroline Davis School  San Jose,40,147,149,240,207,9,2,2021-03-13
+3166,856,856,856,5,Caroline Davis School  San Jose,40,179,118,240,202,9,10,2021-03-20
+3169,856,856,856,5,Caroline Davis School  San Jose,40,209,132,240,202,4,11,2021-03-27
+3172,858,858,858,5,Caroline Davis School  San Jose,40,254,180,240,240,5,6,2021-04-03
+3176,856,856,858,5,Caroline Davis School  San Jose,40,225,226,240,233,4,7,2021-04-10
+3175,554,554,554,11,"Rancho Milpitas School, Milpitas, CA",45,177,149,250,200,10,10,2021-04-10
+3182,866,866,867,5,Caroline Davis School  San Jose,45,121,124,218,167,10,2,2021-04-18
+3183,868,868,868,20,Morgan Hill Field-2,45,266,241,270,270,7,10,2021-04-18
+3179,464,464,556,11,"Rancho Milpitas School, Milpitas, CA",35,135,136,199,141,10,2,2021-04-17
+3181,552,870,552,11,"Rancho Milpitas School, Milpitas, CA",45,152,153,254,165,10,4,2021-04-18
+3180,551,871,871,5,Caroline Davis School  San Jose,45,260,247,267,266,9,10,2021-04-17
+3184,872,872,873,1,Wilson Field Santa Clara,30,150,151,180,171,7,9,2021-04-18
+3187,929,929,929,5,Caroline Davis School  San Jose,40,226,206,236,204,10,7,2021-04-24
+3189,872,872,873,1,Wilson Field Santa Clara,40,146,147,240,175,9,10,2021-04-24
+3186,552,552,552,11,"Rancho Milpitas School, Milpitas, CA",45,289,170,270,212,5,10,2021-04-24
+3190,610,610,865,10,Fremont City Cricket Soccer Field,45,139,140,182,245,11,9,2021-04-24
+3197,882,882,882,11,"Rancho Milpitas School, Milpitas, CA",20,169,163,120,121,5,5,2021-05-01
+3209,876,875,876,7,"Plasencia Fields, Tracy, CA",20,116,117,120,115,9,5,2021-05-02
+3204,880,880,880,4,"Northgate Park, Fremont",20,143,91,120,120,9,8,2021-05-02
+3216,883,883,883,20,Morgan Hill Field-2,20,157,134,121,120,6,10,2021-05-08
+3210,881,881,881,20,Morgan Hill Field-2,20,245,173,120,120,2,6,2021-05-08
+3225,878,878,879,1,Wilson Field Santa Clara,20,114,115,120,70,7,3,2021-05-09
+3237,885,885,885,4,"Northgate Park, Fremont",20,162,117,120,95,4,9,2021-05-16
+3244,875,882,875,7,"Plasencia Fields, Tracy, CA",20,116,119,120,102,8,5,2021-05-22
+3291,879,879,880,11,"Rancho Milpitas School, Milpitas, CA",20,105,107,116,77,10,4,2021-06-13
+3256,878,878,883,1,Wilson Field Santa Clara,20,84,85,120,107,8,7,2021-07-10
+3255,887,887,0,20,Morgan Hill Field-2,0,0,0,0,0,0,0,2021-05-22
+3265,887,884,884,5,Caroline Davis School  San Jose,20,181,160,120,120,4,4,2021-06-05
+3263,878,876,878,1,Wilson Field Santa Clara,20,97,100,120,114,9,4,2021-06-05
+3262,877,877,882,5,Caroline Davis School  San Jose,20,149,150,120,115,4,4,2021-06-05
+3266,880,880,880,4,"Northgate Park, Fremont",20,161,142,120,120,7,9,2021-06-06
+3281,884,884,875,7,"Plasencia Fields, Tracy, CA",20,134,135,120,116,8,6,2021-06-12
+3278,885,885,885,1,Wilson Field Santa Clara,20,161,143,120,120,8,10,2021-06-12
+3283,876,887,876,20,Morgan Hill Field-2,20,149,153,120,117,8,6,2021-06-13
+3285,883,883,882,11,"Rancho Milpitas School, Milpitas, CA",20,141,142,120,85,4,3,2021-06-13
+3562,884,884,884,1,Wilson Field Santa Clara,20,147,127,120,120,8,7,2021-10-03
+3294,881,881,881,20,Morgan Hill Field-2,20,165,155,120,120,7,7,2021-06-19
+3298,879,879,887,20,Morgan Hill Field-2,20,64,65,120,57,10,1,2021-06-19
+3306,880,880,880,32,"Riverview Middle School, Bay Point",20,184,158,120,103,5,9,2021-06-20
+3315,885,884,885,5,Caroline Davis School  San Jose,20,143,147,119,116,10,4,2021-06-26
+3314,877,877,883,5,Caroline Davis School  San Jose,20,150,151,120,103,7,4,2021-06-26
+3320,879,879,876,4,"Northgate Park, Fremont",20,146,147,120,111,8,5,2021-06-27
+3510,887,882,882,20,Morgan Hill Field-2,20,163,127,120,111,4,10,2021-09-12
+3340,875,885,875,9,"Ortega Park, Sunnyvale",20,126,130,120,112,8,6,2021-07-10
+3354,881,879,881,2,"Sea Breeze Park, Union City",20,139,140,120,110,6,5,2021-07-11
+3344,880,880,876,32,"Riverview Middle School, Bay Point",20,155,161,109,81,10,3,2021-07-10
+3350,884,882,884,11,"Rancho Milpitas School, Milpitas, CA",20,177,179,120,117,9,6,2021-07-11
+3365,881,881,884,5,Caroline Davis School  San Jose,20,137,138,120,120,9,5,2021-07-17
+3358,879,879,883,20,Morgan Hill Field-2,20,101,102,120,67,7,4,2021-07-17
+3360,877,877,875,5,Caroline Davis School  San Jose,20,142,145,120,86,4,2,2021-07-17
+3364,887,880,880,20,Morgan Hill Field-2,20,190,133,120,120,2,9,2021-07-17
+3384,883,883,885,9,"Ortega Park, Sunnyvale",20,130,131,120,114,3,5,2021-07-24
+3394,877,877,877,5,Caroline Davis School  San Jose,20,186,158,120,120,5,6,2021-07-24
+3397,881,881,881,4,"Northgate Park, Fremont",20,197,163,120,120,5,9,2021-07-25
+3412,876,884,876,9,"Ortega Park, Sunnyvale",20,177,178,120,120,1,3,2021-07-31
+3407,885,881,881,9,"Ortega Park, Sunnyvale",20,186,183,120,120,6,6,2021-07-31
+3414,883,883,883,20,Morgan Hill Field-2,20,168,160,120,120,6,6,2021-08-01
+3428,875,875,875,7,"Plasencia Fields, Tracy, CA",20,156,129,120,120,5,9,2021-08-07
+3433,883,883,883,4,"Northgate Park, Fremont",20,154,148,120,115,6,10,2021-08-08
+3435,880,880,880,11,"Rancho Milpitas School, Milpitas, CA",20,150,149,120,120,8,9,2021-08-08
+3447,879,879,882,5,Caroline Davis School  San Jose,20,57,58,88,37,10,3,2021-08-14
+3442,885,885,885,5,Caroline Davis School  San Jose,20,154,128,120,120,7,6,2021-08-14
+3553,881,881,881,2,"Sea Breeze Park, Union City",20,177,152,120,119,8,10,2021-09-26
+3440,887,887,883,20,Morgan Hill Field-2,20,112,114,120,74,6,3,2021-08-15
+3584,880,880,884,32,"Riverview Middle School, Bay Point",20,229,232,120,107,4,3,2021-10-10
+3458,875,875,875,7,"Plasencia Fields, Tracy, CA",20,172,109,120,120,7,6,2021-08-21
+3468,877,876,876,4,"Northgate Park, Fremont",20,170,101,121,120,6,9,2021-08-22
+3479,881,881,882,2,"Sea Breeze Park, Union City",20,141,142,93,117,10,7,2021-08-22
+3476,879,879,885,11,"Rancho Milpitas School, Milpitas, CA",20,132,133,119,99,10,5,2021-08-22
+3516,876,876,885,4,"Northgate Park, Fremont",20,149,151,120,107,6,5,2021-09-12
+3518,881,881,881,2,"Sea Breeze Park, Union City",20,186,94,114,120,5,8,2021-09-12
+3519,878,887,887,1,Wilson Field Santa Clara,20,118,71,120,103,6,10,2021-09-18
+3535,879,879,877,11,"Rancho Milpitas School, Milpitas, CA",20,179,183,120,119,8,7,2021-09-19
+3545,876,882,882,11,"Rancho Milpitas School, Milpitas, CA",20,188,138,120,120,7,7,2021-09-25
+3537,878,878,878,1,Wilson Field Santa Clara,20,138,84,120,102,9,10,2021-09-25
+3541,884,884,879,11,"Rancho Milpitas School, Milpitas, CA",20,167,171,120,92,9,4,2021-09-25
+3559,877,877,880,5,Caroline Davis School  San Jose,20,152,155,119,96,6,6,2021-10-02
+3578,884,884,883,11,"Rancho Milpitas School, Milpitas, CA",20,157,159,120,103,9,7,2021-10-09
+3576,879,875,879,11,"Rancho Milpitas School, Milpitas, CA",20,153,156,120,90,10,3,2021-10-09
+3585,881,881,881,2,"Sea Breeze Park, Union City",20,198,135,120,120,7,7,2021-10-10
+3586,887,885,885,7,"Plasencia Fields, Tracy, CA",20,151,103,120,108,7,10,2021-10-16
+3596,878,878,878,1,Wilson Field Santa Clara,20,133,88,120,105,7,10,2021-10-17
+3193,895,893,895,10,Fremont City Cricket Soccer Field,50,130,134,223,274,10,9,2021-05-01
+3200,896,896,894,6,"Piper Park, Larkspur, CA",45,186,187,265,263,10,9,2021-05-01
+3208,890,890,891,20,Morgan Hill Field-2,50,102,105,216,85,10,1,2021-05-02
+3221,896,896,889,8,"Patwin Elementary School, Davis, CA",50,77,78,251,98,10,4,2021-05-09
+3218,894,894,894,2,"Sea Breeze Park, Union City",50,160,154,282,293,10,10,2021-05-09
+3231,895,896,895,6,"Piper Park, Larkspur, CA",45,195,197,269,247,10,6,2021-05-15
+3236,888,889,888,5,Caroline Davis School  San Jose,50,211,212,279,270,10,5,2021-05-16
+3241,895,896,895,10,Fremont City Cricket Soccer Field,50,179,181,283,214,10,2,2021-05-22
+3251,890,888,888,1,Wilson Field Santa Clara,50,203,133,300,203,7,10,2021-05-23
+3253,891,889,891,20,Morgan Hill Field-2,50,177,180,285,280,10,6,2021-05-23
+3249,893,893,893,2,"Sea Breeze Park, Union City",50,197,188,286,299,10,10,2021-05-23
+3271,889,895,889,10,Fremont City Cricket Soccer Field,50,252,257,300,285,5,7,2021-06-06
+3275,890,890,896,6,"Piper Park, Larkspur, CA",45,189,190,266,239,10,7,2021-06-06
+3272,888,891,891,20,Morgan Hill Field-2,50,247,181,307,300,7,9,2021-06-06
+3269,894,894,892,2,"Sea Breeze Park, Union City",50,215,217,300,299,9,9,2021-06-06
+3276,895,890,890,10,Fremont City Cricket Soccer Field,50,154,137,296,275,10,10,2021-06-12
+3280,892,892,892,20,Morgan Hill Field-2,50,204,185,246,263,10,10,2021-06-12
+3290,891,888,888,5,Caroline Davis School  San Jose,50,253,219,300,261,7,10,2021-06-13
+3288,894,894,894,2,"Sea Breeze Park, Union City",50,260,163,300,209,7,10,2021-06-13
+3297,896,896,891,6,"Piper Park, Larkspur, CA",45,154,155,266,214,10,7,2021-06-19
+3303,890,890,889,1,Wilson Field Santa Clara,50,121,125,287,194,10,4,2021-06-20
+3301,888,888,0,20,Morgan Hill Field-2,50,268,268,300,300,5,9,2021-06-20
+3310,892,892,895,10,Fremont City Cricket Soccer Field,50,144,145,242,145,10,4,2021-06-26
+3323,888,888,894,5,Caroline Davis School  San Jose,45,145,146,207,174,10,6,2021-06-27
+3321,893,893,893,8,"Patwin Elementary School, Davis, CA",50,191,113,300,217,8,10,2021-06-27
+3353,892,892,888,5,Caroline Davis School  San Jose,45,224,225,270,262,8,5,2021-07-11
+3351,890,890,889,8,"Patwin Elementary School, Davis, CA",45,162,165,270,166,9,3,2021-07-11
+3346,891,891,895,20,Morgan Hill Field-2,50,164,168,283,133,10,3,2021-07-11
+3363,896,896,892,6,"Piper Park, Larkspur, CA",45,216,217,270,180,9,5,2021-07-17
+3372,891,893,891,20,Morgan Hill Field-2,50,126,127,281,228,10,7,2021-07-18
+3374,888,888,888,2,"Sea Breeze Park, Union City",45,286,195,270,226,6,10,2021-07-18
+3399,894,894,889,8,"Patwin Elementary School, Davis, CA",50,184,186,300,237,9,3,2021-07-25
+3402,888,888,888,6,"Piper Park, Larkspur, CA",45,344,192,270,238,7,10,2021-07-25
+3395,890,890,892,1,Wilson Field Santa Clara,50,30,34,129,26,10,2,2021-07-25
+3408,893,893,893,1,Wilson Field Santa Clara,50,106,84,167,216,10,10,2021-07-31
+3405,892,895,892,20,Morgan Hill Field-2,50,199,202,291,181,10,7,2021-07-31
+3421,888,888,888,5,Caroline Davis School  San Jose,45,307,39,270,91,6,10,2021-08-01
+3418,894,894,891,2,"Sea Breeze Park, Union City",50,130,131,264,179,10,5,2021-08-01
+3427,896,896,892,20,Morgan Hill Field-2,45,148,149,222,80,10,1,2021-08-07
+3432,895,890,890,1,Wilson Field Santa Clara,50,136,109,297,215,10,10,2021-08-08
+3434,889,894,894,2,"Sea Breeze Park, Union City",45,288,156,270,238,6,10,2021-08-08
+3557,890,894,894,1,Wilson Field Santa Clara,50,155,133,281,272,10,10,2021-10-02
+3449,889,889,889,8,"Patwin Elementary School, Davis, CA",50,321,171,300,286,8,10,2021-08-15
+3453,891,891,893,12,"Beckman Park, Lodi",50,130,131,258,158,10,6,2021-08-15
+3460,892,890,892,20,Morgan Hill Field-2,50,195,196,300,214,9,6,2021-08-21
+3477,895,888,888,5,Caroline Davis School  San Jose,45,235,229,270,250,8,10,2021-08-22
+3475,896,896,891,20,Morgan Hill Field-2,50,230,231,300,280,7,3,2021-08-22
+3472,889,889,889,12,"Beckman Park, Lodi",45,166,99,266,129,10,10,2021-08-22
+3481,888,895,895,10,Fremont City Cricket Soccer Field,50,229,212,300,268,9,10,2021-08-28
+3488,891,889,891,8,"Patwin Elementary School, Davis, CA",45,175,178,270,261,9,8,2021-08-29
+3491,894,894,894,2,"Sea Breeze Park, Union City",50,256,64,284,134,10,10,2021-08-29
+3509,896,896,889,6,"Piper Park, Larkspur, CA",45,152,153,242,100,10,0,2021-09-11
+3505,892,891,892,20,Morgan Hill Field-2,50,233,234,294,198,10,6,2021-09-11
+3511,888,888,888,5,Caroline Davis School  San Jose,45,257,150,270,188,7,10,2021-09-12
+3513,893,893,893,12,"Beckman Park, Lodi",50,220,104,256,172,10,10,2021-09-12
+3525,892,889,892,20,Morgan Hill Field-2,50,151,152,263,159,10,6,2021-09-18
+3536,893,893,888,5,Caroline Davis School  San Jose,45,192,193,234,256,10,7,2021-09-19
+3530,896,896,890,1,Wilson Field Santa Clara,50,76,78,204,116,10,2,2021-09-19
+3534,894,894,891,20,Morgan Hill Field-2,50,287,288,300,266,6,5,2021-09-19
+3540,894,892,894,33,Sierramont Middle School,45,219,222,268,251,10,6,2021-09-25
+3619,889,889,0,8,"Patwin Elementary School, Davis, CA",50,0,0,0,0,0,0,2021-10-23
+3547,891,891,890,1,Wilson Field Santa Clara,50,81,84,205,133,11,5,2021-09-26
+3551,893,893,893,6,"Piper Park, Larkspur, CA",40,296,51,240,123,6,9,2021-09-26
+3567,892,891,892,20,Morgan Hill Field-2,45,128,132,257,113,10,3,2021-10-03
+3568,893,893,893,12,"Beckman Park, Lodi",30,256,94,180,151,8,10,2021-10-03
+3582,889,889,889,8,"Patwin Elementary School, Davis, CA",45,210,87,245,148,10,10,2021-10-10
+3580,891,895,895,10,Fremont City Cricket Soccer Field,50,253,236,300,287,9,10,2021-10-10
+3581,890,890,893,12,"Beckman Park, Lodi",50,114,115,208,227,10,8,2021-10-10
+3587,894,894,894,10,Fremont City Cricket Soccer Field,50,370,229,300,286,7,10,2021-10-16
+3599,892,893,893,12,"Beckman Park, Lodi",40,129,99,236,195,10,10,2021-10-17
+3617,893,893,0,12,"Beckman Park, Lodi",50,0,0,0,0,0,0,2021-10-24
+3621,893,893,0,12,"Beckman Park, Lodi",50,0,0,0,0,0,0,2021-10-31
+3195,902,902,902,16,"Sierra Bicentennial Park, Clovis",45,260,224,270,270,7,9,2021-05-01
+3199,899,899,899,4,"Northgate Park, Fremont",45,249,154,270,235,8,10,2021-05-01
+3207,900,900,900,1,Wilson Field Santa Clara,45,167,160,268,191,10,10,2021-05-02
+3202,904,904,904,33,Sierramont Middle School,45,198,117,266,218,10,10,2021-05-02
+3214,897,897,897,5,Caroline Davis School  San Jose,45,198,134,270,229,8,10,2021-05-08
+3215,903,903,898,4,"Northgate Park, Fremont",45,135,136,227,249,10,6,2021-05-08
+3212,899,899,899,16,"Sierra Bicentennial Park, Clovis",45,412,198,270,198,9,10,2021-05-08
+3222,900,900,902,16,"Sierra Bicentennial Park, Clovis",45,129,132,221,103,10,5,2021-05-09
+3226,897,897,902,5,Caroline Davis School  San Jose,45,163,167,270,112,9,1,2021-05-15
+3229,903,903,903,4,"Northgate Park, Fremont",45,231,121,270,206,7,10,2021-05-15
+3233,898,898,904,10,Fremont City Cricket Soccer Field,45,42,43,158,47,10,0,2021-05-16
+3240,902,902,903,16,"Sierra Bicentennial Park, Clovis",45,91,94,116,86,10,4,2021-05-22
+3247,905,905,905,4,"Northgate Park, Fremont",45,176,79,270,186,9,10,2021-05-23
+3245,904,899,899,10,Fremont City Cricket Soccer Field,45,184,159,249,250,10,10,2021-05-23
+3260,905,905,905,20,Morgan Hill Field-2,45,182,173,270,266,9,10,2021-06-05
+3268,899,899,899,16,"Sierra Bicentennial Park, Clovis",45,200,129,259,207,10,10,2021-06-06
+3273,903,903,900,1,Wilson Field Santa Clara,45,143,144,248,247,10,6,2021-06-06
+3277,898,898,904,4,"Northgate Park, Fremont",45,117,118,235,186,10,6,2021-06-12
+3286,900,902,902,1,Wilson Field Santa Clara,45,228,160,270,268,8,10,2021-06-13
+3287,903,903,903,33,Sierramont Middle School,45,193,124,270,242,8,10,2021-06-13
+3293,898,898,898,4,"Northgate Park, Fremont",45,139,124,260,232,10,10,2021-06-19
+3300,905,905,903,4,"Northgate Park, Fremont",45,163,165,248,262,10,7,2021-06-20
+3302,900,900,900,10,Fremont City Cricket Soccer Field,45,200,145,270,216,8,10,2021-06-20
+3309,902,902,902,4,"Northgate Park, Fremont",45,273,166,270,259,6,10,2021-06-26
+3311,905,905,905,20,Morgan Hill Field-2,45,168,124,270,233,10,10,2021-06-26
+3318,897,897,897,10,Fremont City Cricket Soccer Field,45,245,126,268,200,10,10,2021-06-27
+3342,897,897,899,5,Caroline Davis School  San Jose,45,146,147,210,231,10,9,2021-07-10
+3339,905,905,904,20,Morgan Hill Field-2,45,178,179,270,242,8,5,2021-07-10
+3345,898,898,903,4,"Northgate Park, Fremont",45,144,145,247,168,10,4,2021-07-11
+3348,901,900,900,1,Wilson Field Santa Clara,45,141,138,270,265,9,10,2021-07-11
+3356,897,903,903,4,"Northgate Park, Fremont",45,195,165,269,231,10,10,2021-07-17
+3367,900,900,900,4,"Northgate Park, Fremont",45,185,158,270,232,9,10,2021-07-18
+3371,904,904,905,10,Fremont City Cricket Soccer Field,45,161,162,249,239,10,5,2021-07-18
+3366,901,901,902,33,Sierramont Middle School,45,169,171,270,233,5,7,2021-07-18
+3383,903,901,903,4,"Northgate Park, Fremont",45,125,126,201,134,10,3,2021-07-24
+3385,902,899,899,16,"Sierra Bicentennial Park, Clovis",45,204,167,268,236,10,10,2021-07-24
+3403,905,905,0,20,Morgan Hill Field-2,0,0,0,0,0,0,0,2021-07-24
+3409,897,897,897,5,Caroline Davis School  San Jose,45,226,134,270,239,9,10,2021-07-31
+3419,903,902,903,4,"Northgate Park, Fremont",45,146,147,243,208,10,9,2021-08-01
+3415,904,904,901,10,Fremont City Cricket Soccer Field,45,180,181,262,261,10,7,2021-08-01
+3413,899,899,900,1,Wilson Field Santa Clara,45,74,75,197,163,10,8,2021-08-01
+3425,899,899,902,16,"Sierra Bicentennial Park, Clovis",45,97,99,237,113,10,6,2021-08-07
+3610,904,904,903,4,"Northgate Park, Fremont",45,95,96,189,150,10,6,2021-10-23
+3431,901,901,900,33,Sierramont Middle School,45,177,178,260,262,10,9,2021-08-08
+3445,899,899,899,16,"Sierra Bicentennial Park, Clovis",45,186,123,257,265,10,10,2021-08-14
+3444,905,905,905,20,Morgan Hill Field-2,45,233,217,270,257,8,10,2021-08-14
+3448,900,900,904,1,Wilson Field Santa Clara,45,83,84,253,157,10,3,2021-08-15
+3450,897,897,897,33,Sierramont Middle School,45,193,177,256,262,10,10,2021-08-15
+3461,902,902,902,16,"Sierra Bicentennial Park, Clovis",45,141,112,168,208,10,10,2021-08-21
+3470,899,899,903,16,"Sierra Bicentennial Park, Clovis",45,112,113,211,162,10,4,2021-08-22
+3466,900,897,897,1,Wilson Field Santa Clara,45,206,133,270,239,8,10,2021-08-22
+3482,897,897,897,5,Caroline Davis School  San Jose,45,225,157,270,230,8,10,2021-08-28
+3492,902,902,902,10,Fremont City Cricket Soccer Field,45,294,194,270,220,6,10,2021-08-29
+3487,900,900,898,20,Morgan Hill Field-2,45,127,128,252,191,10,8,2021-08-29
+3490,899,899,899,33,Sierramont Middle School,45,174,134,255,220,10,10,2021-08-29
+3501,905,902,902,16,"Sierra Bicentennial Park, Clovis",45,162,146,270,270,10,10,2021-09-11
+3502,898,898,898,4,"Northgate Park, Fremont",45,124,105,217,121,10,10,2021-09-11
+3515,899,899,899,16,"Sierra Bicentennial Park, Clovis",45,284,165,266,270,10,8,2021-09-12
+3523,900,900,900,5,Caroline Davis School  San Jose,45,199,181,270,194,9,10,2021-09-18
+3524,902,902,902,16,"Sierra Bicentennial Park, Clovis",45,234,164,270,237,9,10,2021-09-18
+3528,899,899,903,4,"Northgate Park, Fremont",45,214,215,270,269,10,8,2021-09-19
+3531,901,901,901,33,Sierramont Middle School,45,192,140,270,213,8,10,2021-09-19
+3538,897,897,897,5,Caroline Davis School  San Jose,45,289,198,270,260,7,10,2021-09-25
+3543,898,898,902,16,"Sierra Bicentennial Park, Clovis",45,89,95,218,62,10,2,2021-09-25
+3546,899,899,899,16,"Sierra Bicentennial Park, Clovis",45,301,56,270,91,7,10,2021-09-26
+3548,905,905,901,33,Sierramont Middle School,45,116,118,244,109,10,3,2021-09-26
+3555,905,905,905,20,Morgan Hill Field-2,45,191,131,270,213,8,10,2021-10-02
+3564,899,899,899,16,"Sierra Bicentennial Park, Clovis",45,217,141,265,265,10,10,2021-10-03
+3566,903,903,903,10,Fremont City Cricket Soccer Field,45,348,228,270,270,5,6,2021-10-03
+3571,897,897,904,5,Caroline Davis School  San Jose,45,233,234,270,267,9,8,2021-10-09
+3590,905,905,905,20,Morgan Hill Field-2,45,258,124,270,208,5,10,2021-10-16
+3611,905,905,897,20,Morgan Hill Field-2,45,108,109,243,193,10,5,2021-10-23
+3194,907,907,907,5,Caroline Davis School  San Jose,45,251,224,270,261,8,10,2021-05-01
+3196,914,914,914,33,Sierramont Middle School,45,241,62,270,122,9,10,2021-05-01
+3206,909,909,909,5,Caroline Davis School  San Jose,40,182,168,221,223,10,10,2021-05-02
+3223,906,906,906,7,"Plasencia Fields, Tracy, CA",45,144,131,240,256,10,10,2021-05-09
+3219,913,913,907,5,Caroline Davis School  San Jose,45,89,90,173,102,10,7,2021-05-09
+3224,911,911,911,6,"Piper Park, Larkspur, CA",45,196,186,264,263,10,10,2021-05-09
+3227,908,908,908,33,Sierramont Middle School,45,152,120,236,139,10,10,2021-05-15
+3230,910,910,913,7,"Plasencia Fields, Tracy, CA",45,71,72,144,97,10,6,2021-05-15
+3239,909,909,909,6,"Piper Park, Larkspur, CA",45,122,47,205,124,10,10,2021-05-16
+3243,907,907,907,5,Caroline Davis School  San Jose,45,289,171,270,215,9,10,2021-05-22
+3424,908,908,908,33,Sierramont Middle School,45,285,171,270,252,4,10,2021-08-07
+3250,913,913,913,5,Caroline Davis School  San Jose,45,305,265,270,270,4,9,2021-05-23
+3252,910,910,910,11,"Rancho Milpitas School, Milpitas, CA",45,202,152,180,172,10,10,2021-05-23
+3264,913,913,910,7,"Plasencia Fields, Tracy, CA",45,138,139,248,202,10,6,2021-06-05
+3274,914,914,914,33,Sierramont Middle School,45,169,95,256,186,10,10,2021-06-06
+3279,908,908,913,5,Caroline Davis School  San Jose,45,245,246,260,250,10,6,2021-06-12
+3282,911,911,906,6,"Piper Park, Larkspur, CA",45,248,249,270,255,5,8,2021-06-12
+3289,909,907,907,9,"Ortega Park, Sunnyvale",45,221,144,264,185,10,10,2021-06-13
+3296,907,907,907,5,Caroline Davis School  San Jose,45,247,92,274,106,6,10,2021-06-19
+3292,914,914,913,33,Sierramont Middle School,45,139,141,236,168,10,5,2021-06-19
+3305,911,911,906,7,"Plasencia Fields, Tracy, CA",45,77,80,166,113,10,4,2021-06-20
+3313,907,907,907,33,Sierramont Middle School,45,209,197,272,266,9,10,2021-06-26
+3312,906,906,906,7,"Plasencia Fields, Tracy, CA",45,181,180,270,233,9,10,2021-06-26
+3322,913,909,909,9,"Ortega Park, Sunnyvale",45,205,125,252,151,10,10,2021-06-27
+3341,910,908,908,33,Sierramont Middle School,45,199,197,270,263,9,10,2021-07-10
+3352,913,913,913,7,"Plasencia Fields, Tracy, CA",45,215,61,259,126,10,10,2021-07-11
+3357,910,914,910,33,Sierramont Middle School,45,109,110,220,162,10,6,2021-07-17
+3361,909,909,912,2,"Sea Breeze Park, Union City",45,138,139,227,182,10,4,2021-07-17
+3373,906,906,907,7,"Plasencia Fields, Tracy, CA",45,50,51,106,119,10,3,2021-07-18
+3381,911,908,908,6,"Piper Park, Larkspur, CA",45,177,161,247,248,10,10,2021-07-18
+3398,909,909,909,9,"Ortega Park, Sunnyvale",45,186,107,218,191,10,10,2021-07-25
+3400,912,910,910,7,"Plasencia Fields, Tracy, CA",45,205,162,232,252,10,9,2021-07-25
+3410,906,906,910,7,"Plasencia Fields, Tracy, CA",45,76,77,137,49,10,3,2021-07-31
+3416,908,912,908,33,Sierramont Middle School,45,149,153,228,156,10,2,2021-08-01
+3420,911,911,913,6,"Piper Park, Larkspur, CA",45,259,263,270,229,7,4,2021-08-01
+3426,907,907,913,5,Caroline Davis School  San Jose,45,157,160,236,213,10,8,2021-08-07
+3429,912,912,914,2,"Sea Breeze Park, Union City",45,133,134,236,143,10,7,2021-08-07
+3436,909,909,909,7,"Plasencia Fields, Tracy, CA",45,130,78,211,159,10,10,2021-08-08
+3443,912,912,914,33,Sierramont Middle School,45,185,186,264,267,10,8,2021-08-14
+3451,906,906,909,9,"Ortega Park, Sunnyvale",45,58,62,129,23,10,0,2021-08-15
+3459,906,906,908,33,Sierramont Middle School,45,108,109,184,141,10,4,2021-08-21
+3465,911,914,911,6,"Piper Park, Larkspur, CA",45,148,149,240,221,10,4,2021-08-21
+3463,907,910,907,5,Caroline Davis School  San Jose,45,153,154,234,204,10,6,2021-08-21
+3464,913,913,912,2,"Sea Breeze Park, Union City",45,82,83,168,67,10,2,2021-08-21
+3483,914,914,907,33,Sierramont Middle School,45,112,114,178,101,10,3,2021-08-28
+3494,913,906,913,5,Caroline Davis School  San Jose,45,118,119,192,126,10,5,2021-08-29
+3493,911,911,910,6,"Piper Park, Larkspur, CA",45,95,97,216,137,10,9,2021-08-29
+3489,908,908,909,9,"Ortega Park, Sunnyvale",45,108,112,163,178,10,7,2021-08-29
+3503,909,909,908,33,Sierramont Middle School,45,166,169,213,186,10,5,2021-09-11
+3504,911,907,907,5,Caroline Davis School  San Jose,45,228,83,270,138,5,10,2021-09-11
+3508,906,906,912,2,"Sea Breeze Park, Union City",45,105,106,227,62,10,2,2021-09-11
+3517,910,914,910,7,"Plasencia Fields, Tracy, CA",45,156,159,242,193,10,8,2021-09-12
+3522,913,913,908,33,Sierramont Middle School,45,162,163,270,201,9,2,2021-09-18
+3526,907,907,910,7,"Plasencia Fields, Tracy, CA",45,149,153,262,166,10,6,2021-09-18
+3532,909,909,909,9,"Ortega Park, Sunnyvale",45,185,89,270,155,9,10,2021-09-19
+3542,910,908,908,7,"Plasencia Fields, Tracy, CA",45,167,134,270,207,10,10,2021-09-25
+3544,907,907,907,2,"Sea Breeze Park, Union City",45,185,173,270,253,8,10,2021-09-25
+3552,911,911,911,5,Caroline Davis School  San Jose,45,215,141,270,209,8,10,2021-09-26
+3561,907,907,907,6,"Piper Park, Larkspur, CA",45,239,213,270,269,7,10,2021-10-02
+3569,906,906,906,7,"Plasencia Fields, Tracy, CA",45,253,228,270,267,6,10,2021-10-03
+3570,913,913,913,5,Caroline Davis School  San Jose,45,180,181,210,269,10,9,2021-10-03
+3565,910,909,910,9,"Ortega Park, Sunnyvale",45,117,65,231,113,10,10,2021-10-03
+3572,914,908,908,33,Sierramont Middle School,45,172,178,252,258,10,7,2021-10-09
+3579,909,909,909,9,"Ortega Park, Sunnyvale",45,238,171,254,238,10,10,2021-10-10
+3592,914,907,907,5,Caroline Davis School  San Jose,45,158,94,239,189,10,10,2021-10-16
+3593,912,912,912,2,"Sea Breeze Park, Union City",40,218,165,239,235,10,10,2021-10-16
+3597,906,906,906,7,"Plasencia Fields, Tracy, CA",45,179,111,270,191,9,10,2021-10-17
+3613,907,907,907,5,Caroline Davis School  San Jose,40,197,147,237,200,10,10,2021-10-23
+3614,910,910,910,7,"Plasencia Fields, Tracy, CA",40,218,144,240,240,7,9,2021-10-23
+3615,908,908,912,2,"Sea Breeze Park, Union City",40,69,71,140,64,10,2,2021-10-23
+3625,912,910,910,2,"Sea Breeze Park, Union City",40,274,240,240,240,8,9,2021-10-30
+3629,909,909,909,33,Sierramont Middle School,40,172,81,204,188,10,10,2021-10-31
+3198,919,919,923,7,"Plasencia Fields, Tracy, CA",45,128,129,214,235,10,6,2021-05-01
+3192,918,918,918,1,Wilson Field Santa Clara,45,187,118,269,202,10,10,2021-05-01
+3205,921,921,921,16,"Sierra Bicentennial Park, Clovis",45,207,133,259,224,10,10,2021-05-02
+3201,917,917,917,11,"Rancho Milpitas School, Milpitas, CA",45,308,128,267,270,10,9,2021-05-02
+3203,925,925,920,2,"Sea Breeze Park, Union City",45,59,63,139,90,10,1,2021-05-02
+3211,918,918,917,11,"Rancho Milpitas School, Milpitas, CA",45,126,129,231,171,10,4,2021-05-08
+3217,923,923,923,7,"Plasencia Fields, Tracy, CA",45,228,102,270,170,7,10,2021-05-08
+3213,926,926,921,33,Sierramont Middle School,45,110,112,270,162,10,6,2021-05-08
+3220,915,915,916,11,"Rancho Milpitas School, Milpitas, CA",45,155,157,242,184,10,5,2021-05-09
+3228,928,928,918,1,Wilson Field Santa Clara,45,71,74,187,113,10,3,2021-05-15
+3238,921,921,921,16,"Sierra Bicentennial Park, Clovis",45,242,157,223,255,10,10,2021-05-16
+3235,923,923,923,33,Sierramont Middle School,45,174,172,253,262,10,10,2021-05-16
+3234,919,919,919,2,"Sea Breeze Park, Union City",45,243,48,270,106,9,10,2021-05-16
+3242,926,926,928,4,"Northgate Park, Fremont",45,100,102,196,174,10,4,2021-05-22
+3248,918,925,918,36,Richardson Village Park,45,114,116,233,178,10,5,2021-05-23
+3246,915,915,921,16,"Sierra Bicentennial Park, Clovis",45,89,95,188,141,10,4,2021-05-23
+3254,923,923,923,7,"Plasencia Fields, Tracy, CA",45,123,106,234,240,10,10,2021-05-23
+3259,919,919,919,4,"Northgate Park, Fremont",45,190,178,216,256,10,10,2021-06-05
+3261,920,920,926,33,Sierramont Middle School,45,99,104,186,72,10,2,2021-06-05
+3270,916,916,916,5,Caroline Davis School  San Jose,45,277,182,270,270,6,8,2021-06-06
+3284,921,917,921,16,"Sierra Bicentennial Park, Clovis",45,179,183,270,200,7,8,2021-06-13
+3295,923,923,918,7,"Plasencia Fields, Tracy, CA",45,144,145,270,238,10,8,2021-06-19
+3307,922,922,922,5,Caroline Davis School  San Jose,45,177,173,234,270,10,9,2021-06-20
+3299,919,919,916,9,"Ortega Park, Sunnyvale",45,158,159,249,247,10,5,2021-06-20
+3304,920,920,921,2,"Sea Breeze Park, Union City",45,52,56,145,60,10,2,2021-06-20
+3308,918,916,918,1,Wilson Field Santa Clara,45,121,122,240,200,10,7,2021-06-26
+3319,915,915,915,36,Richardson Village Park,45,227,111,270,179,9,10,2021-06-27
+3317,926,926,919,33,Sierramont Middle School,45,117,118,176,182,10,5,2021-06-27
+3316,917,920,917,2,"Sea Breeze Park, Union City",45,184,185,270,212,9,7,2021-06-27
+3338,928,928,928,4,"Northgate Park, Fremont",45,243,132,270,220,8,10,2021-07-10
+3343,921,921,921,2,"Sea Breeze Park, Union City",35,144,106,210,185,8,10,2021-07-10
+3337,917,917,917,11,"Rancho Milpitas School, Milpitas, CA",45,349,65,270,122,9,10,2021-07-10
+3347,926,916,926,10,Fremont City Cricket Soccer Field,45,190,192,263,230,10,8,2021-07-11
+3349,919,923,923,9,"Ortega Park, Sunnyvale",45,194,97,270,188,9,10,2021-07-11
+3359,917,928,928,10,Fremont City Cricket Soccer Field,45,206,180,270,265,9,10,2021-07-17
+3362,923,923,923,7,"Plasencia Fields, Tracy, CA",45,200,87,269,197,10,10,2021-07-17
+3368,921,921,921,36,Richardson Village Park,45,261,78,270,151,9,10,2021-07-18
+3375,920,920,922,5,Caroline Davis School  San Jose,45,114,115,193,154,10,5,2021-07-18
+3396,928,928,928,2,"Sea Breeze Park, Union City",45,253,223,270,268,7,10,2021-07-25
+3382,918,918,926,33,Sierramont Middle School,45,139,141,218,226,10,7,2021-07-24
+3401,919,919,922,5,Caroline Davis School  San Jose,45,175,176,267,249,10,6,2021-07-25
+3406,928,928,928,4,"Northgate Park, Fremont",45,220,118,270,248,9,10,2021-07-31
+3411,922,922,922,2,"Sea Breeze Park, Union City",40,115,86,225,176,10,10,2021-07-31
+3404,926,917,917,10,Fremont City Cricket Soccer Field,45,127,95,225,154,10,10,2021-07-31
+3417,919,919,919,9,"Ortega Park, Sunnyvale",45,247,188,270,271,7,9,2021-08-01
+3423,915,915,915,11,"Rancho Milpitas School, Milpitas, CA",45,253,211,270,250,7,10,2021-08-07
+3422,918,920,918,1,Wilson Field Santa Clara,45,23,25,102,18,10,0,2021-08-07
+3437,922,926,926,5,Caroline Davis School  San Jose,45,152,106,240,199,10,10,2021-08-08
+3521,921,919,919,11,"Rancho Milpitas School, Milpitas, CA",45,269,226,270,247,9,10,2021-09-18
+3446,915,915,915,2,"Sea Breeze Park, Union City",45,169,141,270,236,9,10,2021-08-14
+3441,921,916,916,10,Fremont City Cricket Soccer Field,45,204,163,270,253,10,10,2021-08-14
+3452,925,925,926,36,Richardson Village Park,45,187,188,262,209,10,7,2021-08-15
+3454,917,917,922,5,Caroline Davis School  San Jose,45,155,158,272,243,9,7,2021-08-15
+3462,928,928,928,4,"Northgate Park, Fremont",45,235,183,270,187,4,10,2021-08-21
+3467,916,916,916,10,Fremont City Cricket Soccer Field,45,295,193,270,261,7,10,2021-08-22
+3471,926,915,926,33,Sierramont Middle School,45,122,123,241,167,10,7,2021-08-22
+3469,918,919,918,9,"Ortega Park, Sunnyvale",45,136,137,259,261,10,6,2021-08-22
+3484,928,928,928,4,"Northgate Park, Fremont",45,94,0,150,0,4,0,2021-08-28
+3480,920,920,915,2,"Sea Breeze Park, Union City",45,168,174,267,243,10,7,2021-08-28
+3485,923,923,916,7,"Plasencia Fields, Tracy, CA",45,153,154,267,265,10,9,2021-08-28
+3486,918,921,921,1,Wilson Field Santa Clara,45,178,169,270,259,9,10,2021-08-28
+3507,923,925,925,7,"Plasencia Fields, Tracy, CA",45,196,171,270,251,7,10,2021-09-11
+3506,922,918,918,1,Wilson Field Santa Clara,45,205,58,270,158,7,10,2021-09-11
+3514,928,928,916,10,Fremont City Cricket Soccer Field,45,158,159,249,253,10,8,2021-09-12
+3512,919,919,919,9,"Ortega Park, Sunnyvale",45,275,262,270,260,5,10,2021-09-12
+3520,916,916,928,4,"Northgate Park, Fremont",45,149,150,252,269,10,9,2021-09-18
+3527,915,915,915,2,"Sea Breeze Park, Union City",45,207,183,269,243,10,9,2021-09-18
+3533,922,922,917,10,Fremont City Cricket Soccer Field,45,65,66,158,59,10,2,2021-09-19
+3529,926,920,926,2,"Sea Breeze Park, Union City",45,53,54,172,34,10,1,2021-09-19
+3628,925,925,920,2,"Sea Breeze Park, Union City",45,113,117,174,171,10,7,2021-10-31
+3539,917,917,917,4,"Northgate Park, Fremont",45,109,66,221,225,10,9,2021-09-25
+3550,916,916,916,11,"Rancho Milpitas School, Milpitas, CA",45,226,176,268,280,12,10,2021-09-26
+3549,919,926,919,9,"Ortega Park, Sunnyvale",45,106,109,246,191,10,6,2021-09-26
+3558,921,923,921,16,"Sierra Bicentennial Park, Clovis",45,136,139,241,232,10,6,2021-10-02
+3560,915,915,915,2,"Sea Breeze Park, Union City",45,153,137,251,259,10,10,2021-10-02
+3556,919,919,917,10,Fremont City Cricket Soccer Field,45,93,96,215,118,10,3,2021-10-02
+3563,920,916,916,2,"Sea Breeze Park, Union City",45,128,99,141,238,10,10,2021-10-03
+3574,919,919,919,36,Richardson Village Park,45,138,132,203,176,10,10,2021-10-09
+3575,918,918,0,16,"Sierra Bicentennial Park, Clovis",45,90,90,229,185,10,10,2021-10-09
+3577,915,915,915,2,"Sea Breeze Park, Union City",37,189,136,199,164,10,10,2021-10-09
+3573,917,917,917,10,Fremont City Cricket Soccer Field,45,211,131,270,240,10,10,2021-10-09
+3583,922,922,928,5,Caroline Davis School  San Jose,40,115,116,227,123,10,3,2021-10-10
+3588,919,919,921,16,"Sierra Bicentennial Park, Clovis",45,80,84,146,105,10,6,2021-10-16
+3591,917,917,917,1,Wilson Field Santa Clara,45,144,112,259,247,10,10,2021-10-16
+3589,916,916,926,33,Sierramont Middle School,45,189,190,246,238,10,6,2021-10-16
+3598,922,922,923,5,Caroline Davis School  San Jose,40,93,94,194,90,10,2,2021-10-17
+3595,928,928,928,2,"Sea Breeze Park, Union City",45,178,110,243,242,10,10,2021-10-17
+3612,923,925,923,36,Richardson Village Park,45,133,134,241,162,10,4,2021-10-23
+3618,920,920,0,2,"Sea Breeze Park, Union City",45,0,0,0,0,0,0,2021-10-24
+3624,923,923,917,7,"Plasencia Fields, Tracy, CA",45,56,59,111,74,10,2,2021-10-30
+3257,873,873,873,33,Sierramont Middle School,35,195,174,210,210,8,10,2021-05-30
+3258,865,865,865,11,"Rancho Milpitas School, Milpitas, CA",30,191,153,180,178,10,8,2021-05-31
+3325,934,937,934,2,"Sea Breeze Park, Union City",20,96,97,103,89,10,2,2021-07-03
+3326,938,935,938,5,Caroline Davis School  San Jose,20,126,130,114,109,10,6,2021-07-03
+3324,936,936,939,4,"Northgate Park, Fremont",20,121,123,120,86,9,2,2021-07-03
+3328,934,934,938,4,"Northgate Park, Fremont",20,162,163,120,112,9,4,2021-07-03
+3330,935,935,939,2,"Sea Breeze Park, Union City",20,130,131,117,66,10,1,2021-07-03
+3327,936,936,937,5,Caroline Davis School  San Jose,20,98,102,94,72,10,1,2021-07-03
+3333,934,939,939,5,Caroline Davis School  San Jose,20,205,194,120,120,3,6,2021-07-04
+3332,935,937,937,4,"Northgate Park, Fremont",20,158,109,119,98,10,9,2021-07-04
+3331,936,936,938,2,"Sea Breeze Park, Union City",20,116,118,120,85,6,4,2021-07-04
+3334,934,939,934,4,"Northgate Park, Fremont",20,137,141,120,117,6,4,2021-07-05
+3335,937,938,938,2,"Sea Breeze Park, Union City",20,176,176,120,120,4,6,2021-07-05
+3336,934,934,938,4,"Northgate Park, Fremont",20,165,166,120,118,8,8,2021-07-05
+3455,943,943,942,2,"Sea Breeze Park, Union City",20,119,125,106,96,10,3,2021-08-15
+3496,946,946,947,11,"Rancho Milpitas School, Milpitas, CA",90,340,341,217,504,11,11,2021-09-04
+3495,945,944,944,2,"Sea Breeze Park, Union City",90,256,206,445,231,10,10,2021-09-04
+3499,873,873,873,33,Sierramont Middle School,20,112,99,120,120,8,9,2021-09-06
+3500,873,873,873,33,Sierramont Middle School,20,127,101,120,98,7,9,2021-09-06
+3594,949,949,948,8,"Patwin Elementary School, Davis, CA",45,197,198,180,176,10,8,2021-10-16
+3616,873,873,553,1,Wilson Field Santa Clara,20,55,56,95,105,7,4,2021-10-23
+3626,881,882,881,5,Caroline Davis School  San Jose,20,151,152,120,100,7,4,2021-10-30
+3622,883,885,883,5,Caroline Davis School  San Jose,20,132,134,120,109,8,2,2021-10-30
+3623,897,897,902,16,"Sierra Bicentennial Park, Clovis",40,124,125,210,159,10,8,2021-10-30
+3630,908,907,907,5,Caroline Davis School  San Jose,40,215,143,240,179,9,10,2021-11-06
+3632,921,918,921,16,"Sierra Bicentennial Park, Clovis",40,112,113,202,110,10,6,2021-11-06
+3633,881,881,883,4,"Northgate Park, Fremont",20,127,128,110,115,10,8,2021-11-06
+3631,909,909,909,7,"Plasencia Fields, Tracy, CA",40,121,91,174,138,8,10,2021-11-06
+3637,888,889,888,5,Caroline Davis School  San Jose,35,233,237,210,209,9,8,2021-11-07
+3635,893,893,892,20,Morgan Hill Field-2,40,165,166,240,142,9,3,2021-11-07
+3634,928,928,917,10,Fremont City Cricket Soccer Field,40,168,169,236,237,10,6,2021-11-07
+3636,903,903,903,7,"Plasencia Fields, Tracy, CA",40,156,98,229,145,10,10,2021-11-07
+3642,888,888,892,10,Fremont City Cricket Soccer Field,35,166,168,210,193,8,6,2021-11-13
+3645,907,907,907,10,Fremont City Cricket Soccer Field,40,209,167,241,215,8,10,2021-11-14
+3639,921,917,917,5,Caroline Davis School  San Jose,40,191,143,240,187,6,10,2021-11-13
+3643,989,989,978,7,"Plasencia Fields, Tracy, CA",20,67,68,106,73,10,5,2021-11-13
+3644,973,972,972,7,"Plasencia Fields, Tracy, CA",20,181,107,120,120,5,9,2021-11-14
+3696,993,993,0,11,"Rancho Milpitas School, Milpitas, CA",20,0,0,120,120,0,0,2021-12-12
+3649,991,991,977,7,"Plasencia Fields, Tracy, CA",20,68,69,112,57,10,1,2021-11-14
+3651,984,984,971,4,"Northgate Park, Fremont",20,130,131,120,119,7,7,2021-11-20
+3652,989,989,989,7,"Plasencia Fields, Tracy, CA",20,120,83,120,87,9,10,2021-11-20
+3650,982,990,990,2,"Sea Breeze Park, Union City",20,165,80,120,100,6,10,2021-11-20
+3653,974,974,973,5,Caroline Davis School  San Jose,20,113,114,120,112,9,7,2021-11-20
+3654,978,988,978,4,"Northgate Park, Fremont",20,116,117,108,105,10,2,2021-11-20
+3657,986,981,986,7,"Plasencia Fields, Tracy, CA",20,130,132,120,115,7,7,2021-11-21
+3656,976,976,976,2,"Sea Breeze Park, Union City",20,161,148,119,120,10,8,2021-11-21
+3675,987,972,972,7,"Plasencia Fields, Tracy, CA",20,165,69,120,119,6,10,2021-12-04
+3676,988,994,994,10,Fremont City Cricket Soccer Field,20,120,106,120,120,7,9,2021-12-04
+3673,989,989,990,4,"Northgate Park, Fremont",20,111,115,119,105,10,4,2021-12-04
+3677,971,974,971,5,Caroline Davis School  San Jose,20,98,101,120,82,9,3,2021-12-04
+3678,978,982,978,4,"Northgate Park, Fremont",20,120,122,120,99,9,5,2021-12-04
+3682,986,985,986,7,"Plasencia Fields, Tracy, CA",20,111,112,106,89,10,8,2021-12-05
+3685,991,991,980,7,"Plasencia Fields, Tracy, CA",20,97,98,117,96,10,2,2021-12-05
+3683,976,976,981,11,"Rancho Milpitas School, Milpitas, CA",20,158,162,120,115,8,6,2021-12-05
+3681,983,983,975,2,"Sea Breeze Park, Union City",20,145,151,120,116,6,8,2021-12-05
+3686,971,984,984,4,"Northgate Park, Fremont",20,186,126,120,120,4,9,2021-12-11
+3689,990,990,990,10,Fremont City Cricket Soccer Field,20,183,149,120,120,2,8,2021-12-11
+3687,982,989,989,7,"Plasencia Fields, Tracy, CA",20,183,97,120,120,5,8,2021-12-11
+3690,987,987,974,5,Caroline Davis School  San Jose,20,124,127,120,115,6,8,2021-12-11
+3693,973,973,972,10,Fremont City Cricket Soccer Field,20,128,129,120,110,6,2,2021-12-11
+3692,994,994,994,4,"Northgate Park, Fremont",20,113,108,115,106,10,10,2021-12-11
+3698,975,985,0,11,"Rancho Milpitas School, Milpitas, CA",20,0,0,0,0,0,0,2021-12-12
+3694,976,986,976,2,"Sea Breeze Park, Union City",18,104,105,108,79,6,4,2021-12-12
+3697,983,983,983,2,"Sea Breeze Park, Union City",15,158,88,90,90,4,8,2021-12-12
+3700,991,991,0,7,"Plasencia Fields, Tracy, CA",20,0,0,0,0,0,0,2021-12-12
+3703,971,971,973,7,"Plasencia Fields, Tracy, CA",20,96,97,120,81,9,1,2021-12-18
+3704,978,990,978,4,"Northgate Park, Fremont",20,112,113,114,100,10,3,2021-12-18
+3706,974,984,974,5,Caroline Davis School  San Jose,20,121,122,120,114,8,5,2021-12-18
+3707,989,989,988,7,"Plasencia Fields, Tracy, CA",20,142,145,120,105,5,2,2021-12-18
+3709,983,983,983,7,"Plasencia Fields, Tracy, CA",20,177,63,120,120,6,8,2021-12-19
+3708,985,981,985,11,"Rancho Milpitas School, Milpitas, CA",20,121,122,120,105,9,5,2021-12-19
+3710,991,977,977,2,"Sea Breeze Park, Union City",20,203,116,120,120,6,7,2021-12-19
+3711,979,980,980,7,"Plasencia Fields, Tracy, CA",20,169,156,120,120,4,5,2021-12-19
+3715,987,987,971,4,"Northgate Park, Fremont",20,135,136,120,114,10,4,2022-01-08
+3718,978,988,978,10,Fremont City Cricket Soccer Field,20,149,153,120,116,7,8,2022-01-08
+3716,972,972,972,5,Caroline Davis School  San Jose,20,147,100,120,120,3,7,2022-01-08
+3752,973,973,0,7,"Plasencia Fields, Tracy, CA",20,0,0,0,0,0,0,2022-01-08
+3717,982,982,0,2,"Sea Breeze Park, Union City",20,128,128,120,120,8,10,2022-01-08
+3808,985,985,983,11,"Rancho Milpitas School, Milpitas, CA",20,0,0,0,0,0,0,2022-01-09
+3720,976,976,976,2,"Sea Breeze Park, Union City",20,126,103,120,120,9,9,2022-01-09
+3725,980,980,977,7,"Plasencia Fields, Tracy, CA",20,0,0,0,0,0,0,2022-01-09
+3723,991,991,993,11,"Rancho Milpitas School, Milpitas, CA",20,52,55,91,41,10,0,2022-01-09
+3727,978,994,978,7,"Plasencia Fields, Tracy, CA",20,62,63,74,52,10,2,2022-01-15
+3728,988,988,982,2,"Sea Breeze Park, Union City",20,112,113,119,112,10,2,2022-01-15
+3729,972,972,972,10,Fremont City Cricket Soccer Field,20,190,118,120,120,2,5,2022-01-15
+3731,975,975,975,7,"Plasencia Fields, Tracy, CA",20,184,163,120,120,6,10,2022-01-16
+3733,979,979,992,1,Wilson Field Santa Clara,20,119,120,120,96,3,3,2022-01-16
+3730,983,983,983,2,"Sea Breeze Park, Union City",20,182,67,120,86,4,10,2022-01-16
+3735,972,972,972,4,"Northgate Park, Fremont",20,148,119,120,120,8,9,2022-01-22
+3736,973,973,987,7,"Plasencia Fields, Tracy, CA",20,92,93,110,96,10,2,2022-01-22
+3738,971,971,974,4,"Northgate Park, Fremont",20,104,109,120,114,8,7,2022-01-22
+3739,994,994,994,7,"Plasencia Fields, Tracy, CA",20,152,104,120,99,9,10,2022-01-22
+3746,986,985,985,11,"Rancho Milpitas School, Milpitas, CA",20,157,126,120,120,6,9,2022-01-23
+3743,976,976,976,2,"Sea Breeze Park, Union City",20,166,163,120,120,5,7,2022-01-23
+3741,975,975,975,33,Sierramont Middle School,20,184,144,120,116,8,10,2022-01-23
+3749,980,980,980,7,"Plasencia Fields, Tracy, CA",20,142,103,120,120,4,7,2022-01-23
+3751,993,993,977,11,"Rancho Milpitas School, Milpitas, CA",20,159,160,120,94,3,4,2022-01-23
+3754,984,984,973,4,"Northgate Park, Fremont",20,137,139,120,115,5,4,2022-01-29
+3758,982,982,988,10,Fremont City Cricket Soccer Field,20,136,141,120,104,10,2,2022-01-29
+3757,989,978,978,4,"Northgate Park, Fremont",20,150,106,120,120,8,8,2022-01-29
+3756,994,994,994,7,"Plasencia Fields, Tracy, CA",20,132,119,120,120,9,10,2022-01-29
+3764,986,986,981,11,"Rancho Milpitas School, Milpitas, CA",20,137,141,120,94,8,4,2022-01-30
+3763,975,975,975,33,Sierramont Middle School,20,164,138,120,120,8,9,2022-01-30
+3765,991,991,979,1,Wilson Field Santa Clara,20,24,25,50,9,10,0,2022-01-30
+3767,992,992,992,7,"Plasencia Fields, Tracy, CA",20,190,64,120,91,7,10,2022-01-30
+3768,977,977,977,2,"Sea Breeze Park, Union City",20,225,154,120,120,3,6,2022-01-30
+3774,971,973,973,4,"Northgate Park, Fremont",20,109,101,119,113,10,10,2022-02-05
+3771,987,987,984,7,"Plasencia Fields, Tracy, CA",20,115,116,120,95,8,5,2022-02-05
+3776,972,972,972,4,"Northgate Park, Fremont",20,151,108,120,114,8,10,2022-02-05
+3775,989,989,990,7,"Plasencia Fields, Tracy, CA",20,157,158,120,115,7,5,2022-02-05
+3780,982,978,982,4,"Northgate Park, Fremont",20,160,161,120,113,7,1,2022-02-06
+3781,976,976,975,33,Sierramont Middle School,20,170,171,120,83,6,1,2022-02-06
+3778,979,979,979,7,"Plasencia Fields, Tracy, CA",20,197,129,120,120,2,8,2022-02-06
+3786,993,993,980,7,"Plasencia Fields, Tracy, CA",20,139,143,120,117,4,5,2022-02-06
+3784,992,992,977,2,"Sea Breeze Park, Union City",20,99,102,115,66,10,3,2022-02-06
+3789,984,984,972,10,Fremont City Cricket Soccer Field,20,115,118,120,76,8,2,2022-02-12
+3790,990,982,990,4,"Northgate Park, Fremont",20,82,84,93,86,10,2,2022-02-12
+3791,989,989,994,7,"Plasencia Fields, Tracy, CA",20,45,47,89,24,10,2,2022-02-12
+3795,987,987,973,7,"Plasencia Fields, Tracy, CA",20,103,104,120,99,9,1,2022-02-12
+3802,976,986,976,7,"Plasencia Fields, Tracy, CA",20,131,133,108,75,5,3,2022-02-13
+3799,981,975,975,11,"Rancho Milpitas School, Milpitas, CA",20,185,152,120,120,10,8,2022-02-13
+3797,979,992,979,2,"Sea Breeze Park, Union City",20,150,151,120,118,3,5,2022-02-13
+3805,991,991,991,7,"Plasencia Fields, Tracy, CA",20,152,124,120,108,7,10,2022-02-13
+3810,973,974,973,7,"Plasencia Fields, Tracy, CA",20,109,110,120,112,7,5,2022-02-19
+3811,994,994,982,2,"Sea Breeze Park, Union City",20,79,80,97,81,10,5,2022-02-19
+3813,985,985,976,11,"Rancho Milpitas School, Milpitas, CA",20,161,162,120,86,5,2,2022-02-20
+3816,977,977,977,2,"Sea Breeze Park, Union City",20,105,92,120,109,10,10,2022-02-20
+3818,983,983,983,11,"Rancho Milpitas School, Milpitas, CA",20,168,148,120,113,6,10,2022-02-20
+3820,979,980,979,1,Wilson Field Santa Clara,20,131,134,120,92,6,0,2022-02-20
+3822,972,972,972,4,"Northgate Park, Fremont",20,139,94,120,117,9,10,2022-02-26
+3823,988,988,988,10,Fremont City Cricket Soccer Field,20,138,128,120,117,8,10,2022-02-26
+3825,974,984,974,4,"Northgate Park, Fremont",20,99,100,120,89,7,2,2022-02-26
+3827,975,985,975,33,Sierramont Middle School,20,118,124,119,49,10,2,2022-02-27
+3829,979,979,979,11,"Rancho Milpitas School, Milpitas, CA",20,180,141,120,120,7,7,2022-02-27
+3828,980,977,977,2,"Sea Breeze Park, Union City",20,148,131,120,112,9,10,2022-02-27
+3832,992,991,992,2,"Sea Breeze Park, Union City",20,128,129,120,54,8,1,2022-02-27
+3838,972,972,972,10,Fremont City Cricket Soccer Field,20,192,86,120,120,9,7,2022-03-05
+3837,990,988,988,4,"Northgate Park, Fremont",20,117,116,117,117,10,10,2022-03-05
+3849,985,981,985,11,"Rancho Milpitas School, Milpitas, CA",20,105,106,111,99,10,6,2022-03-06
+3844,979,977,979,2,"Sea Breeze Park, Union City",20,105,106,115,111,10,7,2022-03-06
+3850,980,980,992,2,"Sea Breeze Park, Union City",20,135,138,120,105,4,5,2022-03-06
+3852,974,987,974,7,"Plasencia Fields, Tracy, CA",20,121,122,120,97,8,1,2022-03-12
+3851,978,978,990,4,"Northgate Park, Fremont",20,123,127,113,111,10,3,2022-03-12
+3641,954,957,957,7,"Plasencia Fields, Tracy, CA",20,173,109,120,90,6,7,2021-11-13
+3646,968,968,967,5,Caroline Davis School  San Jose,20,123,124,120,113,8,3,2021-11-14
+3648,958,958,958,4,"Northgate Park, Fremont",20,136,119,120,109,6,10,2021-11-14
+3647,965,965,965,11,"Rancho Milpitas School, Milpitas, CA",20,168,122,120,98,5,10,2021-11-14
+3655,964,961,964,4,"Northgate Park, Fremont",20,127,128,120,105,7,5,2021-11-21
+3659,967,967,967,5,Caroline Davis School  San Jose,20,145,128,120,120,6,6,2021-11-21
+3661,950,950,950,4,"Northgate Park, Fremont",20,142,80,120,106,7,10,2021-11-21
+3662,953,953,957,7,"Plasencia Fields, Tracy, CA",20,119,120,120,120,6,6,2021-11-21
+3663,958,958,954,2,"Sea Breeze Park, Union City",20,138,139,120,120,5,6,2021-11-21
+3680,950,950,950,2,"Sea Breeze Park, Union City",20,167,90,120,96,6,10,2021-12-04
+3674,958,958,958,2,"Sea Breeze Park, Union City",20,166,47,120,102,8,10,2021-12-04
+3679,966,966,966,7,"Plasencia Fields, Tracy, CA",20,120,74,120,103,8,10,2021-12-04
+3684,968,968,968,5,Caroline Davis School  San Jose,20,113,105,120,120,7,10,2021-12-05
+3688,953,953,953,2,"Sea Breeze Park, Union City",20,160,145,120,120,6,3,2021-12-11
+3702,957,957,0,7,"Plasencia Fields, Tracy, CA",20,0,0,0,0,0,0,2021-12-12
+3701,961,961,0,4,"Northgate Park, Fremont",20,0,0,0,0,0,0,2021-12-12
+3695,963,963,963,5,Caroline Davis School  San Jose,20,208,174,120,120,6,7,2021-12-12
+3699,968,968,0,4,"Northgate Park, Fremont",20,0,0,0,0,0,0,2021-12-12
+3705,954,954,953,2,"Sea Breeze Park, Union City",20,112,116,120,97,6,1,2021-12-18
+3713,961,961,965,2,"Sea Breeze Park, Union City",20,120,121,120,114,9,8,2021-12-19
+3712,967,967,967,4,"Northgate Park, Fremont",20,122,99,120,118,9,10,2021-12-19
+3714,961,961,966,7,"Plasencia Fields, Tracy, CA",20,110,111,120,112,6,6,2022-01-08
+3721,950,950,950,4,"Northgate Park, Fremont",20,172,134,120,120,4,9,2022-01-09
+3719,962,962,962,10,Fremont City Cricket Soccer Field,20,169,163,120,120,6,9,2022-01-09
+3836,967,967,0,5,Caroline Davis School  San Jose,0,0,0,0,0,0,0,2022-01-09
+3724,953,953,953,2,"Sea Breeze Park, Union City",20,166,133,120,120,7,7,2022-01-09
+3722,968,968,963,4,"Northgate Park, Fremont",20,75,76,120,78,8,3,2022-01-09
+3732,958,958,958,1,Wilson Field Santa Clara,20,177,96,120,120,4,6,2022-01-16
+3734,964,964,964,7,"Plasencia Fields, Tracy, CA",20,147,66,120,94,8,10,2022-01-16
+3740,954,954,954,2,"Sea Breeze Park, Union City",20,153,149,120,120,7,7,2022-01-22
+3742,966,965,965,7,"Plasencia Fields, Tracy, CA",20,117,62,120,98,8,9,2022-01-23
+3744,968,968,963,10,Fremont City Cricket Soccer Field,20,113,117,120,95,8,3,2022-01-23
+3745,969,969,969,4,"Northgate Park, Fremont",20,124,121,120,120,9,10,2022-01-23
+3750,950,950,950,2,"Sea Breeze Park, Union City",20,167,164,120,120,4,9,2022-01-23
+3748,962,962,964,33,Sierramont Middle School,20,166,170,120,120,9,5,2022-01-23
+3760,960,960,960,7,"Plasencia Fields, Tracy, CA",20,179,152,120,120,0,9,2022-01-30
+3762,965,965,965,2,"Sea Breeze Park, Union City",20,157,152,120,120,7,8,2022-01-30
+3761,963,963,969,10,Fremont City Cricket Soccer Field,20,82,88,98,79,10,1,2022-01-30
+3759,968,967,967,4,"Northgate Park, Fremont",20,131,100,120,120,8,9,2022-01-30
+3769,958,958,958,33,Sierramont Middle School,20,148,120,120,115,5,10,2022-01-30
+3770,952,952,961,11,"Rancho Milpitas School, Milpitas, CA",20,163,167,120,109,9,4,2022-01-30
+3787,957,957,957,1,Wilson Field Santa Clara,20,163,134,120,120,5,10,2022-02-06
+3777,960,960,960,1,Wilson Field Santa Clara,20,127,122,120,118,4,10,2022-02-06
+3779,966,962,962,10,Fremont City Cricket Soccer Field,20,153,97,120,120,5,9,2022-02-06
+3782,963,968,963,11,"Rancho Milpitas School, Milpitas, CA",20,163,164,120,100,8,4,2022-02-06
+3785,952,964,964,33,Sierramont Middle School,20,213,199,120,120,3,4,2022-02-06
+3783,970,970,969,4,"Northgate Park, Fremont",20,153,155,120,116,4,6,2022-02-06
+3798,957,957,957,33,Sierramont Middle School,20,189,167,120,120,7,3,2022-02-13
+3801,953,953,960,1,Wilson Field Santa Clara,20,99,100,120,109,9,1,2022-02-13
+3796,962,962,962,10,Fremont City Cricket Soccer Field,20,172,111,120,120,4,9,2022-02-13
+3800,969,968,969,4,"Northgate Park, Fremont",20,120,121,120,104,9,4,2022-02-13
+3806,966,966,952,2,"Sea Breeze Park, Union City",20,117,119,120,92,6,3,2022-02-13
+3807,965,965,965,11,"Rancho Milpitas School, Milpitas, CA",20,181,165,120,114,10,10,2022-02-13
+3803,963,963,963,10,Fremont City Cricket Soccer Field,20,165,83,120,109,9,10,2022-02-13
+3817,958,958,958,7,"Plasencia Fields, Tracy, CA",20,121,105,120,120,7,8,2022-02-20
+3814,960,960,960,1,Wilson Field Santa Clara,20,148,109,120,105,6,9,2022-02-20
+3819,952,965,952,2,"Sea Breeze Park, Union City",20,146,148,120,117,6,9,2022-02-20
+3815,961,961,961,4,"Northgate Park, Fremont",20,159,82,120,109,6,10,2022-02-20
+3845,963,969,0,11,"Rancho Milpitas School, Milpitas, CA",20,86,86,111,104,10,10,2022-03-06
+3831,968,968,970,4,"Northgate Park, Fremont",20,113,117,120,88,7,4,2022-02-27
+3834,962,962,962,11,"Rancho Milpitas School, Milpitas, CA",20,185,96,120,98,6,10,2022-02-27
+3833,964,964,964,33,Sierramont Middle School,20,264,234,120,120,5,5,2022-02-27
+3843,965,965,965,10,Fremont City Cricket Soccer Field,20,155,146,120,119,9,5,2022-03-06
+3842,961,961,964,33,Sierramont Middle School,20,160,162,120,119,9,8,2022-03-06
+3846,967,967,0,4,"Northgate Park, Fremont",20,135,135,118,120,10,8,2022-03-06
+3830,963,969,969,10,Fremont City Cricket Soccer Field,20,152,95,120,119,5,10,2022-02-27
+3848,958,958,958,33,Sierramont Middle School,20,134,100,120,120,4,7,2022-03-06
+3853,950,950,954,4,"Northgate Park, Fremont",20,129,131,100,115,10,5,2022-03-12
+3640,863,863,863,4,"Northgate Park, Fremont",20,143,135,120,120,6,8,2021-11-13
+3638,873,873,997,1,Wilson Field Santa Clara,25,116,117,150,118,5,2,2021-11-13
+3658,1003,998,1003,16,"Sierra Bicentennial Park, Clovis",20,120,121,120,65,10,1,2021-11-21
+3660,999,999,999,16,"Sierra Bicentennial Park, Clovis",20,177,116,120,111,8,10,2021-11-21
+3665,999,998,999,16,"Sierra Bicentennial Park, Clovis",20,116,118,118,64,10,1,2021-11-25
+3666,1001,1001,1000,16,"Sierra Bicentennial Park, Clovis",20,108,109,112,98,10,3,2021-11-26
+3667,1002,1001,1001,16,"Sierra Bicentennial Park, Clovis",20,226,153,120,120,4,7,2021-11-26
+3668,1000,1002,1000,16,"Sierra Bicentennial Park, Clovis",20,145,149,120,97,7,5,2021-11-27
+3670,1001,1001,1001,16,"Sierra Bicentennial Park, Clovis",20,146,142,120,120,7,7,2021-11-27
+3671,1000,1003,1000,16,"Sierra Bicentennial Park, Clovis",20,119,123,120,107,9,6,2021-11-28
+3672,1000,1000,1001,16,"Sierra Bicentennial Park, Clovis",20,138,139,115,94,10,4,2021-11-28
+3669,873,997,873,1,Wilson Field Santa Clara,25,112,113,150,110,8,5,2021-11-27
+3691,1004,1004,873,33,Sierramont Middle School,25,118,119,150,144,8,7,2021-12-11
+3726,1005,1005,610,11,"Rancho Milpitas School, Milpitas, CA",20,102,103,97,78,8,2,2022-01-15
+3747,610,610,873,1,Wilson Field Santa Clara,25,175,176,150,148,3,7,2022-01-23
+3755,949,949,949,8,"Patwin Elementary School, Davis, CA",40,257,170,240,159,9,10,2022-01-29
+3766,948,948,949,8,"Patwin Elementary School, Davis, CA",45,91,93,148,132,11,6,2022-01-30
+3773,1009,1007,1007,11,"Rancho Milpitas School, Milpitas, CA",35,231,220,210,210,6,5,2022-02-05
+3772,1010,1008,1008,8,"Patwin Elementary School, Davis, CA",35,169,130,210,178,8,10,2022-02-05
+3788,1012,1012,1012,11,"Rancho Milpitas School, Milpitas, CA",25,229,171,150,150,5,9,2022-02-06
+3792,1008,1008,1008,11,"Rancho Milpitas School, Milpitas, CA",35,232,128,210,160,8,10,2022-02-12
+3793,1009,1007,1009,8,"Patwin Elementary School, Davis, CA",35,111,115,193,146,10,6,2022-02-12
+3804,1011,1012,1011,4,"Northgate Park, Fremont",25,61,65,91,133,10,8,2022-02-13
+3794,997,997,873,1,Wilson Field Santa Clara,15,102,103,90,90,4,4,2022-02-12
+3812,873,997,997,1,Wilson Field Santa Clara,16,136,42,96,77,3,9,2022-02-19
+3809,1015,610,610,11,"Rancho Milpitas School, Milpitas, CA",35,258,115,210,156,8,10,2022-02-19
+3824,1010,1010,1007,11,"Rancho Milpitas School, Milpitas, CA",35,197,198,210,204,3,4,2022-02-26
+3821,1009,1009,1008,8,"Patwin Elementary School, Davis, CA",35,142,143,210,183,7,2,2022-02-26
+3835,1011,1011,1011,4,"Northgate Park, Fremont",25,143,131,150,150,6,10,2022-02-27
+3840,1007,1007,1010,8,"Patwin Elementary School, Davis, CA",35,139,140,210,210,8,6,2022-03-05
+3839,1009,1009,1009,11,"Rancho Milpitas School, Milpitas, CA",35,231,153,210,178,0,10,2022-03-05
+3847,1012,1012,1012,4,"Northgate Park, Fremont",25,135,72,150,145,8,10,2022-03-06
+3841,873,873,873,1,Wilson Field Santa Clara,25,208,199,150,143,5,7,2022-03-05

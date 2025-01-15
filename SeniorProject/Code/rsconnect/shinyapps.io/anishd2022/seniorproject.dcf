@@ -1,0 +1,14 @@
+name: seniorproject
+title:
+username:
+account: anishd2022
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6323105
+bundleId: 5922204
+url: https://anishd2022.shinyapps.io/seniorproject/
+when: 1652944545.23139
+lastSyncTime: 1652944545.2314
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Rapp.history|logistics.RData|NewApp.R|PredictorTasks.R|SQL test.sql|SuggesterTasks.R|XGBoostSHAPValues.png
