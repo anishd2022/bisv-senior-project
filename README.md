@@ -14,4 +14,9 @@ Suggester and Predictor for cricket games scored on CricClubs.com
 
 ## Suggester:
 
-- groups teams into "lost toss and lost game", "won toss and lost game", "won toss and won game", and "lost toss and won game" for each game, and then uses a classification algorithm to suggest teams to either bat or bowl first if they win the toss, given game location, team, and opponent. 
+- groups teams into "lost toss and lost game", "won toss and lost game", "won toss and won game", and "lost toss and won game" for each game, and then uses a classification algorithm to suggest teams to either bat or bowl first if they win the toss, given game location, team, and opponent.
+
+## Files:
+
+- running **app.R** will open up an Rshiny web app where the user can select various inputs to get predictions and suggestions on a game
+- 
