@@ -25,6 +25,7 @@ library(shiny)
 library(shinythemes)
 library(caret)
 library(tictoc)
+library(writexl)
 
 
 
@@ -764,40 +765,6 @@ GetCreateGamePrediction <- function (Model, TeamOneID, TeamTwoID, FeatureRow, Te
 
 
 ############################################################################################# 
-
-
-
-
-
-
-
-
-
-
-
-# ####Doing a 2 proportion z test to see if there is a significantly higher chance of winning the game if one were to win the toss
-# WinLossVector <- c()
-# for (game in 1:nrow(ChronoAllGames)) {
-#   if (ChronoAllGames$team_one[game] == ChronoAllGames$winner[game]) {
-#     WinLossVector <- append(WinLossVector, "WIN")
-#   } else {
-#     WinLossVector <- append(WinLossVector, "LOSE")
-#   }
-# }
-# 
-# TossWonVector <- c()
-# for (game in 1:nrow(ChronoAllGames)) {
-#   if (ChronoAllGames$team_one[game] == ChronoAllGames$toss_won[game]) {
-#     TossWonVector <- append(TossWonVector, "YES")
-#   } else {
-#     TossWonVector <- append(TossWonVector, "NO")
-#   }
-# }
-# 
-# table(WinLossVector, TossWonVector)
-# 
-# prop.test(x = c(200, 713), n = c(200 + 238, 713 + 777), correct = FALSE)
-# #Conclusion: No statistically significant difference
 
 
 
