@@ -19,4 +19,5 @@ Suggester and Predictor for cricket games scored on CricClubs.com
 ## Files:
 
 - running **app.R** will open up an Rshiny web app where the user can select various inputs to get predictions and suggestions on a game
-- 
+- **SeniorProjectFinalPresentation.pdf** gives an overview of my project and my process
+- All player statistics and game stats are in the data folder
