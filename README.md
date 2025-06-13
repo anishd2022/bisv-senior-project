@@ -1,6 +1,6 @@
 # 🎯 BISV Senior Project — Cricket Game Predictor & Toss Decision Suggester
 
-An interactive RShiny application that predicts the outcome of cricket games played on [CricClubs.com](https://cricclubs.com) and provides strategic toss decision suggestions based on historical data.
+An interactive RShiny application that predicts the outcome of cricket games in the Northern California Cricket Association scored on [CricClubs.com](https://cricclubs.com/ncca) and provides strategic toss decision suggestions based on historical data.
 
 ---
 
