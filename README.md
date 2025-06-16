@@ -49,9 +49,9 @@ Given the selected team, opponent, and location, a classification algorithm sugg
 
 ## 📁 File Structure
 
-- `app.R` — Launches the interactive RShiny app  
-- `SeniorProjectFinalPresentation.pdf` — Summary of methodology and results  
-- `data/` — Contains player and match statistics used for modeling
+- `SeniorProject/Code/app.R` — Launches the interactive RShiny app on local machine 
+- `SeniorProject/SeniorProjectFinalPresentation.pdf` — Summary of methodology and results  
+- `SeniorProject/data/` — Contains player and match statistics used for modeling
 
 ---
 
