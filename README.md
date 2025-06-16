@@ -57,19 +57,36 @@ Given the selected team, opponent, and location, a classification algorithm sugg
 
 ## ▶️ How to Run
 
+### 🔧 Step 1: Set up the R Environment
+
+This project uses [`renv`](https://rstudio.github.io/renv/) to manage dependencies. To recreate the required package environment:
+
+1. Open the project in **RStudio** (or set the working directory to the project folder in R).
+2. In the R console, run:
+   ```r
+   renv::restore()
+   ```
+This will install the exact versions of all required packages listed in the `renv.lock` file.
+
+If you don't have `renv` installed, first run:
+  ```r
+  install.packages("renv")
+  ```
+
+### 🚀 Step 2: Launch the App
+
+Once the environment is restored:
+
+- Open `app.R` and click **Run App** in RStudio **or** run the following in R console:
+  ```r
+  shiny::runApp()
+  ```
+
 Check out a video demo of the app in action here:  
 📽️ **[Senior Project App Demo](https://anishdeshpande.com/Images_and_Attachments/SeniorProjectAppDemo.mp4)**
 
 ---
 
-## 📊 Tools & Technologies
-
-- **Languages**: R, SQL  
-- **Libraries**: `shiny`, `e1071` (for SVM), `ggplot2`, `dplyr`, `caret`  
-- **Platform**: CricClubs match data
-
----
-
 ## 📌 Acknowledgments
 
-This project was developed as part of the BISV Senior Project under guidance from mentors and peers.
+This project was developed as part of the BISV Senior Project under guidance from external advisor Mr. Prakash Giri, and internal faculty advisor Mr. Cruz.
