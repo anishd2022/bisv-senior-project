@@ -30,6 +30,7 @@ library(writexl)
 
 
 
+###################start predictor functions
 generate_win_vector <- function(logisticsdata, ChronoAllGames) {
   WinLossVector <- c()
   for (game in 1:nrow(ChronoAllGames)) {
@@ -525,7 +526,7 @@ GetPlaying11TeamB <- function (PlayerStats, PlayerFullNames, MatchID) {
   return(Playing11TeamB)
 }
 
-#PROBLEM HERE!!!!!!!!!!!!!!!!!!!!!!!
+
 #Function that tests the accuracy of the Logistic model on the testing data
 GetLogisticTestAccuracy <- function (LogisticModel, logisticstestdata) {
   Features <- subset (logisticstestdata, select = -c(team_one_win))
@@ -552,7 +553,7 @@ GetLogisticTestAccuracy <- function (LogisticModel, logisticstestdata) {
 }
 
 #Gets a list of fixtures for all games:
-GetFixtureList <- function (ChronoAllGames) {
+GetFixtureList <- function (ChronoAllGames, TeamNames) {
   FixtureList <- c()
   for (game in 1:nrow(ChronoAllGames)) {
     GameDate <- ChronoAllGames$date[game]
@@ -567,7 +568,7 @@ GetFixtureList <- function (ChronoAllGames) {
 }
 
 #Creates a feature row for the created game
-GetFeatureRowforCreateGame <- function (TeamOnePlayers, TeamTwoPlayers, PlayerStats, ChronoAllGames, AllGames, GameStats, TeamOneID, TeamTwoID, logisticsdata) {
+GetFeatureRowforCreateGame <- function (TeamOnePlayers, TeamTwoPlayers, PlayerStats, ChronoAllGames, AllGames, GameStats, TeamOneID, TeamTwoID, logisticsdata, PlayerFullNames) {
   FeatureRow <- data.frame(WinRate = 0,
                            WinRateAgstB = 0,
                            RelativeTeamStrength = 0,
@@ -577,7 +578,7 @@ GetFeatureRowforCreateGame <- function (TeamOnePlayers, TeamTwoPlayers, PlayerSt
   #adding the win rate to the feature row
   GameIndexes <- c()
   for (game in 1:nrow(ChronoAllGames)) {
-    if (ChronoAllGames$team_one[game] %in% TeamOneID | ChronoAllGames$team_two[game] %in% TeamOneID) {
+    if (TeamOneID == ChronoAllGames$team_one[game] | TeamOneID == ChronoAllGames$team_two[game]) {
       GameIndexes <- append(GameIndexes, game)
     }
   }
@@ -585,14 +586,14 @@ GetFeatureRowforCreateGame <- function (TeamOnePlayers, TeamTwoPlayers, PlayerSt
   TeamOneWinRate <- logisticsdata$WinRate[MostRecentGameIndex]
   
   #adding the win rate against team B to the feature row
-  AllGamesAandB <- filter(ChronoAllGames, (team_one %in% TeamOneID & team_two %in% TeamTwoID) | (team_one %in% TeamTwoID & team_two %in% TeamOneID))
+  AllGamesAandB <- filter(ChronoAllGames, (team_one == TeamOneID & team_two == TeamTwoID) | (team_one == TeamTwoID & team_two == TeamOneID))
   win <- 0
   loss <- 0
   if (nrow(AllGamesAandB) == 0 | is.na(nrow(AllGamesAandB)) | is.infinite(nrow(AllGamesAandB))) {
     WinRateAgstB <- 0.5
   } else {
     for (game in 1:nrow(AllGamesAandB)) {
-      if (AllGamesAandB$winner[game] %in% TeamOneID) {
+      if (AllGamesAandB$winner[game] == TeamOneID) {
         win <- win + 1
       } else {
         loss <- loss + 1
@@ -644,14 +645,14 @@ GetFeatureRowforCreateGame <- function (TeamOnePlayers, TeamTwoPlayers, PlayerSt
   GameStats <- mutate(GameStats, team_one = ChronoAllGames$team_one)
   GameStats <- mutate(GameStats, team_two = ChronoAllGames$team_two)
   
-  TeamOneGameStats <- filter(GameStats, team_one %in% TeamOneID | team_two %in% TeamOneID)
-  TeamTwoGameStats <- filter(GameStats, team_one %in% TeamTwoID | team_two %in% TeamTwoID)
+  TeamOneGameStats <- filter(GameStats, team_one == TeamOneID | team_two == TeamOneID)
+  TeamTwoGameStats <- filter(GameStats, team_one == TeamTwoID | team_two == TeamTwoID)
   
   TeamOneRuns <- 0
   TeamOneBalls <- 0
   TeamOneWickets <- 0
   for (game in 1:nrow(TeamOneGameStats)) {
-    if (TeamOneGameStats$team_one[game] %in% TeamOneID) {
+    if (TeamOneGameStats$team_one[game] == TeamOneID) {
       TeamOneRuns <- TeamOneRuns + TeamOneGameStats$t1_total[game]
       TeamOneBalls <- TeamOneBalls + TeamOneGameStats$t1_balls[game]
       TeamOneWickets <- TeamOneWickets + TeamOneGameStats$t1_wickets[game]
@@ -668,7 +669,7 @@ GetFeatureRowforCreateGame <- function (TeamOnePlayers, TeamTwoPlayers, PlayerSt
   TeamTwoBalls <- 0
   TeamTwoWickets <- 0
   for (game in 1:nrow(TeamTwoGameStats)) {
-    if (TeamTwoGameStats$team_two[game] %in% TeamTwoID) {
+    if (TeamTwoGameStats$team_two[game] == TeamTwoID) {
       TeamTwoRuns <- TeamTwoRuns + TeamTwoGameStats$t2_total[game]
       TeamTwoBalls <- TeamTwoBalls + TeamTwoGameStats$t2_balls[game]
       TeamTwoWickets <- TeamTwoWickets + TeamTwoGameStats$t2_wickets[game]
@@ -700,71 +701,18 @@ GetFeatureRowforCreateGame <- function (TeamOnePlayers, TeamTwoPlayers, PlayerSt
 
 #Predicts the create game result:
 GetCreateGamePrediction <- function (Model, TeamOneID, TeamTwoID, FeatureRow, TeamNames) {
-  TeamOneName <- TeamNames$team_name[which(TeamNames$team_id %in% TeamOneID)]
-  TeamTwoName <- TeamNames$team_name[which(TeamNames$team_id %in% TeamTwoID)]
+  TeamOneName <- TeamNames$team_name[which(TeamNames$team_id == TeamOneID)]
+  TeamTwoName <- TeamNames$team_name[which(TeamNames$team_id == TeamTwoID)]
   Prediction <- predict(Model, FeatureRow)
   if (Prediction == 1) {
-    print(TeamOneName[1])
+    print(TeamOneName)
+    #print(paste(TeamOneName, "is predicted to win this game"))
   } else {
-    print(TeamTwoName[1])
+    print(TeamTwoName)
+    #print(paste(TeamTwoName, "is predicted to win this game"))
   }
 }
-
-
-
-  #My program starts here:
-  
-  AllGames <- read_excel("AllGames.xls")
-  SortedAllGames <- arrange(AllGames, date)
-  ChronoAllGames <- filter(SortedAllGames, winner != 0)
-  ChronoAllGames$date <- as.Date(ChronoAllGames$date)
-  PlayerStats <- read.csv("PlayerStats.csv")
-  GameStats <- read.csv("GameStatistics.csv")
-  TeamNames <- read.csv("TeamNames.csv")
-  OrderedTeamNames <- arrange(TeamNames, team_name)
-  PlayerNames <- read.csv("TeamPlayerNameTable.csv")
-  PlayerFullNames <- mutate(PlayerNames, Full_Name = paste(PlayerNames$f_name, PlayerNames$l_name))
-  FixtureList <- c()
-  logisticstraindata <- c()
-
-
-################################################################################## 
-
-  #feature data for all games
-  logisticsdata <- GetLogisticsData(AllGames, PlayerStats, GameStats) 
-  
-  #now splitting into training and testing set:
-  TrainAllGames <- AllGames[1:round(0.7*nrow(AllGames)), ]
-  TestAllGames <- AllGames[(round(0.7*nrow(AllGames))+1):nrow(AllGames), ]
-  logisticstraindata <- logisticsdata[1:nrow(TrainAllGames), ]
-  logisticstestdata <- logisticsdata[(nrow(TrainAllGames) + 1):nrow(logisticsdata), ]
-  
-  #getting my logistic model based off of the training data
-  LogisticModel <- GetLogisticModel(logisticstraindata)
-  
-  #getting my SVM model based off of the training data
-  SVMModel <- GetSVMModel(logisticstraindata, 'C-classification', 'linear', 1)
-  
-  #Gives the accuracy of the Logistic Model by running it on testing data
-  LogisticTestAccuracy <- GetLogisticTestAccuracy(LogisticModel, logisticstestdata)
-  
-  #Gives the accuracy of the SVM model by running it on testing data
-  SVMTestAccuracy <- GetSVMTestAccuracy(SVMModel, logisticstestdata)
-  
-  #predicts which team will win the game (Uses SVM model since it is more accurate)
-  GamePrediction <- PredictGame (3256, ChronoAllGames, logisticsdata, SVMModel, TeamNames)   
-  
-  #A list of fixtures from all games:
-  FixtureList <- GetFixtureList (ChronoAllGames)
-  
-  #Gives a feature row for the create game 
-  FeatureRow <- GetFeatureRowforCreateGame(c("Neeraj Goel", "Hammad Azam"), c("Anish Deshpande", "Rahul Jariwala"), PlayerStats, ChronoAllGames, AllGames, GameStats, 902, 972, logisticsdata)
-  
-  #Predicts the winner of the create game:
-  CreateGamePrediction <- GetCreateGamePrediction(SVMModel, 902, 972, FeatureRow, TeamNames)
-
-
-############################################################################################# 
+###################end predictor functions 
 
 
 

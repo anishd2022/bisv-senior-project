@@ -23,6 +23,7 @@ library(caret)
 library(tictoc)
 library(rsconnect)
 
+###################Start suggester functions
 #Task 1 for Suggester
 Task1 <- function (AllGames, GROUND) {
   AllGamesforGroundX <- filter(AllGames, ground_id == GROUND)
@@ -43,7 +44,7 @@ Task1 <- function (AllGames, GROUND) {
 
 #Task 2 for suggester
 Task2 <- function (AllGames, TeamONE) {
-  AllGamesforTeam1 <- filter(AllGames, winner %in% TeamONE)
+  AllGamesforTeam1 <- filter(AllGames, winner == TeamONE)
   if (nrow(AllGamesforTeam1) == 0) {
     Two_BattingFirstWinProbTeamOne <- 0.5
   } else {
@@ -65,9 +66,9 @@ Task2 <- function (AllGames, TeamONE) {
 
 #Task 3 for suggester
 Task3 <- function (AllGames, TeamONE, TeamTWO) {
-  AllGamesBetweenTeamATeamB <- filter(AllGames, (team_one %in% TeamONE | team_one %in% TeamTWO) & (team_two %in% TeamONE | team_two %in% TeamTWO)) 
-  TeamAWinsAgainstB <- filter(AllGamesBetweenTeamATeamB, winner %in% TeamONE)
-  TeamBWinsAgainstA <- filter(AllGamesBetweenTeamATeamB, winner %in% TeamTWO)
+  AllGamesBetweenTeamATeamB <- filter(AllGames, (team_one == TeamONE | team_one == TeamTWO) & (team_two == TeamONE | team_two == TeamTWO)) 
+  TeamAWinsAgainstB <- filter(AllGamesBetweenTeamATeamB, winner == TeamONE)
+  TeamBWinsAgainstA <- filter(AllGamesBetweenTeamATeamB, winner == TeamTWO)
   if (nrow(TeamAWinsAgainstB) == 0) {
     Three_TeamAWinBattingFirstProb <- 0.5
   } else {
@@ -88,9 +89,9 @@ Task3 <- function (AllGames, TeamONE, TeamTWO) {
 
 #Task #4 for suggester
 Task4 <- function (AllGames, TeamONE, TeamTWO, GROUND) {
-  AllGamesTeamATeamBGroundX <- filter(AllGames, (team_one %in% TeamONE | team_one %in% TeamTWO) & (team_two %in% TeamONE | team_two %in% TeamTWO) & ground_id == GROUND)
-  TeamAWinsAgainstBonGroundX <- filter(AllGamesTeamATeamBGroundX, winner %in% TeamONE)
-  TeamBWinsAgainstAonGroundX <- filter(AllGamesTeamATeamBGroundX, winner %in% TeamTWO)
+  AllGamesTeamATeamBGroundX <- filter(AllGames, (team_one == TeamONE | team_one == TeamTWO) & (team_two == TeamONE | team_two == TeamTWO) & ground_id == GROUND)
+  TeamAWinsAgainstBonGroundX <- filter(AllGamesTeamATeamBGroundX, winner == TeamONE)
+  TeamBWinsAgainstAonGroundX <- filter(AllGamesTeamATeamBGroundX, winner == TeamTWO)
   if (nrow(TeamAWinsAgainstBonGroundX) == 0) {
     Four_TeamABattAingFirstProb <- 0.5
     Four_TeamBBattingFirstProb <- 0.5
@@ -247,7 +248,7 @@ GetFeatureRowforSuggestion <- function (ChronoAllGames, GroundID, TeamOneID, Tea
                            TeamTendency = 0,
                            AvsBTendency = 0,
                            AvsBonXTendency = 0)
-
+  
   #adding the Ground Tendency to the feature row:
   GroundTendency <- Task1(ChronoAllGames, GroundID)
   
@@ -277,16 +278,13 @@ GetFeatureRowforSuggestion <- function (ChronoAllGames, GroundID, TeamOneID, Tea
 }
 
 #Getting a suggestion for the Create Game:
-GetCreateGameSuggestion <- function (ChronoAllGames, Model, GroundID, TeamNames, TeamOneID, TeamTwoID) {
-  TeamOneName <- TeamNames$team_name[min(which(TeamNames$team_id %in% TeamOneID))]
-  TeamTwoName <- TeamNames$team_name[min(which(TeamNames$team_id %in% TeamTwoID))]
+GetCreateGameSuggstion <- function (ChronoAllGames, Model, GroundID, TeamNames, TeamOneID, TeamTwoID) {
+  TeamOneName <- TeamNames$team_name[which(TeamNames$team_id == TeamOneID)]
+  TeamTwoName <- TeamNames$team_name[which(TeamNames$team_id == TeamTwoID)]
   Features <- GetFeatureRowforSuggestion(ChronoAllGames, GroundID, TeamOneID, TeamTwoID)
-  FeatureRowTeamOne <- Features [1, ]
-  FeatureRowTeamTwo <- Features [2, ]
-  TeamOnePrediction <- predict(Model, FeatureRowTeamOne)
-  TeamTwoPrediction <- predict(Model, FeatureRowTeamTwo)
-  
-  #print(Predictions)
+  Predictions <- predict(Model, Features)
+  TeamOnePrediction <- Predictions[1]
+  TeamTwoPrediction <- Predictions[2]
   
   if (TeamOnePrediction == 1 | TeamOnePrediction == 4) {
     print(paste("If", TeamOneName, "wins the toss, they should bat first"))
@@ -294,7 +292,7 @@ GetCreateGameSuggestion <- function (ChronoAllGames, Model, GroundID, TeamNames,
   if (TeamOnePrediction == 2 | TeamOnePrediction == 3) {
     print(paste("If", TeamOneName, "wins the toss, they should bowl first"))
   }
-
+  
   if (TeamTwoPrediction == 1 | TeamTwoPrediction == 4) {
     print(paste("If", TeamTwoName, "wins the toss, they should bat first"))
   }
@@ -302,157 +300,7 @@ GetCreateGameSuggestion <- function (ChronoAllGames, Model, GroundID, TeamNames,
     print(paste("If", TeamTwoName, "wins the toss, they should bowl first"))
   }
 }
-
-
-  #main data frame which stores all games, date played, teams playing, team that won the toss, team that batted first, and team that won the game
-  AllGames <- read_excel("AllGames.xls")
-  SortedAllGames <- arrange(AllGames, date)
-  ChronoAllGames <- filter(SortedAllGames, winner != 0)
-  TeamNames <- read.csv("TeamNames.csv")
-
-###############################################################################
-#Program starts here
-
-  #Getting the feature data for the suggester
-  SuggesterLogisticsData <- GetSuggesterFeatureData(ChronoAllGames)
-  
-  #Getting the SVM model for the suggester
-  SuggesterSVMModel <- GetSuggesterSVMModel(SuggesterLogisticsData)
-  
-  #Getting the accuracy of the SVM model for the suggester
-  SuggesterSVMAccuracy <- GetSuggesterSVMAccuracy(SuggesterSVMModel, SuggesterLogisticsData)
-  
-  #Making a suggestion for a specific Match ID:
-  GameSuggestion <- SuggestGame(3256, ChronoAllGames, SuggesterLogisticsData, SuggesterSVMModel, TeamNames)
-  
-  #The feature row for the suggestion:
-  SuggestionFeatureRow <- GetFeatureRowforSuggestion(ChronoAllGames, 1, 902, 877)
-  
-  #The suggestion for both teams for the create game:
-  CreateGameSuggestion <- GetCreateGameSuggestion(ChronoAllGames, SuggesterSVMModel, 1, TeamNames, 902, 877)
-
-
-
-
-### ### #### #### ####
-# SuggestionList <- c()
-# SuggestionNumberList <- c()
-# for (game in 1:1) {
-#   Features <- GetFeatureRowforSuggestion(ChronoAllGames, ChronoAllGames$ground_id[game], ChronoAllGames$team_one[game], ChronoAllGames$team_two[game])
-#   GameSuggestion <- GetCreateGameSuggestion(ChronoAllGames, SuggesterSVMModel, ChronoAllGames$ground_id[game], TeamNames, ChronoAllGames$team_one[game], ChronoAllGames$team_two[game])
-#   SuggestionList <- append(SuggestionList, GameSuggestion)
-#   Predictions <- predict(SuggesterSVMModel, Features)
-#   SuggestionNumberList <- append(SuggestionNumberList, Predictions)
-# }
-# print(SuggestionList)
-# print(Predictions)
-
-
-
-
-
-
-##############################################################################
-# #SQL STUFF
-# select *
-#   from grounds
-# 
-# select *
-#   from fixtures
-# 
-# select *
-#   from matches
-# 
-# select *
-#   from team 
-# 
-# 
-# #shows teams playing and venue and toss winner and game winner for each game 
-# select matches.match_id, matches.toss_won, batting_first, winner, 
-# fixtures.ground_id, grounds.name, matches.overs, matches.t1_total,
-# matches.t2_total, matches.t1_balls, matches.t2_balls, matches.t1_wickets, matches.t2_wickets, fixtures.`date`  
-# from matches
-# inner join fixtures
-# on matches.match_id = fixtures.match_id
-# inner join grounds
-# on grounds.ground_id = fixtures.ground_id
-# 
-# 
-# 
-# #games won batting first on each ground
-# select count(matches.batting_first) as won_batting_first, 
-# fixtures.ground_id, grounds.name
-# from matches
-# inner join fixtures
-# on matches.match_id = fixtures.match_id
-# inner join grounds
-# on grounds.ground_id = fixtures.ground_id
-# where  matches.batting_first = matches.winner
-# group by fixtures.ground_id
-# 
-# 
-# #games won bowling first on each ground
-# select count(matches.batting_first) as won_bowling_first, 
-# fixtures.ground_id, grounds.name
-# from matches
-# inner join fixtures
-# on matches.match_id = fixtures.match_id
-# inner join grounds
-# on grounds.ground_id = fixtures.ground_id
-# where  matches.batting_first != matches.winner
-# group by fixtures.ground_id
-# 
-# 
-# #suggester table
-# select fixtures.ground_id, grounds.name,
-# matches.match_id, matches.team_one, matches.team_two, matches.toss_won, 
-# matches.batting_first, matches.winner, fixtures.`date`  
-# from fixtures 
-# inner join grounds 
-# on fixtures.ground_id = grounds.ground_id 
-# inner join matches 
-# on matches.match_id = fixtures.match_id 
-# inner join team
-# on team.team_id = matches.team_one 
-# 
-# 
-# #attempt to get players playing per match and MVP points
-# select player_id, team_id, match_id, match_date, bowling_points, batting_points, fielding_points
-# from player_statistics_summary 
-# 
-# 
-# #use this to see what all players are registered to each team 
-# select *
-#   from team_player
-# 
-# #use this to see what team names are associated with a certain team ID
-# select team_id, team_name
-# from team
-# 
-# #use this to see player IDs corresponding with their name and other player information
-# select *
-#   from event_registered_users 
-# 
-# describe mcc.player 
-# 
-# 
-# #shows all players named anish along with their player IDs
-# select f_name, l_name, player_id
-# from mcc.player 
-# where f_name = "Anish"
-# 
-# 
-# #shows all players for club 1191 along with their full names and player IDs
-# select team_player.team_id, team_player.player_id, mcc.player.f_name, mcc.player.l_name  
-# from team_player
-# inner join mcc.player 
-# on mcc.player.player_id = team_player.player_id
-
-
-##################
-#VIDEO LINKS:
-#For grid search and tuning models:
-#https://www.youtube.com/watch?v=xGZVxxvgzI4
+####################end suggester functions
 
 
 
